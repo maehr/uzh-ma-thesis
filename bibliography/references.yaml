@@ -1,0 +1,3571 @@
+---
+references:
+- id: jones2016
+  type: book
+  title: >-
+    Roberto Busa, S. J., and the Emergence of Humanities Computing. The Priest
+    and the Punched Cards
+  publisher: Routledge
+  number-of-pages: '186'
+  ISBN: 978-1-138-18677-4
+  author:
+    - family: Jones
+      given: Steven E.
+  issued:
+    - year: 2016
+  accessed:
+    - year: 2017
+      month: 10
+      day: 20
+  publisher-place: London
+
+- id: sahle2015
+  type: article-journal
+  title: Digital Humanities? Gibt’s doch gar nicht!
+  container-title: ZfdG
+  abstract: >-
+    Die Digital Humanities sind entweder ein Forschungsfeld oder eine Disziplin,
+    möglicherweise auch beides. Sie verfügen jedenfalls über eine gut ausgebaute
+    Infrastruktur der Organisation, Information und Kommunikation und blicken in
+    Bezug auf ihre vielfältigen Forschungsansätze teilweise auf lange
+    Traditionen zurück. Als Bindeglied zwischen den Geisteswissenschaften und
+    der Informatik scheint das Feld heute nicht nur für diese beiden Bereiche,
+    sondern auch für die Organe der Forschungsförderung von besonders hoher
+    Attraktivität zu sein. Neben der Wissenschaft haben selbst die Massenmedien
+    in den letzten Jahren die Digital Humanities entdeckt. Die hohe
+    Anziehungskraft des Feldes hat erfreulich integrative Tendenzen. Allerdings
+    birgt dieser DH-›Hype‹ auch Gefahren. Diese reichen von der bloßen Aneignung
+    des Etiketts über explizite Abwehrhaltungen bis hin zu Ignoranz und
+    Verleugnung: »DH? Das gibt es doch gar nicht!«
+  URL: 'http://www.zfdg.de/sb001_004'
+  author:
+    - family: Sahle
+      given: Patrick
+  issued:
+    - year: 2015
+  accessed:
+    - year: 2015
+      month: 9
+      day: 16
+
+- id: meiners2015
+  type: report
+  title: >-
+    Participatory Design bei der Erstellung einer Virtuellen Forschungsumgebung
+    für die Geschichtswissenschaft
+  collection-title: DARIAH-DE Working Papers
+  publisher: DARIAH-DE
+  page: '33'
+  abstract: >-
+    Participatory Design ist ein Ansatz aus der Software-Entwicklung, bei dem
+    Benutzer und Entwickler zusammenarbeiten, um sicherzustellen, dass das zu
+    entwickelnde Produkt
+
+    den Anforderungen der Zielgruppe entspricht. Ziel ist es, vom Wissen der
+    jeweils anderen Gruppe zu profitieren: Entwickler kennen die Technologien,
+    während auf der anderen Seite die Nutzer über Anwendungswissen und
+    Anforderungen aus dem jeweiligen   Arbeits- oder Forschungsfeld verfügen  
+    und den späteren Anwendungskontext genau beschreiben können.
+
+    Im vorliegenden Dokument wird die Anwendung des Participatory Designs im
+    Rahmen der Entwicklung einer Virtuellen Forschungsumgebung (VRE) für die
+
+    Geschichtswissenschaft gezeigt und die dabei gemachten Erfahrungen
+    vorgestellt.
+  URL: 'urn:nbn:de:gbv:7-dariah-2015-6-6'
+  note: '00000'
+  number: '13'
+  language: de
+  author:
+    - family: Meiners
+      given: Hanna-Lena
+    - family: Buddenbohm
+      given: Stefan
+    - family: Thiel
+      given: Carsten
+  issued:
+    - year: 2015
+  publisher-place: Göttingen
+
+- id: puhl2015
+  type: report
+  title: >-
+    Diskussion und Definition eines Research Data LifeCycle für die digitalen
+    Geisteswissenschaften
+  collection-title: DARIAH-DE Working Papers
+  publisher: DARIAH-DE
+  page: '53'
+  abstract: >-
+    Das vorliegende Dokument beschreibt den aktuellen Diskussionsstand über ein
+    Referenzmodell eines Forschungsdatenzyklus in den digitalen
+    Geisteswissenschaften. 
+
+    Nach einer Bedarfserläuterung
+
+    werden Begriffe, Funktionen und Abläufe eines solchen Datenzyklus näher
+    analysiert und definiert.
+
+    Das Dokument schließt mit einem   Referenzmodell sowie einem Ausblick auf
+    weiteren Evaluierungsbedarf und daraus resultierende Pläne in dem
+    Forschungsprojekt DARIAH-DE.
+  URL: 'urn:nbn:de:gbv:7-dariah-2015-4-4'
+  note: '00002'
+  number: '11'
+  language: de
+  author:
+    - family: Puhl
+      given: Johanna
+    - family: Andorfer
+      given: Peter
+    - family: Höckendorff
+      given: Mareike
+    - family: Schmunk
+      given: Stefan
+    - family: Stiller
+      given: Juliane
+    - family: Thoden
+      given: Klaus
+  issued:
+    - year: 2015
+  publisher-place: Göttingen
+
+- id: walkowski2016
+  type: report
+  title: Digital publications beyond digital communication
+  collection-title: DARIAH-DE Working Papers
+  publisher: DARIAH-DE
+  page: '23'
+  abstract: >-
+    Since more than twenty years different stakeholders involved in scholarly
+    publishing have tried to fundamentally rethink the shape of publications in
+    a digital environment. In contrast to these abundant activities with their
+    highly experimental character the same stakeholders continuously regret that
+    the dominant form of digital publications is still the PDF. In the research
+    literature, the situation of digital publications is often compared with the
+    era of the printing press. While this comparison might be
+
+    helpful to create awareness about the dimension in which changes are taking
+    place it certainly also blurs significant differences. In the situation that
+    was described before it is even more important to identify the peculiarities
+    of the process of change. Fortunately, the story of digital scholarly
+    publications is long enough to tell it in a way in which these peculiarities
+    become more transparent. The study at hand is an attempt to do so. At its
+    end, it becomes clear that the major issue in digital publishing is not so
+    much connected to the questions how publications look digitally but what we
+    may perceive as a
+
+    publication in a digital environment.
+  URL: 'urn:nbn:de:gbv:7-dariah-2016-3-4'
+  note: '00000'
+  number: '17'
+  language: en
+  author:
+    - family: Walkowski
+      given: Niels-Oliver
+  issued:
+    - year: 2016
+  publisher-place: Göttingen
+
+- id: andorfer2015
+  type: report
+  title: >-
+    Forschen und Forschungsdaten in den Geisteswissenschaften. Zwischenbericht
+    einer Interviewreihe
+  collection-title: DARIAH-DE Working Papers
+  publisher: DARIAH-DE
+  page: '18'
+  abstract: >-
+    Im Rahmen der an der Herzog August Bibliothek Wolfenbüttel durchgeführten
+    Interviewreihe:
+
+    „Forschen und Forschungsdaten in den Geisteswissenschaften“ wurden
+    GeistswissenschaftlerInnen und StipendiatInnen zu ihrer Forschungspraxis und
+    ihrem Umgang mit Forschungsdaten befragt. Vorliegender Bericht präsentiert
+    erste Ergebnisse   (Stand Jänner 2015) der auf
+
+    http://digital-archiv.at:8081/exist/apps/DARIAH-Collection/pages/InterviewAuswertung.html
+
+    „in Echtzeit“ erfolgenden Auswertung.
+  URL: 'urn:nbn:de:gbv:7-dariah-2015-3-8'
+  note: '00001'
+  number: '10'
+  language: de
+  author:
+    - family: Andorfer
+      given: Peter
+  issued:
+    - year: 2015
+  publisher-place: Göttingen
+
+- id: lorenz2015
+  type: report
+  title: >-
+    Interdisziplinäre E-Publikationen – interdisziplinäre Evaluation? Ein Blick
+    auf die Bewertung fächerübergreifender Forschungsleistungen am Beispiel der
+    Digital Humanities
+  collection-title: DARIAH-DE Working Papers
+  publisher: DARIAH-DE
+  page: '11'
+  abstract: >-
+    Die Divergenzen zwischen der naturwissenschaftlichen und der
+    geisteswissenschaftlichen Publikationskultur bestehen auch in der
+    elektronischen Publikationspraxis weiter. Mit der zunehmenden
+    interdisziplinären Zusammenarbeit werden die Publikations- und
+    Bewertungsstandards zugleich mehrheitlich als defizitär wahrgenommen. Als
+    eine Bestandsaufnahme skizziert der Beitrag den Entwicklungsstand
+    unterschiedlicher Evalutionsverfahren und gibt im Bereich der Digital
+    Humanities einen Überblick über die verschiedenen internationalen und
+    interdisziplinären Standardisierungsansätze.
+  URL: 'urn:nbn:de:gbv:7-dariah-2015-2-2'
+  note: '00000'
+  number: '9'
+  author:
+    - family: Lorenz
+      given: Anne Katrin
+  issued:
+    - year: 2015
+  publisher-place: Göttingen
+
+- id: andorfer2015a
+  type: report
+  title: >-
+    Forschungsdaten in den (digitalen) Geisteswissenschaften. Versuch einer
+    Konkretisierung
+  collection-title: DARIAH-DE Working Papers
+  publisher: DARIAH-DE
+  page: '29'
+  abstract: >-
+    Die Bezeichnung „Forschungsdaten“ zählt zu den Schlüsselbegriffen der
+    Digitalen
+
+    Geisteswissenschaften, nicht zuletzt vor den zunehmenden Bemühungen zur
+    Errichtung und Etablierung von Datenzentren, -archiven und Repositorien zur
+    Veröffentlichung und dauerhaften Sicherung von Forschungsdaten. Vorliegendes
+    Papier versucht eine Definition des Begriffes
+
+    Forschungsdaten. Im Fokus steht dabei   das Bemühen, diese Bezeichnung im  
+    Vokabular traditionellen geisteswissenschaftlichen Arbeitens   zu verorten.
+    Daran anschließend geht es
+
+    außerdem darum, Forschungsdaten von semantisch ähnlichen Bezeichnungen wie
+    Publikation oder Quellen abzugrenzen.
+  URL: 'urn:nbn:de:gbv:7-dariah-2015-7-2'
+  note: '00000'
+  number: '14'
+  language: de
+  author:
+    - family: Andorfer
+      given: Peter
+  issued:
+    - year: 2015
+  publisher-place: Göttingen
+
+- id: maier2016
+  type: report
+  title: Digital Humanities und Bibliothek als Kooperationspartner
+  collection-title: DARIAH-DE Working Papers
+  publisher: DARIAH-DE
+  page: '29'
+  abstract: >-
+    Wissenschaftliche Bibliotheken haben traditionell die Aufgabe, die
+    Wissenschaft hinsichtlich der In-
+
+    formationsversorgung und -beschaffung zu unterstützen. Durch die digitalen
+    Entwicklungen und der
+
+    Ausdifferenzierung der sogenannten Digital Humanities (DH) hat sich das
+    Verständnis dessen, was
+
+    Information ist, gewandelt: Das Arbeiten mit digitalen Daten in der
+    Wissenschaft gehört heute zum
+
+    Alltag. Hierdurch sind Bibliotheken gefordert, ihr Selbstverständnis und das
+    Aufgabenprofil anzupassen.
+
+    In der bibliothekarischen Fachwelt werden seit längerem genau dieses
+    Selbstverständnis sowie das
+
+    eigene Berufsbild stark und vor allem kontrovers diskutiert. Diese
+    Diskussion wird aufgegriffen, und
+
+    herausgearbeitet, welche Faktoren als Grundlage für die praktische
+    Unterstützung der Digital Humanities
+
+    durch wissenschaftliche Bibliotheken geschaffen werden müssen.
+  URL: 'urn:nbn:de:gbv:7-dariah-2016-5-6'
+  note: '00000'
+  number: '19'
+  language: de
+  author:
+    - family: Maier
+      given: Petra
+  issued:
+    - year: 2016
+  publisher-place: Göttingen
+
+- id: maier2015
+  type: report
+  title: >-
+    Die Erstellung eines TEI-Metadatenschemas für die Auszeichnung von Texten
+    des Klassischen Maya
+  collection-title: DARIAH-DE Working Papers
+  publisher: DARIAH-DE
+  page: '27'
+  abstract: >-
+    Im Rahmen des 2014 angelaufenen Projektes, Textdatenbank und Wörterbuch des
+    Klassischen Maya (TWKM) der Universität Bonn, das die Erforschung und
+    vollständige Entzifferung der Schrift und Sprache des Klassischen Maya zum
+    Ziel hat, werden alle überlieferten Schriftenträger des Klassischen Maya
+    erschlossen und systematisch dokumentiert. Hierfür wurden in einem
+    Teil-Projekt die Inschriftentexte mittels des Datenformats der Text Encoding
+    Initiative (TEI) erfasst: Wesentliche Informationen, die durch die Metadaten
+    ausgezeichnet werden mussten, waren die unterschiedlichen Formen und
+    Ausgestaltungen der Inschriftentexte, sowie die Zeitschrift selbst. Das
+    TEI-Metadatenschema dieses Teilprojekts stellte eine Arbeitsgrundlage dar,
+    die im weiteren Projektverlauf angepasst und ergänzt werden konnte.
+  URL: 'urn:nbn:de:gbv:7-dariah-2015-1-6'
+  note: '00000'
+  number: '8'
+  language: de
+  author:
+    - family: Maier
+      given: Petra
+  issued:
+    - year: 2015
+  publisher-place: Göttingen
+
+- id: gnadt2017
+  type: report
+  title: Faktoren und Kriterien für den Impact von DH-Tools und Infrastrukturen
+  collection-title: DARIAH-DE Working Papers
+  publisher: DARIAH-DE
+  page: '49'
+  abstract: >-
+    Der Impact von digitalen Forschungsinfrastrukturen und Tools in der geistes-
+    und kulturwissenschaftli-
+
+    chen Forschung ist von zentralem Interesse, wenn es darum geht die Vorteile
+    solcher Entwicklungen zum
+
+    einen den ForscherInnen selbst, zum anderen aber auch den Förderern zu
+    vermitteln. In diesem Artikel
+
+    werden Impactfaktoren und Erfolgskriterien in einem Bewertungskatalog
+    gesammelt und aus Sicht verschiedener Stakeholder, FachwissenschaftlerInnen,
+    DiensteanbieterInnen, DiensteentwicklerInnen und Förderer beurteilt. Dazu
+    werden durchgeführte Umfragen ausgewertet, Kriterien und Maßzahlen aus der
+    Literatur zusammengetragen und die daraus resultierenden Faktoren und
+    Kennzahlen nach eindeutigen Impact-Bereichen katalogisiert. Berücksichtigt
+    werden neben den gängigen quantitativen
+
+    Kennzahlen auch qualitative Aspekte, die den Besonderheiten der Geistes- und
+    Kulturwissenschaften Rechnung tragen.
+  URL: 'http://webdoc.sub.gwdg.de/pub/mon/dariah-de/dwp-2017-21.pdf'
+  note: '00000'
+  number: '21'
+  language: de
+  author:
+    - family: Gnadt
+      given: Timo
+    - family: Schmitt
+      given: Viola E.
+    - family: Stiller
+      given: Juliane
+    - family: Thoden
+      given: Klaus
+  issued:
+    - year: 2017
+  publisher-place: Göttingen
+
+- id: bock2016
+  type: report
+  title: >-
+    Der Einsatz quantitativer Textanalyse in den Geisteswissenschaften: Bericht
+    über den Stand der Forschung
+  collection-title: DARIAH-DE Working Papers
+  publisher: DARIAH-DE
+  page: '19'
+  abstract: >-
+    Der Beitrag beschreibt den Forschungsstand zum Einsatz quantitativer
+    Verfahren der Textanalyse in den Geisteswissenschaften. Dabei werden für
+    zentrale Verfahren der stilistischen Analyse und themati-
+
+    schen Erschließung von Textbeständen jeweils die grundlegenden Konzepte und
+    Intuitionen zu ihrer Wirkungsweise, ihre Anfänge und der heutige
+    Entwicklungsstand beschrieben.
+  URL: 'http://webdoc.sub.gwdg.de/pub/mon/dariah-de/dwp-2016-18.pdf'
+  note: '00000'
+  number: '18'
+  language: de
+  author:
+    - family: Bock
+      given: Sina
+    - family: Du
+      given: Keli
+    - family: Huber
+      given: Michael
+    - family: Pernes
+      given: Stefan
+    - family: Pielström
+      given: Steffen
+  issued:
+    - year: 2016
+  publisher-place: Göttingen
+
+- id: stollwerk2016
+  type: report
+  title: >-
+    Machbarkeitsstudie zu Einsatzmöglichkeiten von OCR-Software im Bereich
+    'Alter Drucke' zur Vorbereitung einer vollständigen Digitalisierung
+    deutscher Druckerzeugnisse zwischen 1500 und 1930
+  collection-title: DARIAH-DE Working Papers
+  publisher: DARIAH-DE
+  page: '97'
+  abstract: >-
+    Forschungsvorhaben sind oft an  spezifische technische Anforderungen 
+    gekoppelt. Diese Studie liefert einen Überblick zu relevanten
+    Anwendungsbereichen der OCR, dem Bereich der praxisbezogenen   Massen-OCR
+    für Bibliotheken sowie   vergleichbaren  Einrichtungen und dem
+
+    anwendungsnahen Teil der OCR-Forschung.
+
+    Für die systematische und vollständige Digitalisierung von Druckwerken wird
+    in dieser Studie eine Übersicht zur Größe der Bestände bereitgestellt. Zudem
+    wird überprüft, ob mit derzeit marktüblicher Software oder mit derzeit
+    vorhandenen noch nicht marktüblichen Produkten, die
+
+    Funktionalität anhand der Anforderungen älterer Drucke angepasst werden
+    kann,   ohne grundlegende Neuentwicklung dabei vorzusehen.
+
+    Die Identifizierung von Forschungsfeldern im Bereich der angewandten
+    Informatik, von denen die
+
+    Ausdehnung der derzeit möglichen   OCR-Verfahren auf bisher nicht
+    behandelbare Korpora zu erwarten ist, wird ebenfalls geleistet. Darüber
+    hinaus werden Forschungsfelder benannt, die eine Ausdehnung auf heute  nicht
+    routinemäßig mit OCR-Verfahren behandelbare Schriften  (wie  z.B.
+
+    Handschriften) abdecken. 
+
+    Im Rahmen von vier Fallstudien sind für diese Zwecke Korpora definiert
+    worden, um im Hinblick auf die Optimierungsmöglichkeiten von OCR-Verfahren
+    die Ergebnisse in  Fallstudien zu diskutieren, und um Empfehlungen und
+    Ansätze zu konkretisieren.
+  URL: 'http://webdoc.sub.gwdg.de/pub/mon/dariah-de/dwp-2016-16.pdf'
+  note: '00000'
+  number: '16'
+  language: de
+  author:
+    - family: Stollwerk
+      given: Christoph
+  issued:
+    - year: 2016
+  publisher-place: Göttingen
+
+- id: schumacher2016
+  type: report
+  title: >-
+    Big Data in den Geisteswissenschaften: Konzept für eine Lehr- und
+    Lernmittelsammlung
+  collection-title: DARIAH-DE Working Papers
+  publisher: DARIAH-DE
+  page: '26'
+  abstract: >-
+    Dieses Working Paper beschreibt die Inhalte, Darstellungsformen und die
+    medialen Umsetzungsmöglichkeiten einer Lehrmittelsammlung zum Thema „Big
+    Data Methodik in den Geistes- und Kulturwissenschaften”. Zudem wird ein  
+    Disseminationskonzept entwickelt, das aufzeigt, auf welche Weise Inhalte,
+    Themen und Instrumente dieses transdisziplinären Bereichs in
+
+    den jeweiligen Fachdisziplinen vermittelt werden können. Das hier  
+    vorgestellte Konzept einer Lehr- und Lernmittelsammlung ist auf die Nutzung
+    und Anwendung von Big Data Technologien
+
+    und Methoden für geistes- und kulturwissenschaftliche Forschungsfragen
+    ausgerichtet.
+  URL: 'http://webdoc.sub.gwdg.de/pub/mon/dariah-de/dwp-2016-15.pdf'
+  note: '00000'
+  number: '15'
+  language: de
+  author:
+    - family: Schumacher
+      given: Mareike
+    - family: Held
+      given: Marcus
+    - family: Falk
+      given: Claudia
+    - family: Pernes
+      given: Stefan
+  issued:
+    - year: 2016
+  publisher-place: Göttingen
+
+- id: rodriguez2014
+  type: report
+  title: >-
+    Experiments for the design of a help desk system for the EHRI project - an
+    Information Retrieval approach
+  collection-title: DARIAH-DE Working Papers
+  publisher: DARIAH-DE
+  page: '14'
+  abstract: >-
+    This paper describes the experiments realized for the conception of a
+    helpdesk system for the EHRI project. The system will help researchers to
+    find Collection Holding Institutions (CHI) suitable to support them to
+    resolve questions about Holocaust relevant documentary sources. In this
+
+    experiments we model descriptions of archival material in a vector space
+    model, and we show that this model is able to give an answer to real user
+    queries.
+  URL: 'http://nbn-resolving.de/urn:nbn:de:gbv:7-dariah-2014-3-2'
+  note: '00000'
+  number: '5'
+  language: en
+  author:
+    - family: Rodriguez
+      given: Kepa J.
+  issued:
+    - year: 2014
+  publisher-place: Göttingen
+
+- id: klimpel2015
+  type: report
+  title: >-
+    Forschen in der digitalen Welt. Juristische Handreichung für die
+    Geisteswissenschaften
+  collection-title: DARIAH-DE Working Papers
+  publisher: DARIAH-DE
+  page: '36'
+  abstract: >-
+    Unter dem Schlagwort Digital Humanities finden nicht nur Techniken der
+    quantitativen Analyse vermehrt   Eingang in den Methodenkanon der Geistes-
+    und Kulturwissenschaften, auch ein Umdenken in der Verwaltung von Zugriffs-
+    und Nutzungsrechten wird   erforderlich. Ob die Einführung von Standards
+    sowohl für Zugangsberechtigung zu Forschungsergebnissen als auch für die
+    Verwendung von Forschungsdaten in Form von freien Lizenzen hierfür ein
+    geeignetes Mittel darstellen, soll u. a. mit diesem Dokument eruiert werden.
+    Nach der Einführung woran Rechte entstehen, widmen sich weitere Kapitel dem
+    wissenschaftlichen Arbeiten auf Basis fremder Inhalte, dem
+    wissenschaftlichen Arbeiten als Quelle eigener Rechte, den Rechten der
+    Forschungsinstitution oder Universität, Open Access, sowie der
+    grenzüberschreitenden Forschung und Haftungsfragen.
+  URL: 'http://webdoc.sub.gwdg.de/pub/mon/dariah-de/dwp-2015-12.pdf'
+  note: '00000'
+  number: '12'
+  language: de
+  author:
+    - family: Klimpel
+      given: Paul
+    - family: Weitzmann
+      given: John H.
+  issued:
+    - year: 2015
+  publisher-place: Göttingen
+
+- id: beer2014
+  type: report
+  title: >-
+    Datenlizenzen für geisteswissenschaftliche Forschungsdaten - Rechtliche
+    Bedingungen und Handlungsbedarf
+  collection-title: DARIAH-DE Working Papers
+  publisher: DARIAH-DE
+  page: '49'
+  abstract: >-
+    Der vorliegende Beitrag schildert den Diskussionsstand zu Lizenzen für
+    geisteswissenschaftliche Forschungsdaten, gibt einen Überblick über deren
+    urheberrechtliche Grundlagen, zeigt Fallbeispiele aus den
+
+    Altertumswissenschaften und schließt mit einer Evaluation gängiger Werkzeuge
+
+    zur Lizenzerstellung.
+  URL: 'http://webdoc.sub.gwdg.de/pub/mon/dariah-de/dwp-2014-6.pdf'
+  note: '00000'
+  number: '6'
+  language: de
+  author:
+    - family: Beer
+      given: Nikolaos
+    - family: Herold
+      given: Kristin
+    - family: Heinrich
+      given: Maurice
+    - family: Kolbmann
+      given: Wibke
+    - family: Kollatz
+      given: Thomas
+    - family: Romanello
+      given: Matteo
+    - family: Rose
+      given: Sebastian
+    - family: Schäfer
+      given: Felix Falco
+    - family: Walkowski
+      given: Niels-Oliver
+  issued:
+    - year: 2014
+  publisher-place: Göttingen
+
+- id: buddenbohm2014
+  type: report
+  title: >-
+    Erfolgskriterien für den Aufbau und nachhaltigen Betrieb Virtueller
+    Forschungsumgebungen
+  collection-title: DARIAH-DE Working Papers
+  publisher: DARIAH-DE
+  page: '37'
+  abstract: >-
+    Virtuelle Forschungsumgebungen (VREs) haben sich in vielen
+    Wissenschaftsdisziplinen zu
+
+    wichtigen Bestandteilen moderner Forschungsprozesse entwickelt. Dieser
+    gewachsenen Bedeutung müssen die  Betreiber von VREs durch funktionierende
+    und effiziente
+
+    Verfahren für Aufbau, Betrieb und die Qualitätssicherung gerecht werden. Zur
+
+    Unterstützung dieser Prozesse wird ein Lebensphasen-Modell für VREs
+    vorgeschlagen, welches insbesondere   auf die erfolgskritischen Punkte für
+    den Übergang in den nachhaltigen Betrieb einer VRE eingeht. Im weiteren wird
+    ein Satz von Erfolgskriterien
+
+    diskutiert, welches es allen an der VRE beteiligten Akteuren (Betreiber,
+    Förderer, Nutzer)ermöglicht, die für ihren Anwendungsfall relevanten Aspekte
+    bereits im Vorfeld der Erstellung einer neuen VRE zu identifizieren.
+    Angesichts der Heterogenität von VREs wird
+
+    dieses Kriterienset im individuellen Fall durch disziplinär spezifische
+    Kriterien ergänzt.
+
+    Abgeschlossen werden diese Überlegungen durch Handreichungen zu den
+
+    Kostenstrukturen und möglichen Finanzierungsmodellen für VREs.
+  URL: 'urn:nbn:de:gbv:7-dariah-2014-5-4'
+  note: '00002'
+  number: '7'
+  language: de
+  author:
+    - family: Buddenbohm
+      given: Stefan
+    - family: Enke
+      given: Harry
+    - family: Hofmann
+      given: Matthias
+    - family: Klar
+      given: Jochen
+    - family: Neuroth
+      given: Heike
+    - family: Schwiegelshohn
+      given: Uwe
+  issued:
+    - year: 2014
+  publisher-place: Göttingen
+
+- id: beer2014a
+  type: report
+  title: Interdisciplinary Interoperability
+  collection-title: DARIAH-DE Working Papers
+  publisher: DARIAH-DE
+  page: '46'
+  abstract: >-
+    The exchange and reusability of data used for research in the humanities is
+    one of the goals of DARIAH. To increase the interoperability of data sets
+    between disciplines we present an overview and recommendations of measures
+    to achieve this. We account for
+
+    the finding and fetching of data with legal aspects in mind. This is
+    achieved through standardized methods of discovery and transfer via
+    interfaces on the web. Furthermore, we consider syntactic and semantic
+    interoperability of data for use in different fields of
+
+    study. Standardized metadata sets are one way to achieve this and we present
+    some of them in this paper. The importance for scholars to find and be able
+    to process data that is be relevant to their work is the main motivation of
+    this document and for the aspects of the digital humanities covered within.
+    We present options for each of the four aspects that we identified (APIs and
+    Protocols, Standards, Identifiers and Licensing).
+  URL: 'http://webdoc.sub.gwdg.de/pub/mon/dariah-de/dwp-2014-3.pdf'
+  note: '00002'
+  number: '3'
+  language: en
+  author:
+    - family: Beer
+      given: Nikolaos
+    - family: Herold
+      given: Kristin
+    - family: Kolbmann
+      given: Wibke
+    - family: Kollatz
+      given: Thomas
+    - family: Romanello
+      given: Matteo
+    - family: Rose
+      given: Sebastian
+    - family: Walkowski
+      given: Niels-Oliver
+  issued:
+    - year: 2014
+  publisher-place: Göttingen
+
+- id: jannidis2016
+  type: report
+  title: DARIAH-DKPro-Wrapper Output Format (DOF) Specification
+  collection-title: DARIAH-DE Working Papers
+  publisher: DARIAH-DE
+  page: '14'
+  abstract: >-
+    The DARIAH-DKPro-Wrapper Output Format (DOF) is a tab-separated file format,
+    designed to be easily accessible by various analysis tools and scripting
+    languages. It is based on a modular linguistic processing pipeline, which
+    includes a range of analysis capabilities and has been fitted to book-length
+    documents. Both processing pipeline and output format have been developed in
+    cooperation by
+
+    the Department of Literary Computing, Würzburg (“Lehrstuhl Für
+    Computerphilologie Und Neuere
+
+    Deutsche Literaturgeschichte. Universität Würzburg”
+
+    2016) and the Ubiquitous Knowledge Processing Lab, Darmstadt (“Ubiquitous
+    Knowledge Processing Lab. Technische Universität Darmstadt” 2016) as
+
+    part of DARIAH-DE, Digital Research Infrastructure for the Arts and
+    Humanities (“DARIAH-DE” 2016].
+  URL: 'urn:nbn:de:gbv:7-dariah-2016-6-2'
+  note: '00000'
+  number: '20'
+  language: en
+  author:
+    - family: Jannidis
+      given: Fotis
+    - family: Pernes
+      given: Stefan
+    - family: Pielström
+      given: Steffen
+    - family: Reger
+      given: Isabella
+    - family: Reimers
+      given: Nils
+    - family: Vitt
+      given: Thorsten
+  issued:
+    - year: 2016
+  publisher-place: Göttingen
+
+- id: sahle2013
+  type: report
+  title: >-
+    DH Studieren! Auf dem Weg zu einem Kern- und Referenzcurriculum der Digital
+    Humanities
+  collection-title: DARIAH-DE Working Papers
+  publisher: DARIAH-DE
+  page: '39'
+  abstract: >-
+    Der Status der Digital Humanities als eigenständiger wissenschaftlicher
+    Bereich ist seit
+
+    langem in der Diskussion. Ein wichtiger Aspekt in der fortschreitenden
+    Verfestigung als
+
+    Disziplin oder Fach ist die Vermittlung von DH in der Lehre. Dies geschieht
+    bereits auf allen Ebenen der Ausbildung: von einzelnen Kursen und Modulen,
+    über angestimmte Angebote, Zertifikate und Summer Schools, bis hin zu BA-,
+    MA- und Promotionsstudiengängen.
+
+    Für den Erfolg dieser Lehrprogramme, für die Verwertbarkeit der Abschlüsse
+    für die Studierenden und die Attraktivität der Absolventen auf dem
+    Arbeitsmarkt ist ihre
+
+    Erkennbarkeit als DH-Ausbildungen mit ganz bestimmten Lehrinhalten und
+    Zielkompetenzen von besonderer Bedeutung. Kern- und Referenzcurricula für
+    die verschiedenen
+
+    Spielarten von DH-Programmen wären ein geeignetes Mittel, um die Kohärenz
+    der
+
+    Ausbildungen zu verbessern und sichtbar zu machen. Auf dem Weg dorthin
+    werden
+
+    zunächst eine empirische Sichtung der bestehenden Angebote, ein analytisches
+    Raster zu ihrer Untersuchung, ein Modell der verschiedenen Grundtypen, eine
+    erste Zusammenstellung der typischen Lehrinhalte und Zielkompetenzen sowie
+    Überlegungen zum
+
+    Aufbau neuer Studienprogramme benötigt. Das vorliegende Papier versucht in
+    diesem Sinne die Grundlagen für gemeinsame Kern- und Referenzcurricula zu
+    legen, die dann innerhalb der Fachgemeinschaft der DH-Ausbildung weiter
+    diskutiert werden müssen.
+
+    Der vorliegende Bericht enthält außerdem im Anhang ein Konzeptpapier von
+    Manfred Thaller: “Vorüberlegungen zu einem Referenzcurriculum, das
+    Zwiebelschalenmodell und
+
+    der Nürnberger Informatikkern”.
+  URL: 'http://webdoc.sub.gwdg.de/pub/mon/dariah-de/dwp-2013-1.pdf'
+  note: '00002'
+  number: '1'
+  language: de
+  author:
+    - family: Sahle
+      given: Patrick
+  issued:
+    - year: 2013
+  publisher-place: Göttingen
+
+- id: schoch2013
+  type: report
+  title: >-
+    Quantitative Text Analysis for Literary History – Report on a DARIAH-DE
+    Expert Workshop
+  collection-title: DARIAH-DE Working Papers
+  publisher: DARIAH-DE
+  page: '13'
+  abstract: >-
+    The workshop on Quantitative Text Analysis for Literary History was the
+    first in a series of DARIAH-DE expert workshops and took place from November
+    22 to 23 at the University of Würzburg, Germany. It brought together experts
+    in the computational analysis of collections of literary texts from France,
+    Germany, Poland and the US. This report provides some context on the DARIAH
+    expert workshops and inroduces the specific goals of the workshop reported
+    on here. Then, it summarizes the major issues raised by the participants in
+    their initial statements and debated in the ensuing discussions. Finally, it
+    describes the key results from the workshop, which include advances int he
+    areas of data, tools and methods for quantitative text analysis.
+  URL: 'http://webdoc.sub.gwdg.de/pub/mon/dariah-de/dwp-2013-2.pdf'
+  note: '00001'
+  number: '2'
+  language: en
+  author:
+    - family: Schöch
+      given: Christof
+    - family: Jannidis
+      given: Fotis
+  issued:
+    - year: 2013
+  publisher-place: Göttingen
+
+- id: jannidis2017
+  type: book
+  title: Digital Humanities - Eine Einführung
+  publisher: Metzler
+  source: www.springer.com
+  abstract: >-
+    Computerbasierte Verfahren greifen in viele Bereiche der Geistes- und
+    Kulturwissenschaften ein und spielen eine zunehmende Rolle in der
+    universitären...
+  URL: 'http://www.springer.com/de/book/9783476026224'
+  language: ger
+  editor:
+    - family: Jannidis
+      given: Fotis
+    - family: Kohle
+      given: Hubertus
+    - family: Rehbein
+      given: Malte
+  issued:
+    - year: 2017
+  accessed:
+    - year: 2017
+      month: 3
+      day: 14
+  publisher-place: Stuttgart
+
+- id: hahn2015
+  type: book
+  title: DH-Handbuch /Version 1.0
+  publisher: DARIAH-DE
+  number-of-pages: '131'
+  abstract: >-
+    Ziel dieses Buchs ist, einen konzentrierten Überblick über das Feld der
+    Digital Humanities (DH) anzubieten. Für Einsteiger und mögliche
+    AntragstellerInnen stellen sich häufig die folgenden Fragen:
+
+        Was sind die Digital Humanities?
+        Was sind relevante Forschungsfragen?
+        Mithilfe welcher Tools lassen sich fachspezifische, aber auch fächerübergreifende Fragen beantworten?
+        Was müssen Geisteswissenschaftler beim Umgang mit Daten beachten?
+        Wie sehen erfolgreiche Projekte in den Digital Humanities aus? 
+
+    Neben Lösungswegen und Ressourcen zu typischen Fragen werden auch Projekte
+    und Werkzeuge detailliert vorgestellt, um vorhandene Kenntnisse
+    aufzufrischen und neue Aspekte der Digital Humanities kennenzulernen. Die
+    Nähe zur fachwissenschaftlichen Praxis steht dabei im Vordergrund. Wir
+    hoffen, mit diesem Handbuch auch Einsteigern die Digital Humanities
+    nahebringen zu können und die Neugierde auf digitale Methoden und deren
+    Möglichkeiten für die geisteswissenschaftliche Forschung zu wecken.
+  URL: 'https://handbuch.tib.eu/w/DH-Handbuch'
+  ISBN: ISBN 978-3-7375-6818-0
+  note: 'pdf: http://bit.do/DH-Handbuch'
+  language: de
+  author:
+    - family: Hahn
+      given: Helene
+    - family: Kalman
+      given: Tibor
+    - family: Kolbmann
+      given: Wibke
+    - family: Kollatz
+      given: Thomas
+    - family: Neuschäfer
+      given: Steffen
+    - family: Pielström
+      given: Steffen
+    - family: Puhl
+      given: Johanna
+    - family: Stiller
+      given: Juliane
+    - family: Tonne
+      given: Danah
+  issued:
+    - year: 2015
+  publisher-place: Göttingen
+
+- id: adolphs2006
+  type: book
+  title: >-
+    Introducing electronic text analysis : a practical guide for language and
+    literary studies
+  publisher: Routledge
+  abstract: >-
+    Introducing Electronic Text Analysis is a practical and much needed
+    introduction to corpora - bodies of linguistic data. Written specifically
+    for students studying this topic for the first time, the book begins with a
+    discussion of the underlying principles of electronic text analysis. It then
+    examines how these corpora enhance our understanding of literary and
+    non-literary works. In the first section the author introduces the concepts
+    of concordance and lexical frequency, concepts which are then applied to a
+    range of areas of language study. Key areas examined are the use of on-line
+    corpora to complement traditional stylistic analysis, and the ways in which
+    methods such as concordance and frequency counts can reveal a particular
+    ideology within a text. Presenting an accessible and thorough understanding
+    of the underlying principles of electronic text analysis, the book contains
+    abundant illustrative examples and a glossary with definitions of main
+    concepts. It will also be supported by a companion website with links to
+    on-line corpora so that students can apply their knowledge to further study.
+    The accompanying website to this book can be found at
+    http://www.routledge.com/textbooks/0415320216
+  URL: 'http://www.routledge.com/textbooks/0415320216'
+  ISBN: 978-0-415-32021-4
+  language: eng
+  author:
+    - family: Adolphs
+      given: Svenja
+  issued:
+    - year: 2006
+  publisher-place: London & New York
+  title-short: Introducing electronic text analysis
+
+- id: frabetti
+  type: book
+  title: Software Theory. A Cultural and Philosophical Study.
+  collection-title: Media Philosophy
+  publisher: Rowman & Littlefield
+  number-of-pages: '220'
+  abstract: >-
+    This book engages directly in close readings of technical texts and computer
+    code in order to show how software works. It offers an analysis of the
+    cultural, political, and philosophical implications of software technologies
+    that demonstrates the significance of software for the relationship between
+    technology, philosophy, culture, and society.
+  URL: 'http://www.rowmaninternational.com/books/software-theory'
+  ISBN: 1-78348-197-8
+  language: en
+  author:
+    - family: Frabetti
+      given: Frederica
+
+- id: best
+  type: article-journal
+  title: 'Surface Reading: An Introduction'
+  collection-title: 'Representations, University of California Press'
+  page: 1-21
+  volume: '108'
+  issue: 1 (Fall 2009)
+  abstract: >-
+    In the text-based disciplines, psychoanalysis and Marxism have had a major
+    influence on how we read, and this has been expressed most consistently in
+    the practice of symptomatic reading, a mode of interpretation that assumes
+    that a text's truest meaning lies in what it does not say, describes textual
+    surfaces as superfluous, and seeks to unmask hidden meanings. For
+    symptomatic readers, texts possess meanings that are veiled, latent, all but
+    absent if it were not for their irrepressible and recurring symptoms. Noting
+    the recent trend away from ideological demystification, this essay proposes
+    various modes of "surface reading" that together strive to accurately depict
+    the truth to which a text bears witness. Surface reading broadens the scope
+    of critique to include the kinds of interpretive activity that seek to
+    understand the complexity of literary surfaces---surfaces that have been
+    rendered invisible by symptomatic reading.
+  URL: 'http://www.jstor.org/stable/10.1525/rep.2009.108.1.1'
+  DOI: 'DOI:10.1525/rep.2009.108.1.1'
+  author:
+    - family: Best
+      given: Stephen
+    - family: Marcus
+      given: Sharon
+
+- id: collar2015
+  type: article-journal
+  title: 'Networks in Archaeology: Phenomena, Abstraction, Representation'
+  container-title: Journal of Archaeological Method and Theory
+  page: 1-32
+  volume: '22'
+  issue: '1'
+  source: link.springer.com
+  abstract: >-
+    The application of method and theory from network science to archaeology has
+    dramatically increased over the last decade. In this article, we document
+    this growth over time, discuss several of the important concepts that are
+    used in the application of network approaches to archaeology, and introduce
+    the other articles in this special issue on networks in archaeology. We
+    argue that the suitability and contribution of network science techniques
+    within particular archaeological research contexts can be usefully explored
+    by scrutinizing the past phenomena under study, how these are abstracted
+    into concepts, and how these in turn are represented as network data. For
+    this reason, each of the articles in this special issue is discussed in
+    terms of the phenomena that they seek to address, the abstraction in terms
+    of concepts that they use to study connectivity, and the representations of
+    network data that they employ in their analyses. The approaches currently
+    being used are diverse and interdisciplinary, which we think are evidence of
+    a healthy exploratory stage in the application of network science in
+    archaeology. To facilitate further innovation, application, and
+    collaboration, we also provide a glossary of terms that are currently being
+    used in network science and especially those in the applications to
+    archaeological case studies.
+  URL: 'http://link.springer.com/article/10.1007/s10816-014-9235-6'
+  DOI: 10.1007/s10816-014-9235-6
+  ISSN: '1072-5369, 1573-7764'
+  language: en
+  author:
+    - family: Collar
+      given: Anna
+    - family: Coward
+      given: Fiona
+    - family: Brughmans
+      given: Tom
+    - family: Mills
+      given: Barbara J.
+  issued:
+    - year: 2015
+      month: 1
+      day: 30
+  accessed:
+    - year: 2015
+      month: 8
+      day: 5
+  title-short: Networks in Archaeology
+  container-title-short: J Archaeol Method Theory
+
+- id: siemens2004
+  type: book
+  title: A Companion to Digital Humanities
+  collection-title: Blackwell Companions to Literature and Culture
+  publisher: Blackwell Publishing Professional
+  edition: Hardcover
+  abstract: >-
+    This Companion offers a thorough, concise overview of the emerging field of
+    humanities computing. Contains 37 original articles written by leaders in
+    the field. Addresses the central concerns shared by those interested in the
+    subject. Major sections focus on the experience of particular disciplines in
+    applying computational methods to research problems; the basic principles of
+    humanities computing; specific applications and methods; and production,
+    dissemination and archiving. Accompanied by a website featuring
+    supplementary materials, standard readings in the field and essays to be
+    included in future editions of the Companion.
+  URL: 'http://www.digitalhumanities.org/companion/'
+  ISBN: 1-4051-0321-3
+  language: en
+  editor:
+    - family: Siemens
+      given: Ray
+    - family: Unsworth
+      given: John
+    - family: Schreibman
+      given: Susan
+  issued:
+    - year: 2004
+  accessed:
+    - year: 2010
+      month: 5
+      day: 17
+  publisher-place: Oxford
+
+- id: gasteiner2010
+  type: book
+  title: Digitale Arbeitstechniken für die Geistes- und Kulturwissenschaften
+  publisher: UTB
+  number-of-pages: '269'
+  abstract: >-
+    Möglichkeiten und Anwendungsgebiete digitaler Arbeitstechniken Das Buch
+    vermittelt Kenntnisse und Kompetenzen für fortgeschrittene Studierende,
+    Dozierende sowie Forschende in den Geisteswissenschaften im Umgang mit Neuen
+    Medien, Open Access und Digitalen Publikationspraktiken. Es orientiert über
+    Rechte und Pflichten im Umgang mit digitalen Texten und Bildern, behandelt
+    die unterschiedlichen Situationen in den deutschsprachigen Ländern und weist
+    weiterführende Literatur und Quellen zu diesen Themen nach.
+  URL: 'http://www.utb-shop.de/digitale-arbeitstechniken.html'
+  ISBN: 978-3-8252-3157-6
+  language: de
+  editor:
+    - family: Gasteiner
+      given: Martin
+    - family: Haber
+      given: Peter
+  issued:
+    - year: 2010
+  publisher-place: Wien
+
+- id: jannidis2007
+  type: chapter
+  title: Computerphilologie
+  container-title: Handbuch Literaturwissenschaft
+  publisher: Metzler
+  page: 27-40
+  volume: 2 (Methoden und Theorien)
+  language: de
+  author:
+    - family: Jannidis
+      given: Fotis
+  editor:
+    - family: Anz
+      given: Thomas
+  issued:
+    - year: 2007
+  publisher-place: Stuttgart
+
+- id: berry2011
+  type: article-journal
+  title: 'The Computational Turn: Thinking About the Digital Humanities'
+  container-title: Culture Machine
+  volume: '12'
+  URL: 'http://www.culturemachine.net/index.php/cm/article/viewArticle/440'
+  language: en
+  author:
+    - family: Berry
+      given: David M.
+  issued:
+    - year: 2011
+
+- id: price2012
+  type: book
+  title: 'Literary Studies in the Digital Age: A Methodological Primer'
+  publisher: MLA Publications
+  language: en
+  editor:
+    - family: Price
+      given: Ken
+    - family: Siemens
+      given: Ray
+  issued:
+    - year: 2012
+  publisher-place: New York
+
+- id: turow2008
+  type: book
+  title: 'The Hyperlinked Society: Questioning Connections in the Digital Age'
+  publisher: Univ. of Michigan Press
+  URL: 'http://hdl.handle.net/2027/spo.5680986.0001.001'
+  language: en
+  editor:
+    - family: Turow
+      given: Joseph
+    - family: Tsui
+      given: Lokman
+  issued:
+    - year: 2008
+  publisher-place: Ann Arbor
+  title-short: The Hyperlinked Society
+
+- id: suarez2014
+  type: article-journal
+  title: 'Digital Humanities in Spanish? (¿Humanidades digitales en español?, 2010)'
+  container-title: RedHD en Traducción
+  URL: >-
+    http://dayofdh2014.matrix.msu.edu/redhd/2014/04/08/digital-humanities-in-spanish/
+  language: en
+  author:
+    - family: Suárez
+      given: Juan Luis
+  translator:
+    - family: Ortega
+      given: Élika
+  issued:
+    - year: 2014
+
+- id: galina2014
+  type: article-journal
+  title: 'What Are The Digital Humanities? (¿Qué son las humanidades digitales?, 2011)'
+  container-title: RedHD en Traducción
+  URL: >-
+    http://dayofdh2014.matrix.msu.edu/redhd/2014/04/08/what-are-the-digital-humanities/
+  language: en
+  author:
+    - family: Galina
+      given: Isabel
+  translator:
+    - family: Thompson
+      given: Tim
+  issued:
+    - year: 2014
+
+- id: connor2013
+  type: post-weblog
+  title: 'Software Takes Command: An Interview with Lev Manovich'
+  container-title: Rhizome
+  abstract: >-
+    Lev Manovich is a leading theorist of cultural objects produced with digital
+    technology, perhaps best known for The Language of New Media (MIT Press,
+    2001). I interviewed him about his most recent book, Software Takes Command
+    (Bloomsbury Academic, July 2014).
+  URL: 'http://rhizome.org/editorial/2013/jul/10/lev-manovich-interview/'
+  language: en
+  author:
+    - family: Connor
+      given: Michael
+  issued:
+    - literal: 10-7-13
+
+- id: hockey2004
+  type: chapter
+  title: The History of Humanities Computing
+  container-title: A Companion to Digital Humanities
+  collection-title: Blackwell Companions to Literature and Culture
+  publisher: Blackwell
+  URL: 'http://www.digitalhumanities.org/companion/'
+  ISBN: 1-4051-0321-3
+  language: en
+  editor:
+    - family: Siemens
+      given: Ray
+    - family: Unsworth
+      given: John
+    - family: Schreibman
+      given: Susan
+  author:
+    - family: Hockey
+      given: Susan
+  issued:
+    - year: 2004
+  accessed:
+    - year: 2010
+      month: 5
+      day: 17
+  publisher-place: Oxford
+
+- id: rommel2004
+  type: chapter
+  title: Literary Analysis
+  container-title: A Companion to Digital Humanities
+  collection-title: Blackwell Companions to Literature and Culture
+  publisher: Blackwell Publishing Professional
+  edition: Hardcover
+  URL: 'http://www.digitalhumanities.org/companion/'
+  ISBN: 1-4051-0321-3
+  language: en
+  editor:
+    - family: Siemens
+      given: Ray
+    - family: Unsworth
+      given: John
+    - family: Schreibman
+      given: Susan
+  author:
+    - family: Rommel
+      given: Thomas
+  issued:
+    - year: 2004
+  accessed:
+    - year: 2010
+      month: 5
+      day: 17
+  publisher-place: Oxford
+
+- id: orlandi2002
+  type: article-journal
+  title: Is Humanities Computing a Discipline?
+  container-title: Jahrbuch für Computerphilologie
+  page: 51-58
+  issue: '4'
+  abstract: >-
+    At the beginning, the article mentions the results of an enquiry on how
+    humanities computing is being introduced into the curricula of the European
+    universities; and the most important topics recently discussed around the
+    theme of a theory of humanities computing. It appears that most experts
+    agree on the opinion that humanities computing is an independent discipline,
+    and as such it should be introduced into the faculties of humanities. The
+    article then explains how the foundation of the discipline should be
+    understood, on the basis of computing theory and the methodology of the
+    different humanities disciplines. Source of abstract:
+    http://computerphilologie.tu-darmstadt.de/jg02/orlandi.html
+  URL: 'http://computerphilologie.digital-humanities.de/jg02/orlandi.html'
+  note: >-
+    Orlandi, Tito: Is Humanities Computing a Discipline? In: Jahrbuch für
+    Computerphilologie 4 (2002), S. 51-58.
+  language: en
+  author:
+    - family: Orlandi
+      given: Tito
+  issued:
+    - year: 2002
+
+- id: mccarty1999
+  type: paper-conference
+  title: Humanities computing as interdiscipline
+  container-title: Seminar "Is Humanities Computing an Academic Discipline?"
+  publisher: >-
+    Institute for Advanced Technology in the Humanities (IATH), University of
+    Virginia
+  event: Seminar "Is Humanities Computing an Academic Discipline?"
+  abstract: >-
+    In its title, "Is humanities computing an academic discipline?", this
+    Seminar poses a question that when asked is all too often answered with
+    little or no awareness of the assumptions behind it. Because they have
+    remained largely unexamined, these assumptions have tended to misdirect our
+    thinking about what we do as computing humanists and to interfere with our
+    ability to speak cogently about it. My efforts here will concentrate on
+    taking this question apart and examining its major assumptions to see if we
+    cannot make better questions. In passing I will also flag several areas of
+    disciplinary research that we need to bring within our scope in order to
+    address those better questions.
+  URL: 'http://www.iath.virginia.edu/hcs/mccarty.html'
+  language: en
+  author:
+    - family: McCarty
+      given: Willard
+  issued:
+    - year: 1999
+
+- id: meeks2011
+  type: post-weblog
+  title: Comprehending the Digital Humanities
+  container-title: Digital Humanities Specialist
+  URL: 'https://dhs.stanford.edu/comprehending-the-digital-humanities/'
+  language: en
+  author:
+    - family: Meeks
+      given: Elijah
+  issued:
+    - year: 2011
+      month: 2
+  accessed:
+    - year: 2011
+      month: 5
+      day: 12
+
+- id: turkel2007
+  type: book
+  title: The Programming Historian
+  publisher: Network in Canadian History & Environment (NICHE)
+  edition: Online Edition
+  URL: 'http://niche-canada.org/member-projects/programming-historian/ch1.html'
+  language: en
+  author:
+    - family: Turkel
+      given: William J.
+    - family: MacEachern
+      given: Alan
+  issued:
+    - year: 2007
+    - year: 2011
+  publisher-place: 'London, Ontario'
+
+- id: jannidis1998
+  type: article-journal
+  title: Computerphilologie
+  container-title: Metzler Lexikon Literatur- und Kulturtheorie
+  page: 70-72
+  note: >-
+    Jannidis, Fotis: Computerphilologie. In: Ansgar Nünning (Hg.): Metzler
+    Lexikon Literatur- und Kulturtheorie. Stuttgart, Weimar 1998, S. 70-72.
+  language: de
+  author:
+    - family: Jannidis
+      given: Fotis
+  issued:
+    - year: 1998
+
+- id: miner2012
+  type: chapter
+  title: Chapter 2 - The Seven Practice Areas of Text Analytics
+  container-title: >-
+    Practical Text Mining and Statistical Analysis for Non-structured Text Data
+    Applications
+  publisher: Academic Press
+  page: 29-41
+  abstract: >-
+    Prelude
+
+
+    Presently, text mining is in a loosely organized set of competing
+    technologies that function as analytical “city-states” with no clear
+    dominance among them. To further complicate matters, different areas of text
+    mining are in different stages of maturity. Some technology is easily
+    accessible by practitioners today via commercial software (some of which is
+    included with this book), while other areas are only now emerging from
+    academia into the practical realm.
+
+
+    We can relate these technologies to seven different practice areas in text
+    mining that are covered in the chapters in this book. In summary, this book
+    is strongest in the practice area of document classification, solid in
+    concept extraction and document clustering, reasonably useful on web mining,
+    light on information extraction and natural language processing, and almost
+    silent on the (most popular) practice area of search and information
+    retrieval.
+
+
+    The unifying theme behind each of these technologies is the need to “turn
+    text into numbers” so that powerful analytical algorithms can be applied to
+    large document databases. Converting text into a structured, numerical
+    format and applying analytic algorithms both require knowing how to use and
+    combine techniques for handling text, ranging from individual words to
+    documents to entire document databases.
+
+
+    Next, we provide a decision tree to help you determine which practice area
+    is appropriate to satisfy your needs. Finally, we provide tables to relate
+    the practice areas to appropriate technologies and show which chapter in
+    this book deals with that subject area. That is the most organization that
+    we can impose on the current disordered state of text mining technology. Our
+    goal in this book is to provide an introduction to each of the seven
+    practice areas and cover in depth only those areas that are accessible for
+    nonexperts. We will follow that theme in Part I of the book to provide you
+    with the basics you need to perform the tutorials. Very quickly, you will be
+    learning by doing.
+  URL: 'http://www.sciencedirect.com/science/article/pii/B9780123869791000025'
+  ISBN: 978-0-12-386979-1
+  language: en
+  author:
+    - family: Miner
+      given: Gary
+  issued:
+    - year: 2012
+  accessed:
+    - year: 2012
+      month: 4
+      day: 25
+  publisher-place: Boston
+
+- id: wright2014
+  type: book
+  title: 'Cataloging the World: Paul Otlet and the Birth of the Information Age'
+  publisher: Oxford University Press
+  number-of-pages: '360'
+  abstract: >-
+    The dream of capturing and organizing knowledge is as old as history. From
+    the archives of ancient Sumeria and the Library of Alexandria to the Library
+    of Congress and Wikipedia, humanity has wrestled with the problem of
+    harnessing its intellectual output. The timeless quest for wisdom has been
+    as much about information storage and retrieval as creative genius.In
+    Cataloging the World, Alex Wright introduces us to a figure who stands out
+    in the long line of thinkers and idealists who devoted themselves to the
+    task. Beginning in the late nineteenth century, Paul Otlet, a librarian by
+    training, worked at expanding the potential of the catalog card, the world's
+    first information chip. From there followed universal libraries and museums,
+    connecting his native Belgium to the world by means of a vast intellectual
+    enterprise that attempted to organize and code everything ever published.
+    Forty years before the first personal computer and fifty years before the
+    first browser, Otlet envisioned a network of "electric telescopes" that
+    would allow people everywhere to search through books, newspapers,
+    photographs, and recordings, all linked together in what he termed, in 1934,
+    a réseau mondial--essentially, a worldwide web.Otlet's life achievement was
+    the construction of the Mundaneum--a mechanical collective brain that would
+    house and disseminate everything ever committed to paper. Filled with analog
+    machines such as telegraphs and sorters, the Mundaneum--what some have
+    called a "Steampunk version of hypertext"--was the embodiment of Otlet's
+    ambitions. It was also short-lived. By the time the Nazis, who were
+    pilfering libraries across Europe to collect information they thought
+    useful, carted away Otlet's collection in 1940, the dream had ended. Broken,
+    Otlet died in 1944.Wright's engaging intellectual history gives Otlet his
+    due, restoring him to his proper place in the long continuum of visionaries
+    and pioneers who have struggled to classify knowledge, from H.G. Wells and
+    Melvil Dewey to Vannevar Bush, Ted Nelson, Tim Berners-Lee, and Steve Jobs.
+    Wright shows that in the years since Otlet's death the world has witnessed
+    the emergence of a global network that has proved him right about the
+    possibilities--and the perils--of networked information, and his legacy
+    persists in our digital world today, captured for all time.
+  ISBN: 978-0-19-993141-5
+  language: en
+  author:
+    - family: Wright
+      given: Alex
+  issued:
+    - year: 2014
+      month: 6
+      day: 4
+  publisher-place: Oxford ; New York
+  title-short: Cataloging the World
+
+- id: vanhoutte2010
+  type: book
+  title: TEI by Example
+  publisher: >-
+    Centre for Scholarly Editing and Document Studies (CTB) of the Royal Academy
+    of Dutch Language and Literature, the Centre for Computing in the Humanities
+    (CCH) of King's College London, and the Department of Information Studies of
+    University College London.
+  abstract: >-
+    TEI By Example offers a series of freely available online tutorials walking
+    individuals through the different stages in marking up a document in TEI
+    (Text Encoding Initiative).
+  URL: 'http://tbe.kantl.be/TBE/TBE.htm'
+  language: en
+  editor:
+    - family: Vanhoutte
+      given: Edward
+    - family: Terras
+      given: Melissa
+    - family: Van den Branden
+      given: Ron
+  issued:
+    - year: 2010
+
+- id: tomasi2008
+  type: book
+  title: Metodologie informatiche e discipline umanistiche
+  collection-title: Manuali universitari
+  publisher: Carocci
+  abstract: >-
+    Quale vincolo lega le discipline umanistiche all'informatica come scienza
+    dell'informazione? Quale rapporto sussiste fra le "humanae litterae" e una
+    disciplina che si occupa di forme di rappresentazione, trattamento ed
+    elaborazione dell'informazione? Il connubio non coinvolge i soli aspetti
+    strumentali di uso della macchina informatica. Obiettivo del volume è
+    ragionare su aspetti e settori della ricerca umanistica che possono essere
+    ripensati alla luce dei presupposti teorici, metodologici e tecnici della
+    scienza dell'informazione: dal concetto di informazione alla sua
+    formalizzazione, dalle reti ai sistemi di basi di dati, dai linguaggi di
+    markup agli ipertesti e ai sistemi multimediali. Ma è soprattutto
+    sull'elaborazione dell'informazione che si concentra la "computabilità
+    umanistica": dal trattamento automatico del linguaggio naturale al Web
+    semantico, dai metadati alle biblioteche digitali. Fonte dell'abstract:
+    http://books.google.it/books?id=yG_kPAAACAAJ
+  URL: 'http://books.google.it/books?id=yG_kPAAACAAJ'
+  ISBN: 978-88-430-4303-3
+  language: it
+  author:
+    - family: Tomasi
+      given: Francesca
+  issued:
+    - year: 2008
+  publisher-place: Roma
+
+- id: hall2011
+  type: book
+  title: 'The Digital Humanities: Beyond Computing'
+  collection-title: Culture Machine
+  publisher: Gary Hall et al.
+  number-of-volumes: '12'
+  abstract: >-
+    Just as interesting as what computer science has to offer the humanities is
+    the question of what the humanities have to offer computer science; what the
+    humanities themselves can bring to the understanding of computing and the
+    shaping of the digital. Do the humanities really need to draw quite so
+    heavily on computer science to develop a sense of their identity and role in
+    an era of digital media technology? Along with a computational turn in the
+    humanities, might we not also benefit from more of a humanities turn in our
+    understanding of the computational and the digital? 
+
+
+
+    Not just to what extent is it possible for the emerging digital humanities
+    to go beyond the disciplinary objects, affiliations, assumptions and
+    methodological practices of computing science and engineering, science and
+    technology, or even science in general; but to what extent is it possible
+    for the emerging digital humanities to go beyond the human-ities too?
+  URL: 'http://www.culturemachine.net/index.php/cm/issue/view/23'
+  ISBN: 1465-4121
+  language: en
+  editor:
+    - family: Hall
+      given: Gary
+  issued:
+    - year: 2011
+
+- id: beieler2013
+  type: webpage
+  title: Animated Protest Mapping (1979-2013)
+  container-title: john Beieler
+  genre: Blog
+  abstract: >-
+    Many people, including myself, were interested in how protest behavior
+    changes over time. I created an animated protest map (events of every type
+    over time).
+  URL: 'http://johnbeieler.org/blog/2013/07/31/animated-protest-mapping/'
+  note: Political Science
+  language: en
+  author:
+    - family: Beieler
+      given: John
+  issued:
+    - year: 2013
+
+- id: kirschenbaum2013
+  type: article-journal
+  title: >-
+    The .txtual Condition: Digital Humanities, Born-Digital Archives, and the
+    Future Literary
+  container-title: Digital Humanities Quarterly
+  volume: '7'
+  issue: '7.1'
+  abstract: >-
+    In 1995 in the midst of the first widespread wave of digitization, the
+    Modern Language Association issued a Statement on the Significance of
+    Primary Records in order to assert the importance of retaining books and
+    other physical artifacts even after they have been microfilmed or scanned
+    for general consumption. "A primary record," the MLA told us then, "can
+    appropriately be defined as a physical object produced or used at the
+    particular past time that one is concerned with in a given instance" (27).
+    Today, the conceit of a "primary record" can no longer be assumed to be
+    coterminous with that of a "physical object." Electronic texts, files,
+    feeds, and transmissions of all sorts are also now, indisputably, primary
+    records. In the specific domain of the literary, a writer working today will
+    not and cannot be studied in the future in the same way as writers of the
+    past, because the basic material evidence of their authorial activity —
+    manuscripts and drafts, working notes, correspondence, journals — is, like
+    all textual production, increasingly migrating to the electronic realm. This
+    essay therefore seeks to locate and triangulate the emergence of a .txtual
+    condition — I am of course remediating Jerome McGann’s influential notion of
+    a “textual condition” — amid our contemporary constructions of the
+    "literary", along with the changing nature of literary archives, and lastly
+    activities in the digital humanities as that enterprise is now construed. In
+    particular, I will use the example of the Maryland Institute for Technology
+    in the Humanities (MITH) at the University of Maryland as a means of
+    illustrating the kinds of resources and expertise a working digital
+    humanities center can bring to the table when confronted with the range of
+    materials that archives and manuscript repositories will increasingly be
+    receiving.
+  URL: 'http://digitalhumanities.org/dhq/vol/7/1/000151/000151.html'
+  author:
+    - family: Kirschenbaum
+      given: Matthew
+  issued:
+    - year: 2013
+
+- id: hockey2000
+  type: book
+  title: Electronic Texts in the Humanities
+  publisher: Oxford University Press
+  abstract: >-
+    The first overview of electronic texts in the humanities
+        Shows Internet users what tools and techniques can be used to analyse and manipulate electronic texts
+
+    With word processing and the Internet, computing is much more part and
+    parcel of the everyday life of the humanities scholar, but computers can do
+    much more than assist with writing or Internet searching. This book
+    introduces a range of tools and techniques for manipulating and analysing
+    electronic texts in the humanities. It shows how electronic texts can be
+    used for the literary analysis, linguistic analysis, authorship attribution,
+    and the preparation and publication of electronic scholarly editions. It
+    assesses the ways in which research in corpus and computational linguistics
+    can feed into better electronic tools for humanities research. The tools and
+    techniques discussed in this book will feed into better Internet tools and
+    pave the way for the electronic scholar of the twenty-first century.
+  URL: 'http://ukcatalogue.oup.com/product/9780198711940.do'
+  ISBN: 0-19-871194-8
+  language: en
+  author:
+    - family: Hockey
+      given: Susan
+  issued:
+    - year: 2000
+  publisher-place: Oxford
+
+- id: burnard2012
+  type: chapter
+  title: >-
+    Du literary and linguistic computing aux digital humanities : retour sur 40
+    ans de relations entre sciences humaines et informatique
+  container-title: OpenEdition Press
+  publisher: OpenEdition Press
+  page: 45-58
+  abstract: >-
+    IntroductionJe me suis fixé le but ambitieux de proposer un point de vue sur
+    quarante ans d’histoire, sous la forme d’une synthèse, plutôt que de vous
+    présenter des faits les uns à la suite des autres. J’ai essayé d’extraire de
+    mon expérience quelques principes généraux.Je commencerai en témoignant du
+    fait que nous vivons de façon irréversible un âge numérique. J’expliquerai
+    cela en présentant les trois périodes successives qui ont marqué le
+    développement des relations entre sciences humaines et informatique, ainsi
+    que les principes qui les ont portées. Enfin, pour parler de façon concrète,
+    je présenterai le cas spécifique de mon expérience à Oxford, ce qui
+    permettra d’approfondir l’état courant des recherches dans les sciences
+    humaines et sociales (SHS) informatisées.Il y a toujours eu une vraie
+    tension entre les deux méthodes opposées dont on peut se servir dans les
+    sciences humaines et sociales et l’informatique ; une confrontation entre le
+    texte et les données. Certains diront qu’on peut se servir d’un ordinateur
+    pour faire du data processing, pour gérer des données : des chiffres, des
+    faits, des observations, des objets, des tendances statistiques. Le texte,
+    en revanche, est composé d’autres choses : de mots, d’une langue, de
+    paroles, qui ont une existence tout à fait indépendante de leur
+    représentation dans un format numérique. Les données numériques, elles,
+    n’existent que dans leur expression informatisée. C’est précisément là que
+    réside la tension entre les deux. Pour [...]
+  URL: 'http://press.openedition.org/242'
+  ISBN: 978-2-8218-1324-3
+  language: fr
+  author:
+    - family: Burnard
+      given: Lou
+  issued:
+    - year: 2012
+      month: 9
+      day: 18
+  accessed:
+    - year: 2012
+      month: 9
+      day: 24
+  title-short: Du literary and linguistic computing aux digital humanities
+
+- id: moretti2013
+  type: book
+  title: Distant reading
+  publisher: Verso
+  number-of-pages: '224'
+  abstract: >-
+    How does a literary historian end up thinking in terms of z-scores,
+    principal component analysis, and clustering coefficient?
+
+
+    In the ten essays collected in this volume, Franco Moretti reconstructs the
+    intellectual trajectory of his philosophy of ‘distant reading’. From the
+    evolutionary model of ‘Modern European Literature’, through the geo-cultural
+    dominant of ‘Conjectures on World Literature’ and ‘Planet Hollywood’ to the
+    quantitative findings of ‘Style, inc.’ and the abstract patterns of ‘Network
+    Theory, Plot Analysis’, the book follows two decades of critical
+    explorations that have come to define – well beyond the wildest expectations
+    of its author – a growing field of unorthodox literary studies.
+  URL: 'http://www.amazon.de/Distant-Reading-Franco-Moretti/dp/1781680841'
+  ISBN: 978-1-78168-084-1
+  language: en
+  author:
+    - family: Moretti
+      given: Franco
+  issued:
+    - year: 2013
+  publisher-place: London
+
+- id: bodard2010
+  type: book
+  title: Digital Research in the Study of Classical Antiquity
+  collection-title: Digital research in the arts and humanities
+  publisher: Ashgate
+  number-of-pages: '210'
+  abstract: >-
+    This book explores the challenges and opportunities presented to Classical
+    scholarship by digital practice and resources. Drawing on the expertise of a
+    community of scholars who use innovative methods and technologies, it shows
+    that traditionally rigorous scholarship is as central to digital research as
+    it is to mainstream Classical Studies. The chapters in this edited
+    collection cover many subjects, including text and data markup, data
+    management, network analysis, pedagogical theory and the Social and Semantic
+    Web, illustrating the range of methods that enrich the many facets of the
+    study of the ancient world. This volume exemplifies the collaborative and
+    interdisciplinary nature that is at the heart of Classical Studies.
+  URL: 'http://www.ashgate.com/isbn/9780754677734'
+  ISBN: 978-0-7546-7773-4
+  language: en
+  issued:
+    - year: 2010
+  publisher-place: 'Farnham, Surrey, England'
+
+- id: haber2011
+  type: book
+  title: Digital Past. Geschichtswissenschaften im digitalen Zeitalter
+  publisher: Oldenbourg Wissenschaftsverlag
+  abstract: >-
+    Digitale Ressourcen, multimediale Methoden und das Werkzeug Computer
+    bestimmen scheinbar selbstverständlich die tägliche Arbeit des Historikers,
+    der Historikerin. Peter Haber geht der Frage nach, wie die Digitalisierung
+    der Welt die Wissenschaft von der Vergangenheit verändert. Wie wird
+    Geschichte im 21. Jahrhundert geschrieben? Wie wird unser Wissen neu
+    geordnet? Welche Macht hat Google? Eines ist offensichtlich: die
+    Medienrevolutionen des Web und des Web 2.0 wirken massiv auf das Fach
+    Geschichte und auf die Geschichtswissenschaft ein. Haber macht die
+    Veränderungen der letzten Jahrzehnte greifbar und wagt einen Blick auf neue
+    Perspektiven für die Wissenschaft von der Vergangenheit. "Peter Habers
+    'Digital Past' sollte Pflichtlektüre für alle sein, die sich für die
+    digitale Geschichtswissenschaft in der Vergangenheit, Gegenwart und Zukunft
+    interessieren." Mills Kelly, Assoziierter Direktor des Center for History
+    and New Media an der George Mason University
+  URL: >-
+    http://www.amazon.de/Digital-Past-Geschichtswissenschaft-digitalen-Zeitalter/dp/3486707043
+  ISBN: 978-3-486-70704-5
+  language: de
+  author:
+    - family: Haber
+      given: Peter
+  issued:
+    - year: 2011
+  publisher-place: München
+
+- id: rogers2013
+  type: book
+  title: Digital methods
+  publisher: MIT Press
+  number-of-pages: '280'
+  abstract: >-
+    In Digital Methods, Richard Rogers proposes a methodological outlook for
+    social and cultural scholarly research on the Web that seeks to move
+    Internet research beyond the study of online culture. It is not a toolkit
+    for Internet research, or operating instructions for a software package; it
+    deals with broader questions. How can we study social media to learn
+    something about society rather than about social media use? How can
+    hyperlinks reveal not just the value of a Web site but the politics of
+    association? Rogers proposes repurposing Web-native techniques for research
+    into cultural change and societal conditions. We can learn to reapply such
+    "methods of the medium" as crawling and crowd sourcing, PageRank and similar
+    algorithms, tag clouds and other visualizations; we can learn how they
+    handle hits, likes, tags, date stamps, and other Web-native objects. By
+    "thinking along" with devices and the objects they handle, digital research
+    methods can follow the evolving methods of the medium. Rogers uses this new
+    methodological outlook to examine the findings of inquiries into 9/11 search
+    results, the recognition of climate change skeptics by
+    climate-change-related Web sites, the events surrounding the Srebrenica
+    massacre according to Dutch, Serbian, Bosnian, and Croatian Wikipedias,
+    presidential candidates' social media "friends," and the censorship of the
+    Iranian Web. With Digital Methods, Rogers introduces a new vision and method
+    for Internet research and at the same time applies them to the Web's objects
+    of study, from tiny particles (hyperlinks) to large masses (social media).
+  URL: 'http://www.amazon.com/Digital-Methods-Richard-Rogers/dp/0262018837'
+  ISBN: 978-0-262-01883-8 0-262-01883-7
+  language: en
+  author:
+    - family: Rogers
+      given: Richard
+  issued:
+    - year: 2013
+  publisher-place: 'Cambridge, MA'
+
+- id: schoch2013a
+  type: article-journal
+  title: Big? Smart? Clean? Messy? Data in the Humanities
+  container-title: Journal of Digital Humanities
+  volume: '2'
+  issue: '3'
+  URL: >-
+    http://journalofdigitalhumanities.org/2-3/big-smart-clean-messy-data-in-the-humanities/
+  language: English
+  author:
+    - family: Schöch
+      given: Christof
+  issued:
+    - year: 2013
+  accessed:
+    - year: 2014
+      month: 9
+      day: 23
+  title-short: Data in the Humanities
+
+- id: mccarty2003
+  type: chapter
+  title: Humanities computing
+  container-title: Encyclopedia of Library and Information Science
+  publisher: Dekker
+  page: 1224-1235
+  language: en
+  author:
+    - family: McCarty
+      given: Willard
+  issued:
+    - year: 2003
+  publisher-place: New York
+
+- id: hayles2012
+  type: book
+  title: Digital Media and contemporary technogenesis
+  publisher: University of Chicago Press
+  number-of-pages: '296'
+  abstract: >-
+    Hayles examines the evolution of the field from the traditional humanities
+    and how the digital humanities are changing academic scholarship, research,
+    teaching, and publication. She goes on to depict the neurological
+    consequences of working in digital media, where skimming and scanning, or
+    “hyper reading,” and analysis through machine algorithms are forms of
+    reading as valid as close reading once was. Hayles contends that we must
+    recognize all three types of reading and understand the limitations and
+    possibilities of each.
+  URL: 'http://press.uchicago.edu/ucp/books/book/chicago/H/bo5437533.html'
+  ISBN: 978-0-226-32142-4
+  language: en
+  author:
+    - family: Hayles
+      given: N. Katherine
+  issued:
+    - year: 2012
+  publisher-place: Chicago
+
+- id: hoover2014
+  type: book
+  title: 'Digital Literary Studies: Corpus Approaches to Poetry, Prose, and Drama'
+  publisher: Routledge
+  number-of-pages: '202'
+  abstract: >-
+    Digital Literary Studies presents a broad and varied picture of the promise
+    and potential of methods and approaches that are crucially dependent upon
+    the digital nature of the literary texts it studies and the texts and
+    collections of texts with which they are compared. It focuses on style,
+    diction, characterization, and interpretation of single works and across
+    larger groups of texts, using both huge natural language corpora and
+    smaller, more specialized collections of texts created for specific tasks,
+    and applies statistical techniques used in the narrower confines of
+    authorship attribution to broader stylistic questions. It addresses
+    important issues in each of the three major literary genres, and
+    intentionally applies different techniques and concepts to poetry, prose,
+    and drama. It aims to present a provocative and suggestive sample intended
+    to encourage the application of these and other methods to literary studies.
+    Hoover, Culpeper, and O'Halloran push the methods, techniques, and concepts
+    in new directions, apply them to new groups of texts or to new questions,
+    modify their nature or method of application, and combine them in innovative
+    ways
+  URL: >-
+    http://www.amazon.de/Digital-Literary-Studies-Approaches-Linguistics/dp/0415352304
+  ISBN: 978-0-415-35230-7
+  language: en
+  author:
+    - family: Hoover
+      given: David L.
+    - family: Culpeper
+      given: Jonathan
+    - family: O'Halloran
+      given: Kieran
+  issued:
+    - year: 2014
+  publisher-place: London
+
+- id: adams2012
+  type: article-journal
+  title: Digital Humanities - Where to Start
+  container-title: College & Research Libraries News
+  page: 536-569
+  volume: '73'
+  issue: '9'
+  URL: 'http://crln.acrl.org/content/73/9/536'
+  ISSN: '0099-0086, 2150-6698'
+  language: en
+  author:
+    - family: Adams
+      given: Jennifer L.
+    - family: Gunn
+      given: Kevin B.
+  issued:
+    - year: 2012
+      month: 1
+      day: 10
+  accessed:
+    - year: 2012
+      month: 10
+      day: 3
+  container-title-short: Coll. res. libr. news
+
+- id: warwick2012
+  type: book
+  title: Digital Humanities in Practice
+  publisher: Facet Publishing
+  number-of-pages: '192'
+  edition: '1.'
+  abstract: >-
+    This title offers a cutting-edge and comprehensive introduction to this
+    vibrant and increasingly important global field drawing together a broad
+    spectrum of disciplines. Each chapter interweaves the expert commentary of
+    leading academics, analysis of current research and practice and several
+    exciting international case studies, exploring the possibilities and
+    challenges that occur when culture and digital technologies intersect. It
+    covers key topics that include: social media and crowd sourcing; digital
+    images and digitisation; 3D scanning and museums; studying users and
+    readers; electronic text and corpora; archaeology and GIS; open access and
+    online teaching of digital humanities; and, books, texts and digital
+    editing. This is an essential practical guide for academics, researchers,
+    librarians and professionals involved in the digital humanities. It will
+    also be core reading for all humanities students and those taking courses in
+    the digital humanities in particular.
+  URL: >-
+    http://www.amazon.de/Digital-Humanities-Practice-Claire-Warwick/dp/1856047660
+  ISBN: 978-1-85604-766-1
+  language: en
+  author:
+    - family: Warwick
+      given: Claire
+    - family: Terras
+      given: Melissa
+    - family: Nyhan
+      given: Julianne
+  issued:
+    - year: 2012
+  publisher-place: London
+
+- id: burdick2012
+  type: book
+  title: Digital Humanities
+  publisher: MIT Press
+  abstract: >-
+    Digital_Humanities is a compact, game-changing report on the state of
+    contemporary knowledge production. Answering the question, "What is digital
+    humanities?," it provides an in-depth examination of an emerging field. This
+    collaboratively authored and visually compelling volume explores
+    methodologies and techniques unfamiliar to traditional modes of humanistic
+    inquiry--including geospatial analysis, data mining, corpus linguistics,
+    visualization, and simulation--to show their relevance for contemporary
+    culture.
+
+
+    Included are chapters on the basics, on emerging methods and genres, and on
+    the social life of the digital humanities, along with "case studies,"
+    "provocations," and "advisories." These persuasively crafted interventions
+    offer a descriptive toolkit for anyone involved in the design, production,
+    oversight, and review of digital projects. The authors argue that the
+    digital humanities offers a revitalization of the liberal arts tradition in
+    the electronically inflected, design-driven, multimedia language of the
+    twenty-first century.Written by five leading practitioner-theorists whose
+    varied backgrounds embody the intellectual and creative diversity of the
+    field, Digital_Humanities is a vision statement for the future, an
+    invitation to engage, and a critical tool for understanding the shape of new
+    scholarship.
+  URL: 'http://www.amazon.com/Digital_Humanities-Anne-Burdick/dp/0262018470'
+  ISBN: 978-0-262-01847-0 0-262-01847-0
+  language: en
+  editor:
+    - family: Burdick
+      given: Anne
+    - family: Lunenfeld
+      given: Peter
+    - family: Drucker
+      given: Johanna
+    - family: Presner
+      given: Todd
+    - family: Schnapp
+      given: Jeffrey
+  issued:
+    - year: 2012
+  publisher-place: 'Cambridge, MA'
+
+- id: cohen2005
+  type: book
+  title: >-
+    Digital History: A Guide to Gathering, Preserving, and Presenting the Past
+    on the Web
+  publisher: University of Pennsylvania Press
+  abstract: >-
+    his book provides a plainspoken and thorough introduction to the web for
+    historians—teachers and students, archivists and museum curators, professors
+    as well as amateur enthusiasts—who wish to produce online historical work,
+    or to build upon and improve the projects they have already started in this
+    important new medium. It begins with an overview of the different genres of
+    history websites, surveying a range of digital history work that has been
+    created since the beginning of the web. The book then takes the reader
+    step-by-step through planning a project, understanding the technologies
+    involved and how to choose the appropriate ones, designing a site that is
+    both easy-to-use and scholarly, digitizing materials in a way that makes
+    them web-friendly while preserving their historical integrity, and how to
+    reach and respond to an intended audience effectively. It also explores the
+    repercussions of copyright law and fair use for scholars in a digital age,
+    and examines more cutting-edge web techniques involving interactivity, such
+    as sites that use the medium to solicit and collect historical artifacts.
+    Finally, the book provides basic guidance on insuring that the digital
+    history the reader creates will not disappear in a few years.
+  URL: 'http://chnm.gmu.edu/digitalhistory/'
+  language: en
+  author:
+    - family: Cohen
+      given: Daniel J.
+    - family: Rosenzweig
+      given: Roy
+  issued:
+    - year: 2005
+  accessed:
+    - year: 2009
+      month: 11
+      day: 19
+  publisher-place: 'Philadelphia, PA'
+
+- id: kuczera2014
+  type: post-weblog
+  title: Digitale Perspektiven mediävistischer Quellenrecherche
+  container-title: Mittelalter
+  URL: 'http://mittelalter.hypotheses.org/3492'
+  language: de
+  author:
+    - family: Kuczera
+      given: Andreas
+  issued:
+    - year: 2014
+      month: 4
+      day: 18
+  accessed:
+    - year: 2014
+      month: 5
+      day: 8
+
+- id: schmale2010
+  type: book
+  title: Digitale Geschichtswissenschaft
+  publisher: Böhlau
+  number-of-pages: '149'
+  abstract: >-
+    Digitale Geschichtswissenschaft ist mehr als nur der Einsatz digitaler
+    Techniken und Medien, sie ist mehr als EDV, Web oder Internet. Sie eröffnet
+    neue Forschungs- und Darstellungsmöglichkeiten, sie antwortet auf die
+    liquiden Eigenschaften unserer gegenwärtigen Netzwerkzivilisation. Digitale
+    Geschichtswissenschaft ersetzt dabei nicht die traditionelle monographische
+    Geschichtswissenschaft, sondern verhilft dieser zu einer Renaissance im Feld
+    der großen historischen Erzählung, die nicht obsolet ist. Digitale
+    Geschichtswissenschaft gewinnt ihr Profil aus den vielfältigen Möglichkeiten
+    der semantischen Techniken und der Forschungsvernetzung, sie stellt auch dem
+    Nichthistoriker Techniken des Geschichtelernens von hoher Qualität zur
+    Verfügung. Geschichte passiert auch im Netz - Geschichtswissenschaft wird
+    wieder spannend.
+  URL: 'http://www.boehlau-verlag.com/978-3-205-78553-8.html'
+  ISBN: 978-3-205-78553-8
+  language: de
+  author:
+    - family: Schmale
+      given: Wolfgang
+  issued:
+    - year: 2010
+  publisher-place: Wien
+
+- id: kohle2013a
+  type: book
+  title: Digitale Bildwissenschaft
+  publisher: Hülsbusch
+  abstract: >-
+    Das Digitale hat seinen Einzug in die Kulturwissenschaften gehalten. Aber
+    was kann es zur Deutung von Bildern, gar von Kunstwerken beitragen? 
+
+    Eine Antwort darauf versucht das Buch „Digitale Bildwissenschaft“. Sein
+    Autor behauptet nicht zuallererst, dass man mit dem Computer viel schneller
+    wissenschaftliche Fragen abhandeln kann, sondern dass sich vor allem
+    Methodiken des Analysierens, Publizierens und Bewertens ändern. 
+
+    Für klassische Geisteswissenschaftler sind solche Wandlungen nicht leicht zu
+    verdauen. Wird eine digitale Bildgeschichte überhaupt noch
+    Geschichtsschreibung sein?
+  URL: 'http://archiv.ub.uni-heidelberg.de/artdok/2185/'
+  language: de
+  author:
+    - family: Kohle
+      given: Hubertus
+  issued:
+    - year: 2013
+  accessed:
+    - year: 2014
+      month: 5
+      day: 7
+  publisher-place: Glückstadt
+
+- id: piatti2008
+  type: book
+  title: 'Die Geographie der Literatur : Schauplätze, Handlungsräume, Raumphantasien'
+  publisher: Wallstein
+  abstract: >-
+    Konzepte einer künftigen Literaturgeographie, die literarische Schauplätze
+    zum Ausgangspunkt der Textanalysen macht.
+
+
+    Wo spielt Literatur? Die vermeintlich simple Frage eröffnet ein erst in
+    Ansätzen etabliertes Forschungsgebiet mit neuen methodischen Zugängen unter
+    dem Stichwort »Literaturgeographie«.
+
+    Jede literarische Handlung ist irgendwo lokalisiert, wobei die Skala von
+    gänzlich imaginären bis zu realistisch gezeichneten Schauplätzen mit hohem
+    Wiedererkennungswert reicht. Die Literaturgeographie rückt die vielfältigen
+    Bezugnahmen von Räumen der Fiktion auf den Realraum hin ins Zentrum der
+    Aufmerksamkeit: Literatur weist eine spezifische Geographie auf, die ganz
+    eigenen Regeln folgt. Denn fiktionale Räume sind niemals nur mimetische
+    Abbilder der Realität, auch wenn sie sich auf existierende Landschaften und
+    Städte beziehen. Vielmehr müssen die poetologischen Verfahren von
+    Verfremdung, Überblendung, Neubenennung, die Kombinationsmöglichkeiten von
+    realen Orten mit fiktiven Elementen in Visualisierungskonzepte und Deutungen
+    der Textanalysen einfließen.
+
+    Diese Theorie findet zunächst Anwendung auf eine an literarischen
+    Schauplätzen überreiche Modellregion: auf den Vierwaldstättersee und das
+    Gotthardmassiv in der Zentralschweiz. Im Anschluss wird der methodische
+    Horizont für einen Literaturatlas aufgespannt - und das Potenzial
+    literatur­geographischer Konzepte im Hinblick auf eine vergleichende
+    europäische Literaturgeschichte aufgezeigt.
+
+    17 beigefügte vierfarbige Faltkarten ermöglichen die differenzierte
+    Gegenüberstellung von fiktionalen und realen Landschaften.
+  URL: >-
+    http://www.wallstein-verlag.de/9783835303294-barbara-piatti-die-geographie-der-literatur.html
+  ISBN: 978-3-8353-0329-4
+  language: de
+  author:
+    - family: Piatti
+      given: Barbara
+  issued:
+    - year: 2008
+  publisher-place: Göttingen
+  title-short: Die Geographie der Literatur
+
+- id: terras2013
+  type: book
+  title: Defining Digital Humanities - A Reader
+  publisher: Ashgate
+  abstract: >-
+    Digital Humanities is becoming an increasingly popular focus of academic
+    endeavour. There are now hundreds of Digital Humanities centres worldwide
+    and the subject is taught at both postgraduate and undergraduate level. Yet
+    the term ‘Digital Humanities’ is much debated. This reader brings together,
+    for the first time, in one core volume the essential readings that have
+    emerged in Digital Humanities. We provide a historical overview of how the
+    term ‘Humanities Computing’ developed into the term ‘Digital Humanities’,
+    and highlight core readings which explore the meaning, scope, and
+    implementation of the field. To contextualize and frame each included
+    reading, the editors and authors provide a commentary on the original piece.
+    There is also an annotated bibliography of other material not included in
+    the text to provide an essential list of reading in the discipline. This
+    text will be required reading for scholars and students who want to discover
+    the history of Digital Humanities through its core writings, and for those
+    who wish to understand the many possibilities that exist when trying to
+    define Digital Humanities.
+  URL: 'http://www.ashgate.com/isbn/9781409469636'
+  language: en
+  editor:
+    - family: Terras
+      given: Melissa
+    - family: Nyhan
+      given: Julianne
+    - family: Vanhoutte
+      given: Edward
+  issued:
+    - year: 2013
+  publisher-place: Williston
+
+- id: berry2013
+  type: article-journal
+  title: Critical Digital Humanities
+  collection-title: stunlaw-blog
+  abstract: >-
+    Critical Digital Humanities is an approach to the study and use of the
+    digital which is attentive to questions of power, domination, myth and
+    exploitation, what has been called the "The Dark Side of the Digital
+    Humanities" (Chun 2013; Grusin 2013; Jagoda 2013; Raley 2013).
+  URL: 'http://stunlaw.blogspot.com/2013/01/critical-digital-humanities.html'
+  language: en
+  author:
+    - family: Berry
+      given: David M.
+  issued:
+    - literal: 11.01.13
+
+- id: burton2002
+  type: book
+  title: Computing in the Social Sciences and Humanities
+  publisher: University of Illinois Press
+  abstract: >-
+    A lively, hands-on introduction for teachers and scholars in the humanities
+    and social sciences, this book-and-CD package will inspire even the
+    faint-hearted to take the technological bull by the horns and make
+    efficient, informed use of computer and Internet resources.
+
+
+    New technology is changing the very nature of research and teaching in the
+    social sciences and humanities. From specialized online forums to Web-based
+    teaching and distance learning, computers are being used to expand
+    educational opportunities, promote cooperation and collaboration, stimulate
+    creative thinking, and find answers to previously insoluble research
+    problems. Combining interactive projects in a CD-ROM format with informative
+    printed essays, this volume showcases innovations that are revolutionizing
+    the craft of scholarship. More than that, it examines realistically how
+    applicable the new technology is to learning. Contributors clarify some of
+    the difficulties of using computers and address problems with the philosophy
+    and culture of computers, including concerns about intellectual property
+    protection and the potential for creating a technological underclass of
+    electronically disadvantaged schools and universities.
+
+
+    The accompanying CD features multimedia entries such as an interactive
+    project on owls that educates users about forest ecology; RiverWeb, an
+    interactive archive of information on the history, culture, and science of
+    the Mississippi River; and "Global Jukebox," which recreates the context in
+    which the folklorist Alan Lomax made his pioneering field recordings. The CD
+    includes links to many external sites on the World Wide Web. For those with
+    limited Internet access, a collection of relevant sites is integrated into
+    the CD. Minimum System Requirements 32 MB available RAM, CD-ROM drive (4x)
+    Some articles and programs also require 256-color monitor and sound
+    capability Macintosh®: System 8.5 Windows®: Intel Pentium® processor (or
+    equivalent) running Windows® 95 or Windows NT® 4.0
+
+
+    Orville Vernon Burton is a professor of history and sociology at the
+    University of Illinois at Urbana-Champaign and professor and senior research
+    scientist at the National Center for Supercomputing Applications at the
+    University of Illinois. He is the author of In My Father's House Are Many
+    Mansions: Family and Community in Edgefield, South Carolina.
+  URL: 'http://www.press.uillinois.edu/books/catalog/72exq4pd9780252026850.html'
+  ISBN: 0-252-02685-3
+  language: en
+  issued:
+    - year: 2002
+  publisher-place: Urbana
+
+- id: wisbey1991
+  type: article-journal
+  title: 'Computer und Philologie in Vergangenheit, Gegenwart und Zukunft'
+  container-title: Gärtner/Sappler/Trauth 1991
+  page: 346-361
+  note: >-
+    Wisbey, Roy: Computer und Philologie in Vergangenheit, Gegenwart und
+    Zukunft. In: Gärtner/Sappler/Trauth 1991, S. 346-361.
+  language: de
+  author:
+    - family: Wisbey
+      given: Roy
+  issued:
+    - year: 1991
+
+- id: orlandi1990
+  type: book
+  title: Informatica umanistica
+  collection-title: Studi superiori
+  publisher: Nuova Italia scientifica
+  number-of-pages: '188'
+  URL: 'http://books.google.com/books?id=XHrDPAAACAAJ'
+  ISBN: 978-88-430-0887-2
+  language: it
+  author:
+    - family: Orlandi
+      given: Tito
+  issued:
+    - year: 1990
+  publisher-place: Roma
+
+- id: orlandi2010
+  type: book
+  title: 'Informatica testuale : teoria e prassi'
+  publisher: Laterza
+  abstract: >-
+    Tito Orlandi propone una sintesi chiara delle metodologie che governano
+    l'applicazione degli strumenti informatici in ambito testuale, in particolar
+    modo si occupa della cosiddetta testualità riflessa o mediata, ossia di quei
+    testi concepiti per essere diffusi su supporto cartaceo e solo in un secondo
+    momento essere riprodotti in un ambiente informatico, così da diventare
+    anche testi digitali. L'informatica nel suo impatto con le applicazioni
+    umanistiche ha avuto infatti conseguenze innovative e in costante mutamento.
+    Il vasto mondo che ruota attorno alla funzione, produzione e ricezione del
+    testo sta subendo una trasformazione radicale dovuta alle tecnologie, ma
+    pochi sono in grado di apprezzarne compiutamente le origini e le ricadute
+    sulla letteratura tutta. Il volume, insieme alla considerazione teorica del
+    tema, offre una guida pratica alle procedure applicative sempre valide,
+    nonostante i quotidiani cambiamenti nelle macchine informatiche.
+  URL: >-
+    http://www.ibs.it/code/9788842093794/orlandi-tito/informatica-testuale-teoria.html
+  ISBN: 978-88-420-9379-4 88-420-9379-3
+  language: it
+  author:
+    - family: Orlandi
+      given: Tito
+  issued:
+    - year: 2010
+  publisher-place: Roma ; Bari
+  title-short: Informatica testuale
+
+- id: svensson2009
+  type: article-journal
+  title: Humanities Computing as Digital Humanities
+  container-title: Digital Humanities Quarterly
+  volume: '3'
+  issue: '3'
+  abstract: >-
+    This article presents an examination of how digital humanities is currently
+    conceived and described, and examines the discursive shift from humanities
+    computing to digital humanities. It is argued that this renaming of
+    humanities computing as digital humanities carries with it a set of
+    epistemic commitments that are not necessarily compatible with a broad and
+    inclusive notion of the digital humanities. In particular, the author
+    suggests that tensions arise from the instrumental, textual and
+    methodological focus of humanities computing as well as its relative lack of
+    engagement with the "digital" as a study object. This article is the first
+    in a series of four articles attempting to describe and analyze the field of
+    digital humanities and digital humanities as a transformative practice.
+  URL: 'http://digitalhumanities.org/dhq/vol/3/3/000065/000065.html'
+  language: en
+  author:
+    - family: Svensson
+      given: Patrik
+  issued:
+    - year: 2009
+      season: 2
+  accessed:
+    - year: 2010
+      month: 1
+      day: 13
+
+- id: mccarty2005
+  type: book
+  title: Humanities computing
+  publisher: Palgrave Macmillan
+  URL: 'http://www.mccarty.org.uk/essays/McCarty,%20Humanities%20computing.pdf'
+  ISBN: 978-1-4039-3504-5
+  language: en
+  author:
+    - family: McCarty
+      given: Willard
+  issued:
+    - year: 2005
+  publisher-place: Basingstoke & New York
+
+- id: brossaud2007
+  type: book
+  title: >-
+    Humanités numériques : Volume 1, Nouvelles technologies cognitives et
+    épistémologie
+  publisher: Hermes Science Publications
+  ISBN: 978-2-7462-1661-7
+  language: fr
+  author:
+    - family: Brossaud
+      given: Claire
+    - family: Reber
+      given: Bernard
+  issued:
+    - year: 2007
+  publisher-place: Paris
+  title-short: Humanités numériques
+
+- id: baayen2008
+  type: book
+  title: Analyzing linguistic data. A practical introduction to statistics using R
+  publisher: Cambridge University Press
+  edition: 1. publ.
+  ISBN: 978-0-521-70918-7
+  language: en
+  author:
+    - family: Baayen
+      given: R Harald
+  issued:
+    - year: 2008
+  publisher-place: Cambridge
+
+- id: mcgann2014
+  type: book
+  title: >-
+    A New Republic of Letters. Memory and Scholarship in the Age of Digital
+    Reproduction
+  publisher: Harvard Univ. Press
+  abstract: >-
+    Jerome McGann's manifesto argues that the history of texts and how they are
+    preserved and accessed for interpretation are the overriding subjects of
+    humanist study in the digital age. Theory and philosophy no longer suffice
+    as an intellectual framework. But philology -- out of fashion for decades --
+    models these concerns with surprising fidelity.
+  URL: 'http://www.hup.harvard.edu/catalog.php?isbn=9780674728691'
+  language: en
+  author:
+    - family: McGann
+      given: Jerome
+  issued:
+    - year: 2014
+  accessed:
+    - year: 2014
+      month: 3
+      day: 30
+  publisher-place: 'Boston, MA'
+
+- id: conolly2008
+  type: book
+  title: Geographical Information Systems in archaeology
+  publisher: Cambridge University Press
+  edition: 3rd printing.
+  abstract: >-
+    Geographical Information Systems has moved from the domain of the computer
+    specialist into the wider archaeological community, providing it with an
+    exciting new research method. This clearly written but rigorous book
+    provides a comprehensive guide to that use. Topics covered include: the
+    theoretical context and the basics of GIS; data acquisition including
+    database design; interpolation of elevation models; exploratory data
+    analysis including spatial queries; statistical spatial analysis; map
+    algebra; spatial operations including the calculation of slope and aspect,
+    filtering and erosion modeling; methods for analysing regions; visibility
+    analysis; network analysis including hydrological modeling; the production
+    of high quality output for paper and electronic publication; and the use and
+    production of metadata. Offering an extensive range of archaeological
+    examples, it is an invaluable source of practical information for all
+    archaeologists, whether engaged in cultural resource management or academic
+    research. This is essential reading for both the novice and the advanced
+    user.
+  URL: 'http://ebooks.cambridge.org/ebook.jsf?bid=CBO9780511807459'
+  ISBN: 978-0-521-79330-8
+  language: en
+  author:
+    - family: Conolly
+      given: James
+  issued:
+    - year: 2008
+  publisher-place: Cambridge
+  DOI: 'http://dx.doi.org/10.1017/CBO9780511807459'
+
+- id: berra2012
+  type: chapter
+  title: Faire des humanités numériques
+  container-title: 'Read/Write Book 2 : Une introduction aux humanités numériques'
+  publisher: OpenEdition Press
+  abstract: >-
+    Qu’est-ce que les humanités numériques ? Apparue en 2006, l’expression
+    connaît depuis un véritable succès. Mais au-delà du slogan à la mode, quelle
+    est la réalité des pratiques qu’il désigne ? Si tout le monde s’accorde sur
+    une définition minimale à l’intersection des technologies numériques et des
+    sciences humaines et sociales, les vues divergent lorsqu’on entre dans le
+    vif du sujet. Les humanités numériques représentent-elles une véritable
+    révolution des pratiques de recherche et des paradigmes intellectuels qui
+    les fondent ou, plus simplement, une optimisation des méthodes existantes ?
+    Constituent-elles un champ suffisamment structuré pour justifier une réforme
+    des modes de financement de la recherche, des cursus de formation, des
+    critères d’évaluation ? L’archive numérique offre-t-elle à la recherche
+    suffisamment de garanties ? Quelle place la recherche « dirigée par les
+    données » laisse-t-elle à l’interprétation ? Telles sont quelques-unes des
+    questions abordées par ce deuxième opus de la collection « Read/Write Book
+    ». Ces dix-huit textes essentiels, rédigés ou traduits en français par des
+    chercheurs de différentes nationalités, proposent une introduction aux
+    humanités numériques accessible à tous ceux qui souhaitent en savoir plus
+    sur ce domaine de recherche en constante évolution.
+  URL: 'http://books.openedition.org/oep/226'
+  language: fr
+  editor:
+    - family: Mounier
+      given: Pierre
+  author:
+    - family: Berra
+      given: Aurélien
+  issued:
+    - year: 2012
+  accessed:
+    - year: 2013
+      month: 10
+      day: 19
+
+- id: meister2005a
+  type: chapter
+  title: >-
+    Projekt Computerphilologie. Über Geschichte, Verfahren und Theorie
+    rechnergestützter Literaturwissenschaft
+  container-title: 'Digitalität und Literalität : zur Zukunft der Literatur'
+  publisher: Fink
+  URL: 'http://www1.uni-hamburg.de/DigiLit/meister/computerphilologie_druck.html'
+  ISBN: 978-3-7705-4179-9
+  language: de
+  author:
+    - family: Meister
+      given: Jan Christoph
+  issued:
+    - year: 2005
+  publisher-place: München
+  title-short: Digitalität und Literalität
+
+- id: dougherty2011
+  type: webpage
+  title: Writing History in the Digital Age
+  abstract: >-
+    Has the digital revolution transformed how we write about the past — or not?
+    Have new technologies changed our essential work-craft as scholars, and the
+    ways in which we think, teach, author, and publish? Does the digital age
+    have broader implications for individual writing processes, or for the
+    historical profession at large? Explore these questions in Writing History
+    in the Digital Age, an open peer-reviewed volume published in open-access
+    online format (for free) and in print (for sale) from the University of
+    Michigan Press, as part of its Digital Humanities Series and the
+    digitalculturebooks imprint.
+  URL: 'http://writinghistory.trincoll.edu/'
+  language: en
+  author:
+    - family: Dougherty
+      given: Jack
+    - family: Nawrotzki
+      given: Kristen
+  issued:
+    - year: 2011
+      month: 5
+      day: 22
+  accessed:
+    - year: 2011
+      month: 11
+      day: 18
+
+- id: anderson2010
+  type: article-journal
+  title: 'Methodological commons: arts and humanities e-Science fundamentals'
+  container-title: >-
+    Philosophical Transactions of the Royal Society A: Mathematical, Physical
+    and Engineering Sciences
+  page: 3779 -3796
+  volume: '368'
+  issue: '1925'
+  abstract: >-
+    The application of e-Science technologies to disciplines in the arts and
+    humanities raises major questions as to how those technologies can be most
+    usefully exploited, what tools and infrastructures are needed for that
+    exploitation, and what new research approaches can be generated. This paper
+    reviews a number of activities in the UK and Europe in the last 5 years
+    which have sought to address these questions through processes of
+    experimentation and targeted infrastructure development. In the UK, the
+    AHeSSC (Arts and Humanities e-Science Support Centre) has played a
+    coordinating role for seven projects funded by the Arts and Humanities
+    e-Science Initiative. In Europe, DARIAH (Digital Research Infrastructure for
+    the Arts and Humanities) has sought to develop a deeper understanding of
+    research information and communication in the arts and humanities, and to
+    inform the development of e-infrastructures accordingly. Both sets of
+    activity have indicated a common requirement: to construct a framework which
+    consistently describes the methods and functions of scholarly activity which
+    underlie digital arts and humanities research, and the relationships between
+    them. Such a ‘methodological commons’ has been formulated in the field of
+    the digital humanities. This paper describes the application of this
+    approach to arts and humanities e-Science, with reference to the early work
+    of DARIAH and AHeSSC.
+  URL: 'http://rsta.royalsocietypublishing.org/content/368/1925/3779.abstract'
+  DOI: 10.1098/rsta.2010.0156
+  language: en
+  author:
+    - family: Anderson
+      given: Sheila
+    - family: Blanke
+      given: Tobias
+    - family: Dunn
+      given: Stuart
+  issued:
+    - year: 2010
+  accessed:
+    - year: 2011
+      month: 7
+      day: 6
+  title-short: Methodological commons
+
+- id: jannidis2010
+  type: chapter
+  title: Methoden der computergestützten Textanalyse
+  container-title: Methoden der literatur- und kulturwissenschaftlichen Textanalyse
+  publisher: Metzler
+  page: 109-132
+  abstract: >-
+    Wie werden Texte wissenschaftlich interpretiert? Kompakt und übersichtlich
+    stellt das Lehrbuch die gängigen literaturtheoretischen Ansätze vor –
+    darunter z. B. Strukturalismus, Dekonstruktion, Diskursanalyse und
+    Systemtheorie. Der Schwerpunkt des übersichtlich gestalteten Bandes liegt
+    auf der Anwendung: Ausführliche Beispielanalysen zeigen, wie mit den
+    verschiedenen Theorien und den daraus abzuleitenden Methoden Texte – und
+    auch Filme – analysiert werden. Unerlässliches Handwerkszeug für das
+    literaturwissenschaftliche Studium.
+  URL: >-
+    http://www.amazon.de/Methoden-literatur-kulturwissenschaftlichen-Textanalyse-Modellanalysen/dp/3476021629
+  language: de
+  author:
+    - family: Jannidis
+      given: Fotis
+  editor:
+    - family: Nünning
+      given: Ansgar
+    - family: Nünning
+      given: Vera
+  issued:
+    - year: 2010
+  publisher-place: Stuttgart & Weimar
+
+- id: mccarty2002a
+  type: webpage
+  title: Mapping the field
+  container-title: EADH
+  abstract: >-
+    Mapping, as we all know, is a powerful tool for representing a complex
+    terrain so that we can apprehend it as a whole and quickly grasp the
+    interrelation of its parts. A “roadmap” is of course for going places, but
+    prior to that, it’s for seeing what the choices are and what might be
+    involved in getting there. Prior again to that, as recent work in the
+    history of mapping has argued, the making of a map takes possession of and
+    literally deﬁnes the mapped terrain: features are named (or re-named),
+    relationships shown, boundaries indicated, unknown parts labelled – and so
+    marked for exploration.
+  URL: 'http://www.eadh.org/mapping-field'
+  language: en
+  author:
+    - family: McCarty
+      given: Willard
+    - family: Short
+      given: Harold
+  issued:
+    - year: 2002
+
+- id: liua
+  type: book
+  title: 'Local Transcendence: Essays on Postmodern Historicism and the Database'
+  publisher: University of Chicago Press
+  number-of-pages: '392'
+  abstract: >-
+    Book of essays on the methodology of the new historicism and other modes of
+    postmodern cultural criticism in the age of the network and the database.
+  URL: 'http://www.press.uchicago.edu/ucp/books/book/chicago/L/bo5867451.html'
+  ISBN: 978-0-226-48696-3
+  language: en
+  author:
+    - family: Liu
+      given: Alan
+  publisher-place: Chicago
+
+- id: clivaz2012
+  type: book
+  title: >-
+    Lire demain: des manuscrits antiques a l'ère digitale Jérôme , François
+    Vallotton, Joseph Verheyden and Benjamin Bertho
+  publisher: Presses polytechniques et universitaires romandes
+  number-of-pages: '192'
+  ISBN: 978-2-88074-958-3
+  language: fr
+  editor:
+    - family: Clivaz
+      given: Claire
+    - family: Meizozéô
+      given: ''
+  issued:
+    - year: 2012
+  publisher-place: Lausanne
+  title-short: Lire demain
+
+- id: genet2011a
+  type: paper-conference
+  title: 'Les historiens et l''informatique: un métier à réinventer'
+  publisher: École française de Rome
+  ISBN: 978-2-7283-0904-7 2-7283-0904-3
+  language: 'French, English, and Italian.'
+  author:
+    - family: Genêt
+      given: Jean-Philippe
+    - family: Zorzi
+      given: Andrea
+  issued:
+    - year: 2011
+  title-short: Les historiens et l'informatique
+
+- id: welger-barboza2012
+  type: chapter
+  title: 'Les digital humanities aujourd''hui : centres, réseaux, pratiques, enjeux'
+  container-title: 'Read/Write Book 2 : Une introduction aux humanités numériques'
+  publisher: OpenEdition Press
+  abstract: >-
+    Qu’est-ce que les humanités numériques ? Apparue en 2006, l’expression
+    connaît depuis un véritable succès. Mais au-delà du slogan à la mode, quelle
+    est la réalité des pratiques qu’il désigne ? Si tout le monde s’accorde sur
+    une définition minimale à l’intersection des technologies numériques et des
+    sciences humaines et sociales, les vues divergent lorsqu’on entre dans le
+    vif du sujet. Les humanités numériques représentent-elles une véritable
+    révolution des pratiques de recherche et des paradigmes intellectuels qui
+    les fondent ou, plus simplement, une optimisation des méthodes existantes ?
+    Constituent-elles un champ suffisamment structuré pour justifier une réforme
+    des modes de financement de la recherche, des cursus de formation, des
+    critères d’évaluation ? L’archive numérique offre-t-elle à la recherche
+    suffisamment de garanties ? Quelle place la recherche « dirigée par les
+    données » laisse-t-elle à l’interprétation ? Telles sont quelques-unes des
+    questions abordées par ce deuxième opus de la collection « Read/Write Book
+    ». Ces dix-huit textes essentiels, rédigés ou traduits en français par des
+    chercheurs de différentes nationalités, proposent une introduction aux
+    humanités numériques accessible à tous ceux qui souhaitent en savoir plus
+    sur ce domaine de recherche en constante évolution.
+  URL: 'http://books.openedition.org/oep/226'
+  language: fr
+  editor:
+    - family: Mounier
+      given: Pierre
+  author:
+    - family: Welger-Barboza
+      given: Corine
+  issued:
+    - year: 2012
+  accessed:
+    - year: 2013
+      month: 10
+      day: 19
+
+- id: hennermann2006
+  type: book
+  title: 'Kartographie und GIS : eine Einführung'
+  publisher: Wiss. Buchges.
+  abstract: >-
+    Diese neuartige Einführung entspricht in ihrem Aufbau dem Grundkurs
+    Kartographie und Datenverarbeitung, wie er für nahezu alle
+    Geowissenschaftler verpflichtend angeboten wird. Das Buch erläutert kompakt
+    aber umfassend, wie Karten Informationen speichern und wiedergeben. Darüber
+    hinaus wird die technische Seite der Kartenherstellung, soweit sie für die
+    Geowissenschaften erforderlich ist, gleich mitbehandelt. Anhand von
+    Beispielen und Übungsaufgaben lernt der Leser, eigene Daten zu verarbeiten
+    und Karten zu erstellen. Technische Basis ist die Software ESRI ArcGIS 9,
+    die im universitären Bereich überall eingesetzt wird und als Testversion für
+    Übungszwecke umsonst angefordert werden kann. Zusätzliche Übungsdateien
+    können aus dem Internet geladen werden.
+  URL: >-
+    http://www.wbg-wissenverbindet.de/shop/de/wbg/kartographie-und-gis-b243952-001
+  ISBN: 978-3-534-19692-0
+  language: de
+  author:
+    - family: Hennermann
+      given: Karl
+  issued:
+    - year: 2006
+  publisher-place: Darmstadt
+  title-short: Kartographie und GIS
+
+- id: kelly
+  type: book
+  title: Teaching history in the digital age
+  collection-title: Digital humanities
+  abstract: >-
+    A practical guide on how one professor employs the transformative changes of
+    digital media in the research, writing, and teaching of history
+  URL: 'http://www.press.umich.edu/3526836/teaching_history_in_the_digital_age'
+  ISBN: 978-0-472-11878-6
+  language: en
+  author:
+    - family: Kelly
+      given: T. Mills
+
+- id: potter1991
+  type: article-journal
+  title: >-
+    Statistical Analysis of Literature. A Retrospective on Computers and the
+    Humanities, 1966-1990
+  container-title: Computers and the Humanities
+  page: 401-429
+  issue: '25'
+  abstract: >-
+    This retrospective on statistical analysis of literature in the first
+    twenty-four years of Computers and the Humanities divides the essays under
+    review into four groups: the philosophical, the statistical analyses of
+    language, the statistical analyses of literary texts, and the statistical
+    analyses of themes. It begins with the question: must valid statistical
+    analysis of any literary text be based on a complete linguistic description
+    of the language of the text? It summarizes and evaluates over forty essays,
+    giving details on works discussed, sample sizes used, statistical methods
+    applied, and quotations from the researchers. The essay ends with a
+    polemical summary of what has been done and what the future holds. It
+    emphasizes the importance of extended pre-computational stages of learning
+    about language and discourse analysis; reading previous research, building
+    on and challenging theory; and the use of carefully crafted, small databases
+    to test specific questions.
+  URL: 'http://link.springer.com/article/10.1007%2FBF00141190'
+  language: en
+  author:
+    - family: Potter
+      given: Rosanne G.
+  issued:
+    - year: 1991
+
+- id: manovich2013
+  type: book
+  title: Software takes command
+  publisher: Bloomsbury
+  abstract: >-
+    Software has replaced a diverse array of physical, mechanical, and
+    electronic technologies used before 21st century to create, store,
+    distribute and interact with cultural artifacts. It has become our interface
+    to the world, to others, to our memory and our imagination - a universal
+    language through which the world speaks, and a universal engine on which the
+    world runs. What electricity and combustion engine were to the early 20th
+    century, software is to the early 21st century. Offering the the first
+    theoretical and historical account of software for media authoring and its
+    effects on the practice and the very concept of 'media,' the author of The
+    Language of New Media (2001) develops his own theory for this
+    rapidly-growing, always-changing field. What was the thinking and
+    motivations of people who in the 1960 and 1970s created concepts and
+    practical techniques that underlie contemporary media software such as
+    Photoshop, Illustrator, Maya, Final Cut and After Effects? How do their
+    interfaces and tools shape the visual aesthetics of contemporary media and
+    design? What happens to the idea of a 'medium' after previously
+    media-specific tools have been simulated and extended in software? Is it
+    still meaningful to talk about different mediums at all? Lev Manovich
+    answers these questions and supports his theoretical arguments by detailed
+    analysis of key media applications such as Photoshop and After Effects,
+    popular web services such as Google Earth, and the projects in motion
+    graphics, interactive environments, graphic design and architecture.
+    Software Takes Command is a must for all practicing designers and media
+    artists and scholars concerned with contemporary media.
+  URL: 'http://manovich.net/index.php/projects/software-takes-command'
+  ISBN: 1-62356-745-9 978-1-62356-745-3 1-62356-817-X 978-1-62356-817-7
+  language: en
+  author:
+    - family: Manovich
+      given: Lev
+  issued:
+    - year: 2013
+  publisher-place: New York
+
+- id: jannidis1999
+  type: article-journal
+  title: Was ist Computerphilologie?
+  container-title: Jahrbuch für Computerphilologie
+  page: 39-60
+  issue: '1'
+  abstract: >-
+    Im Zuge seiner weltweiten Verbreitung konnte sich der PC gegen anfängliche
+    Bedenken und Widerstände auch in der Literaturwissenschaft als Werkzeug der
+    täglichen Arbeit etablieren. Anfangs waren es vor allem die Vorteile der
+    Textverarbeitung und deren Entlastung vom mechanischen Aspekt des Schreibens
+    und Wiederschreibens, die den Rechnern den Weg auf die Schreibtische
+    ebneten. Ist aber die Maschine einmal vorhanden, man sich mit geringem
+    Aufwand Zugang zum Internet verschaffen. E-Mail und das World Wide Web
+    eröffnen einfachere Kommunikationswege, dazu kommen die Vorteile des
+    Intranets, also eines universitätseigenen Netzes mit Zugriff auf
+    elektronische Bibliographien und die Bibliothekskataloge einschließlich der
+    Bestellmöglichkeiten vor Ort. Nicht wenige Literaturwissenschaftler haben
+    sich inzwischen auch mit den neueren elektronischen Texten angefreundet,
+    deren einfachen Benutzeroberflächen althergebrachte philologische
+    Tätigkeiten sehr beschleunigen, zum Beispiel die Klärung von Wortbedeutungen
+    mittels der Suche nach Parallelstellen beim selben Autor oder in derselben
+    Epoche.
+  URL: 'http://computerphilologie.digital-humanities.de/jahrbuch/jb1/jannidis-1.html'
+  language: de
+  author:
+    - family: Jannidis
+      given: Fotis
+  issued:
+    - year: 1999
+
+- id: hardmeier2000a
+  type: article-journal
+  title: >-
+    Was ist Computerphilologie? Theorie, Methoden, Anwendungsfelder - eine
+    Skizze
+  container-title: Hardmeier 2000
+  page: 9-31
+  language: de
+  author:
+    - family: Hardmeier
+      given: Christof
+  issued:
+    - year: 2000
+
+- id: seefeldt2009
+  type: article-journal
+  title: What is Digital History? A Look at Some Exemplar Projects
+  container-title: 'Faculty Publications, Department of History'
+  issue: Paper 98
+  abstract: >-
+    Both of us came into the history profession in the early 1990s and went
+    through graduate school just before the remarkable emergence of the World
+    Wide Web. Of course, we can see now that a communication revolution was
+    taking place during those years and that it was changing the way we do
+    historical scholarship and teaching. After the development of browsers like
+    Mosaic Netscape and Netscape Navigator in 1994, the web grew at an
+    astonishing rate into a global information network. Even at the early stages
+    of the web’s growth, history was all over the web. Amazingly, people rushed
+    to put their own histories on the web and to create sites dedicated to their
+    favorite subjects. Big organizations, such as the National Park Service and
+    the Library of Congress, put up web sites on major historical places and
+    topics. Eventually, new tools, such as JSTOR and ProQuest, opened up
+    full-text facsimiles of journal articles and major newspapers. Research
+    libraries took the lead in developing their catalogs and collections for
+    online access. Teaching everything from the U.S. history survey to
+    specialized research seminars became more dynamic and student-centered. The
+    primary sources of the past were open for students in ways unimaginable only
+    a decade earlier. But just as research techniques and tools were being
+    transformed by the new media, would scholarship also change? If so, how, and
+    in what ways?
+
+
+    A whole new field opened up around the concept of digital history as
+    historians tried to experiment with the new medium. They began using new
+    tools that computational systems and networked information made available.
+    Geographic Information Systems (GIS) have become prominent because of the
+    wide interest in more spatial approaches to the past, but a whole range of
+    technologies proved useful: Flash animation, XML coding, digital video,
+    blogs, and wikis. Because the medium is still so new in comparison to
+    traditional modes of communication, and the technology is still rapidly
+    changing, we historians have only just begun to explore what history looks
+    like in the digital medium. Increasingly, university departments are seeking
+    scholars to translate history into this fast-paced, widely accessible
+    environment and to work in digital history; however, they have found that
+    without well-defined examples of digital scholarship, established best
+    practices, and, especially, clear standards of review for tenure, few
+    scholars have fully engaged with the digital medium. So, what is digital
+    history and how should we understand its characteristics?
+  URL: 'http://digitalcommons.unl.edu/historyfacpub/98'
+  language: en
+  author:
+    - family: Seefeldt
+      given: Douglas
+    - family: Thomas
+      given: William G.
+  issued:
+    - year: 2009
+
+- id: kirschenbaum2010
+  type: article-journal
+  title: What Is Digital Humanities and What's It Doing in English Departments?
+  container-title: ADE Bulletin
+  page: (preprint)
+  issue: '150'
+  abstract: >-
+    People who say that the last battles of the computer revolution in En
+
+    glish departments have been
+
+    fought and won don’t know what they’re talking about. If our current use of
+    computers in En
+
+    glish
+
+    studies is marked by any common theme at all, it is experimentation at the
+    most basic level. As a pro
+
+    -
+
+    fession, we are just learning how to live with computers, just beginning to
+    integrate these machines
+
+    effectively into writing- and reading-
+
+    intensive courses, just starting to consider the implications of the
+
+    multilayered literacy associated with computers
+  URL: 'http://mkirschenbaum.files.wordpress.com/2011/01/kirschenbaum_ade150.pdf'
+  language: en
+  author:
+    - family: Kirschenbaum
+      given: Matthew G.
+  issued:
+    - year: 2010
+
+- id: unsworth2002
+  type: article-journal
+  title: What is Humanities Computing and What is Not?
+  container-title: Jahrbuch für Computerphilologie 4 (2002)
+  page: 71-83
+  issue: '4'
+  URL: 'http://computerphilologie.digital-humanities.de/jg02/unsworth.html'
+  language: en
+  author:
+    - family: Unsworth
+      given: John
+  issued:
+    - year: 2002
+
+- id: berry2012
+  type: book
+  title: Understanding Digital Humanities
+  publisher: Palgrave Macmillan
+  abstract: >-
+    The application of new computational techniques and visualisation
+    technologies in the Arts and Humanities are resulting in fresh 
+
+    approaches and methodologies for the study of new and traditional corpora.
+    This 'computational turn' takes the methods and techniques from computer
+    science to create innovative means of close and distant reading. This book
+    discusses the implications and applications of 'Digital Humanities' and the
+    questions raised when using algorithmic techniques. Key researchers in the
+    field provide a comprehensive introduction to important debates surrounding
+    issues such as the contrast between narrative versus database,
+    pattern-matching versus hermeneutics, and the statistical paradigm versus
+    the data mining paradigm. Also discussed are the new forms of collaboration
+    within the Arts and Humanities that are raised through modular research
+    teams and new organisational structures, as well as techniques for
+    collaborating in an interdisciplinary way.
+  URL: 'http://www.palgrave.com/page/detail/?sf1=id_product&st1=493310'
+  ISBN: 978-0-230-29264-2
+  language: en
+  editor:
+    - family: Berry
+      given: David M.
+  issued:
+    - year: 2012
+      month: 2
+
+- id: reiche2014
+  type: report
+  title: Verfahren der Digital Humanities in den Geistes- und Kulturwissenschaften
+  collection-title: DARIAH-DE Working Papers
+  publisher: DARIAH-DE
+  abstract: >-
+    Verfahren der Digital Humanities (DH) gehen über einen Transfer analoger in
+    digitale Verfahren hinaus und eröffnen neue Forschungsperspektiven, so dass
+    neue digitale Arbeits-, Forschungs- und Wissensformen entstehen. Dieser
+    Report hat deshalb zum Ziel, einen ersten und noch keineswegs umfassenden
+    Überblick über in einzelnen Disziplinen verwendete DH-Verfahren zu erstellen
+    sowie einige sich aus der Anwendung von DH-Verfahren ergebende Perspektiven
+    und Möglichkeiten aufzuzeigen. Exemplarisch betrachtet werden in
+    vorliegendem Report die Philologien, die Geschichtswissenschaft, die
+    Kunstgeschichte, die Archäologie, die Musikwissenschaften, die Theologie,
+    die Philosophie und die Jüdischen Studien. Resümierend wird insbesondere auf
+    solche DH-Verfahren abgezielt, die Potentiale über eine bestimmte
+    Fachdisziplin hinausgehend aufweisen. Aus diesem Grund gibt der vorliegende
+    Report auch Impulse für in diesem Bericht nicht berücksichtigte
+    Fachdisziplinen und eine disziplinenübergreifende Perspektive für die
+    weitere Entwicklung der DARIAH-DE-Infrastruktur.
+  URL: 'http://webdoc.sub.gwdg.de/pub/mon/dariah-de/dwp-2014-4.pdf'
+  number: '4'
+  language: de
+  author:
+    - family: Reiche
+      given: Ruth
+    - family: Becker
+      given: Rainer
+    - family: Bender
+      given: Michael
+    - family: Munson
+      given: Matt
+    - family: Schmunk
+      given: Stefan
+    - family: Schöch
+      given: Christof
+  issued:
+    - year: 2014
+  publisher-place: Göttingen
+
+- id: underwood2012d
+  type: post-weblog
+  title: "Where to start with text\_mining."
+  container-title: The Stone and the Shell
+  abstract: >-
+    This post is an outline of discussion topics I’m proposing for a workshop at
+    NASSR2012 (a conference of Romanticists). I’m putting it on the blog since
+    some of the links might be useful for a broader audience.
+
+
+    In the morning I’ll give a few examples of concrete literary results
+    produced by text mining. I’ll start the afternoon workshop by opening two
+    questions for discussion: first, what are the obstacles confronting a
+    literary scholar who might want to experiment with quantitative methods?
+    Second, how do those methods actually work, and what are their limits?
+
+
+    I’ll also invite participants to play around with a collection of 818 works
+    between 1780 and 1859, using an R program I’ve provided for the occasion.
+    Links for these materials are at the end of this post
+  URL: >-
+    http://tedunderwood.wordpress.com/2012/08/14/where-to-start-with-text-mining/
+  language: en
+  author:
+    - family: Underwood
+      given: Ted
+  issued:
+    - year: 2012
+      month: 8
+  accessed:
+    - year: 2012
+      month: 8
+      day: 21
+
+- id: fanta2005
+  type: article-journal
+  title: Was ist Computerphilologie?
+  container-title: >-
+    Germanistik im Kontakt. Tagung Österreichischer und Kroatischer
+    Germanist/inn/en, Opatija, 29.9
+  page: 339-346
+  abstract: >-
+    Computerphilologie ist ein noch unabgestecktes Terrain der Germanistik. Der
+    Beitrag geht auf die Zuständigkeiten, Instrumente und Frageweisen ein. Er
+    verdeutlicht, dass es nicht bloß um den praktischen Einsatz einer
+    Technologie geht, sondern um grundsätzliche Implikationen im Prozess eines
+    Medienwechsels vom Druck zur Digitalität. Literarität wird auf sämtlichen
+    Ebenen neu konfiguriert. Der Schwerpunkt der Betrachtung liegt am digitalen
+    Edieren, da die Digitalisierung von historischen Quellen und ihr Transfer in
+    elektronischen Hypertext nicht nur das Kerngebiet der Computerphilologie
+    darstellt, sondern auch den Bereich, in dem die Wirkung der Technologie auf
+    die Geschichte zurückgreift und sie einer Metamorphose unterzieht.
+  URL: >-
+    http://www.ceeol.com/aspx/issuedetails.aspx?issueid=d63d8499-7a79-4561-847a-1962232cb170&articleId=975fa458-754e-4276-81ac-039f3e78d9b7
+  note: >-
+    Fanta, Walter: Was ist Computerphilologie? In: Svjetlan Lacko Viduli�c
+    (Hg.): Germanistik im Kontakt. Tagung Österreichischer und Kroatischer
+    Germanist/inn/en, Opatija, 29.9. - 1.10.2005. Zagreb: Univ. Zagreb 2006, S.
+    339-346.
+  language: de-DE
+  author:
+    - family: Fanta
+      given: Walter
+  issued:
+    - year: 2005
+
+- id: oreilly2005
+  type: webpage
+  title: What Is Web 2.0?
+  container-title: O'Reilly
+  URL: 'http://oreilly.com/web2/archive/what-is-web-20.html'
+  note: >-
+    Der Text ist auch in anderen Sprachen verfügbar: AR, ZH, FR, DE, IT, JA, KO,
+    ES
+  author:
+    - family: O'Reilly
+      given: Tim
+  issued:
+    - year: 2005
+
+- id: canet2014
+  type: webpage
+  title: Reflexiones sobre las humanidades digitales
+  genre: text
+  abstract: >-
+    Revista Digital JANUS - Estudios sobre el Siglo de Oro.
+
+    A partir de mi experiencia personal a lo largo de 30 años en edición digital
+    de revistas y libros electrónicos; creación, preservación y gestión de
+    bibliotecas y archivos digitales; investigación basada en ordenadores y
+    aplicaciones informáticas para estudios literarios, lingüísticos, culturales
+    e históricos; análisis de textos, corpus, marcación de corpus, bases de
+    datos, etc., llego a la conclusión de que las Humanidades digitales han
+    avanzado mediante el autoaprendizaje y también han sido posibles grandes
+    proyectos a través del trabajo en equipo y la interdisciplinariedad, junto
+    con el aprendizaje continuo. Lo que me lleva a reflexionar si debería haber
+    estudios específicos en Humanidades digitales y, si así fuera, cuáles
+    deberían ser. Hago un breve repaso a diferentes másteres existentes en la
+    actualidad en EE.UU., Inglaterra y España, resaltando el alto contenido en
+    TIC, y finalmente doy mi propuesta sobre las posibles alternativas futuras
+    de las Humanidades digitales.
+  URL: >-
+    http://www.janusdigital.es/anexos/contribucion.htm;jsessionid=4F686E22E5A31F197F803425C7932E9A?id=4
+  language: es
+  author:
+    - family: Canet
+      given: José Luis
+  issued:
+    - year: 2014
+  accessed:
+    - year: 2014
+      month: 5
+      day: 4
+
+- id: bode2012
+  type: book
+  title: 'Reading by numbers: recalibrating the literary field'
+  publisher: Anthem Press
+  abstract: >-
+    ‘Reading by Numbers: Recalibrating the Literary Field’ proposes and
+    demonstrates a new digital approach to literary history. Drawing on
+    bibliographical information on the Australian novel in the AustLit database,
+    the book addresses debates and issues in literary studies through a method
+    that combines book history’s pragmatic approach to literary data with the
+    digital humanities’ idea of computer modelling as an experimental and
+    iterative practice. As well as showcasing this method, the case studies in
+    ‘Reading by Numbers’ provide a revised history of the Australian novel,
+    focusing on the nineteenth century and the decades since the end of the
+    Second World War, and engaging with a range of themes including literary and
+    cultural value, authorship, gender, genre and the transnational circulation
+    of fiction. The book’s findings challenge established arguments in
+    Australian literary studies, book history, feminism and gender studies,
+    while presenting innovative ways of understanding literature, publishing,
+    authorship and reading, and the relationships between them. More broadly, by
+    demonstrating critical ways in which the growing number of digital archives
+    in the humanities can be mined, modelled and visualised, ‘Reading by
+    Numbers’ offers new directions and scope for digital humanities research.
+  URL: 'http://www.anthempress.com/reading-by-numbers'
+  ISBN: 978-0-85728-454-9
+  language: en
+  author:
+    - family: Bode
+      given: Katherine
+  issued:
+    - year: 2012
+  publisher-place: New York
+  title-short: Reading by numbers
+
+- id: crawford2009
+  type: book
+  title: 'Modern methods for musicology: prospects, proposals, and realities'
+  collection-title: Digital research in the arts and humanities
+  publisher: Ashgate
+  number-of-pages: '185'
+  abstract: >-
+    Written by leading experts, this volume provides a picture of the realities
+    of current ICT use in musicology as well as prospects and proposals for how
+    it could be fruitfully used in the future. Through its coverage of topics
+    spanning content-based sound searching/retrieval, sound and content
+    analysis, markup and text encoding, audio resource sharing, and music
+    recognition, this book highlights the breadth and inter-disciplinary nature
+    of the subject matter and provides a valuable resource to technologists,
+    musicologists, musicians and music educators. It facilitates the
+    identification of worthwhile goals to be achieved using technology and
+    effective interdisciplinary collaboration.
+  URL: >-
+    http://books.google.de/books?hl=de&lr=&id=uani7DPZn24C&oi=fnd&pg=PA1&dq=Modern+methods+for+musicology:+prospects,+proposals,+and+realities&ots=5h1n8W039J&sig=ixgqhhjgJVfAbTg2HxCCXJd1Frk#v=onepage&q=Modern%20methods%20for%20musicology%3A%20prospects%2C%20proposals%2C%20and%20realities&f=false
+  ISBN: 978-0-7546-7302-6
+  language: en
+  editor:
+    - family: Crawford
+      given: Tim
+    - family: Gibson
+      given: Lorna
+  issued:
+    - year: 2009
+  publisher-place: 'Farnham, England ; Burlington, VT'
+  title-short: Modern methods for musicology
+
+- id: fiormonte2003
+  type: book
+  title: Scrittura e filologia nell'era digitale
+  publisher: Bollati Boringhieri
+  abstract: >-
+    Questo libro è un’introduzione completa e accessibile al fenomeno della
+    testualità digitale rivolta a studenti e ricercatori dell’area umanistica.
+    Il volume è strutturato in quattro parti più un’appendice didattica
+    disponibile in rete e costantemente aggiornata (www.bollatiboringhieri.it).
+    Nella prima parte viene discusso il rapporto fra la comunicazione scritta e
+    i suoi supporti. Lo scopo è mostrare come l’impatto di ciascun sistema di
+    media – informatica inclusa – dia luogo a risultati complessi e
+    contradditori intrecciandosi con fenomeni sociali, culturali, economici.
+    Nella seconda parte l’autore analizza le principali forme della testualità
+    digitale, dalle sue origini (la videoscrittura, l’ipertesto) ai giorni
+    nostri (la comunicazione interattiva, i giochi di ruolo, la retorica del
+    Web). Vengono poi affrontati i nodi teorici e pratici del rapporto fra
+    critica testuale e digitalizzazione del documento. Prendendo spunto dallo
+    studio delle varianti d’autore viene presentato Varianti digitali, un
+    archivio on-line per la didattica e lo studio del processo di scrittura.
+    Accompagna e conclude il volume una rassegna delle più importanti risorse
+    on-line e off-line per la filologia digitale.
+  URL: 'http://www.bollatiboringhieri.it/scheda.php?codice=9788833957135'
+  language: it
+  author:
+    - family: Fiormonte
+      given: Domenico
+  issued:
+    - year: 2003
+  publisher-place: Turino
+
+- id: mounier2012
+  type: book
+  title: 'Read/Write Book 2 : Une introduction aux humanités numériques'
+  publisher: OpenEdition Press
+  abstract: >-
+    Qu’est-ce que les humanités numériques ? Apparue en 2006, l’expression
+    connaît depuis un véritable succès. Mais au-delà du slogan à la mode, quelle
+    est la réalité des pratiques qu’il désigne ? Si tout le monde s’accorde sur
+    une définition minimale à l’intersection des technologies numériques et des
+    sciences humaines et sociales, les vues divergent lorsqu’on entre dans le
+    vif du sujet. Les humanités numériques représentent-elles une véritable
+    révolution des pratiques de recherche et des paradigmes intellectuels qui
+    les fondent ou, plus simplement, une optimisation des méthodes existantes ?
+    Constituent-elles un champ suffisamment structuré pour justifier une réforme
+    des modes de financement de la recherche, des cursus de formation, des
+    critères d’évaluation ? L’archive numérique offre-t-elle à la recherche
+    suffisamment de garanties ? Quelle place la recherche « dirigée par les
+    données » laisse-t-elle à l’interprétation ? Telles sont quelques-unes des
+    questions abordées par ce deuxième opus de la collection « Read/Write Book
+    ». Ces dix-huit textes essentiels, rédigés ou traduits en français par des
+    chercheurs de différentes nationalités, proposent une introduction aux
+    humanités numériques accessible à tous ceux qui souhaitent en savoir plus
+    sur ce domaine de recherche en constante évolution.
+  URL: 'http://books.openedition.org/oep/226'
+  language: fr
+  editor:
+    - family: Mounier
+      given: Pierre
+  issued:
+    - year: 2012
+  accessed:
+    - year: 2013
+      month: 10
+      day: 19
+  title-short: Read/Write Book 2
+
+- id: jones2013
+  type: book
+  title: The Emergence of the Digital Humanities
+  publisher: Routledge
+  number-of-pages: '224'
+  abstract: "The past decade has seen a profound shift in our collective understanding of the digital network. What was once understood to be a transcendent virtual reality is now experienced as a ubiquitous grid of data that we move through and interact with every day, raising new questions about the social, locative, embodied, and object-oriented nature of our experience in the networked world. \_ In The Emergence of the Digital Humanities, Steven E. Jones examines this shift in our relationship to digital technology and the ways that it has affected humanities scholarship and the academy more broadly. Based on the premise that the network is now everywhere rather than merely \"out there,\" Jones links together seemingly disparate cultural events—the essential features of popular social media, the rise of motion-control gaming and mobile platforms, the controversy over the \"gamification\" of everyday life, the spatial turn, fabrication and 3D printing, and electronic publishing—and argues that cultural responses to changes in technology provide an essential context for understanding the emergence of the digital humanities as a new field of study in this millennium."
+  URL: 'http://www.routledge.com/books/details/9780415635523/'
+  ISBN: 978-0-415-63551-6
+  language: en
+  author:
+    - family: Jones
+      given: Steven E.
+  issued:
+    - year: 2013
+  publisher-place: New York
+
+- id: demantowsky2014
+  type: book
+  title: Geschichte lernen im digitalen Wandel
+  publisher: De Gruyter Oldenbourg
+  source: DeGruyter
+  URL: 'http://www.degruyter.com/view/product/231648'
+  ISBN: 978-3-486-85866-2
+  language: DT
+  author:
+    - family: Demantowsky
+      given: Marko
+    - family: Pallaske
+      given: Christoph
+  issued:
+    - year: 2014
+  accessed:
+    - year: 2014
+      month: 12
+      day: 16
+  publisher-place: 'Berlin, Boston'
+
+- id: svensson2010
+  type: article-journal
+  title: The Landscape of Digital Humanities
+  container-title: Digital Humanities Quarterly
+  volume: '4'
+  issue: '1'
+  URL: 'http://digitalhumanities.org/dhq/vol/4/1/000080/000080.html'
+  language: en
+  author:
+    - family: Svensson
+      given: Patrik
+  issued:
+    - year: 2010
+      season: 2
+  accessed:
+    - year: 2011
+      month: 8
+      day: 30
+  container-title-short: DHQ
+
+- id: ryan2014
+  type: book
+  title: The Johns Hopkins Guide to Digital Media
+  publisher: Johns Hopkins Univ. Press
+  abstract: >-
+    The study of what is collectively labeled "New Media"—the cultural and
+    artistic practices made possible by digital technology—has become one of the
+    most vibrant areas of scholarly activity and is rapidly turning into an
+    established academic field, with many universities now offering it as a
+    major. The Johns Hopkins Guide to Digital Media is the first comprehensive
+    reference work to which teachers, students, and the curious can quickly turn
+    for reliable information on the key terms and concepts of the field.
+  URL: 'https://jhupbooks.press.jhu.edu/content/johns-hopkins-guide-digital-media'
+  language: en
+  editor:
+    - family: Ryan
+      given: Marie-Laure
+    - family: Emerson
+      given: Lori
+    - family: Robertson
+      given: Benjamin J.
+  issued:
+    - year: 2014
+  accessed:
+    - year: 2014
+      month: 5
+      day: 7
+  publisher-place: Baltimore
+
+- id: cohen2005a
+  type: article-journal
+  title: The Future of Preserving the Past
+  container-title: 'CRM: The Journal of Heritage Stewardship'
+  page: 6-19
+  volume: '2'
+  issue: '2'
+  abstract: >-
+    This article was originally published in CRM: The Journal of Heritage
+    Stewardship 2, 2 (Summer, 2005): 6–19 and is reprinted here with permission.
+  URL: 'http://chnm.gmu.edu/essays-on-history-new-media/essays/?essayid=39'
+  language: en
+  author:
+    - family: Cohen
+      given: Daniel J.
+  issued:
+    - year: 2005
+      season: 2
+  accessed:
+    - year: 2009
+      month: 12
+      day: 12
+
+- id: robertson2014
+  type: post-weblog
+  title: The Differences between Digital History and Digital Humanities
+  container-title: Dr Stephen Robertson
+  abstract: >-
+    For the last nine months I've spent much of my time exploring digital
+    history. Part of becoming director of RRCHNM involved familiarizing myself
+    with areas of work about which I had only passing kn...
+  URL: >-
+    http://drstephenrobertson.com/2014/05/23/the-differences-between-digital-history-and-digital-humanities/
+  language: en
+  author:
+    - family: Robertson
+      given: Stephen
+  issued:
+    - year: 2014
+  accessed:
+    - year: 2014
+      month: 5
+      day: 24
+
+- id: kenny1982
+  type: book
+  title: >-
+    The computation of style: an introduction to statistics for students of
+    literature and humanities
+  publisher: Pergamon Press
+  number-of-pages: '196'
+  abstract: >-
+    Each year more and more scholars are becoming aware of the importance of the
+    statistical study of literary texts. The present book is the first
+    elementary introduction in English for those wishing to use statistical
+    techniques in the study of literature. Unlike other introductions to
+    statistics, it specifically emphasizes those techniques most useful in
+    literary contexts and gives examples of their application from literary and
+    linguistic material. The text is aimed at those with the minimum of
+    mathematical background and gives exercises for the student and relevant
+    statistical tables.
+  URL: 'http://www.sciencedirect.com/science/book/9780080242811'
+  ISBN: 978-0-08-024282-8
+  language: en
+  author:
+    - family: Kenny
+      given: Anthony
+  issued:
+    - year: 1982
+  title-short: The computation of style
+
+- id: amye.earhartandandrewjewell2011
+  type: book
+  title: The American Literature Scholar in the Digital Age
+  abstract: >-
+    Observing the title and concerns of this collection, many may wonder why we
+    have chosen to focus on the American literature scholar; certainly the
+    concerns of digital humanities are relevant across literary specializations.
+    In fact, as other digital humanities scholarship demonstrates, the
+    humanities as a boundary is itself suspect: it is not uncommon to see
+    collaborations between a literary scholar, a computer scientist, and a
+    librarian in digital humanities work. The artificial distinctions that have
+    replicated the discipline divisions have become less relevant to those
+    working in digital humanities, who often group around subject matter, not
+    training. Add to this the increasing breakdown of national boundaries in
+    literary studies, and perhaps it seems antiquated or anathema to reproduce
+    American as a term with which to saddle a supposedly cutting-edge collection
+    of essays.
+  URL: 'http://hdl.handle.net/2027/spo.9362034.0001.001'
+  language: en
+  author:
+    - family: Amy E. Earhart and Andrew Jewell
+      given: Editors
+  issued:
+    - year: 2011
+
+- id: renear2004
+  type: chapter
+  title: Text Encoding
+  container-title: A Companion to Digital Humanities
+  collection-title: Blackwell Companions to Literature and Culture
+  publisher: Blackwell Publishing Professional
+  edition: Hardcover
+  abstract: >-
+    Text encoding holds a special place in humanities computing. It is not only
+    of considerable practical importance and commonly used, but it has proven to
+    be an exciting and theoretically productive area of analysis and research.
+    Text encoding in the humanities has also produced a considerable amount of
+    interesting debate – which can be taken as an index of both its practical
+    importance and its theoretical significance.
+  URL: >-
+    http://www.digitalhumanities.org/companion/view?docId=blackwell/9781405103213/9781405103213.xml&chunk.id=ss1-3-5&toc.depth=1&toc.id=ss1-3-5&brand=default
+  ISBN: 1-4051-0321-3
+  language: en
+  editor:
+    - family: Siemens
+      given: Ray
+    - family: Unsworth
+      given: John
+    - family: Schreibman
+      given: Susan
+  author:
+    - family: Renear
+      given: Allen H.
+  issued:
+    - year: 2004
+  accessed:
+    - year: 2010
+      month: 5
+      day: 17
+  publisher-place: Oxford
+...
