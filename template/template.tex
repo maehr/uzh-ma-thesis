@@ -9,7 +9,7 @@ $endif$
 \usepackage{pdfpages}
 
 % Continous footnote numbering
-\usepackage{chngcntr}
+% \usepackage{chngcntr}
 
 % Avoid widows and clubs
 \clubpenalty10000
@@ -162,7 +162,7 @@ $endfor$
 
 \begin{document}
 % Continous footnote numbering
-\counterwithout{footnote}{chapter}
+% \counterwithout{footnote}{chapter}
 
 \begin{titlepage}
     \begin{center}
@@ -199,8 +199,8 @@ $endfor$
         \vfill
 
         \normalsize
-        Referent:\\
-        {$supervisor$}
+        Referentin/Referent: {$supervisor$}\\
+        $if(cosupervisor)$Betreuer/Betreuerin: {$cosupervisor$}\\$endif$
 
         \vspace{0.8cm}
 
@@ -219,10 +219,12 @@ $abstract$
 \end{abstract}
 $endif$
 
-$if(zusammenfassung)$
-\renewcommand{\abstractname}{Zusammenfassung}
+$if(abstract_other_lang_title)$
+\renewcommand{\abstractname}{$abstract_other_lang_title$}
+$endif$
+$if(abstract_other_lang)$
 \begin{abstract}
-$zusammenfassung$
+$abstract_other_lang$
 \end{abstract}
 $endif$
 
