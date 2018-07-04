@@ -40,6 +40,7 @@ color-links: yes
 linkcolor: black
 urlcolor: black
 citecolor: black
+endnote: no
 
 # Formatting
 toc: yes # Table of contents
@@ -251,10 +252,12 @@ Dies ist eine sehr lange Zeile, die immer noch richtig zitiert wird, wenn sie um
 ## Fußnoten
 
 ```markdown
-Fußnoten werden am besten direkt nach dem ersten verwendeten Absatz platziert.[^Fußnote]
+Fußnoten werden am besten direkt nach dem ersten verwendeten Absatz platziert.
 
 [^Fußnote]: Sie können sie aber auch am Ende des Dokuments anbringen.
 ```
+
+Wenn Sie Endnoten verwenden möchten, schalten Sie diese stattdessen in den Dokumentoptionen ein.
 
 ## Kommentare
 
