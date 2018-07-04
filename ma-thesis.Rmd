@@ -185,11 +185,11 @@ Oder Pluspunkte
 
 [Ich bin ein Link im Referenz-Stil][Groß- und Kleinschreibung wird nicht berücksichtigt]
 
-Ich bin ein relativer Verweis auf eine Repository-Datei](../blob/master/LICENSE)
+Ich bin ein relativer Verweis auf eine [Repository-Datei](../blob/master/LICENSE)
 
-Sie können Nummern für Referenz-Link-Definitionen verwenden][1].
+[Sie können Nummern für Referenz-Link-Definitionen verwenden][1].
 
-Oder lassen Sie es leer und verwenden Sie den[Linktext selbst].
+Oder lassen Sie es leer und verwenden Sie den [Linktext selbst].
 
 URLs und URLs in spitzen Klammern werden automatisch in Links umgewandelt.
 http://www.example.com oder <http://www.example.com> und manchmal auch
@@ -245,7 +245,7 @@ Diese Zeile ist Teil desselben Zitats.
 
 Zitat Pause.
 
-Dies ist eine sehr lange Zeile, die immer noch richtig zitiert wird, wenn sie umgebrochen wird. Oh Junge, lass uns weiter schreiben, um sicher zu gehen, dass das lang genug ist, um es für alle zu verpacken. Oh, Sie können **Markdown* in ein Blockzitat eingeben.
+Dies ist eine sehr lange Zeile, die immer noch richtig zitiert wird, wenn sie umgebrochen wird. Oh Junge, lass uns weiter schreiben, um sicher zu gehen, dass das lang genug ist, um es umzubrechen. Oh, Sie können **Markdown* in ein Blockzitat eingeben.
 ```
 
 ## Fußnoten
@@ -259,11 +259,19 @@ Fußnoten werden am besten direkt nach dem ersten verwendeten Absatz platziert.[
 ## Kommentare
 
 ```markdown
-Kommentare werden im endgültigen PDF nicht angezeigt. -->
+<!-- Kommentare werden im endgültigen PDF nicht angezeigt. -->
 ```
+<!--
+#TODO
+## Literaturverwaltungssoftware
+
+
+### Zotero
+
+### Mendeley
 
 ## Zitate zu Ihrem Dokument hinzufügen
-
+-->
 ```markdown
 Zitate werden in eckige Klammern gesetzt und durch Semikolons getrennt. Jedes Zitat muss einen Schlüssel haben, bestehend aus'@' + der Zitatkennung aus der Datenbank, und kann optional ein Präfix, einen Locator und ein Suffix haben. Hier sind einige Beispiele:
 
