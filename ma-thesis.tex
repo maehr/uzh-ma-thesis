@@ -10,7 +10,12 @@
 % Avoid widows and clubs
 \clubpenalty10000
 \widowpenalty10000
+\interlinepenalty100
 \displaywidowpenalty=10000
+\interfootnotelinepenalty=10000
+% keep figures where there are in the text
+\usepackage{float}
+\floatplacement{figure}{H}
 
 % Overwrite \begin{figure}[htbp] with \begin{figure}[H]
 \usepackage{float}
@@ -511,8 +516,8 @@ Tischchen Gesellschaften der ihr, so die des verständigte blenden sie,
 und Monatsgebühr mit solche funkelten, mit über zu so gewesen, sagte der
 Triumph möglichst gestanden.
 
-\hypertarget{write-markdown}{%
-\chapter{Write Markdown}\label{write-markdown}}
+\hypertarget{mit-markdown-schreiben}{%
+\chapter{Mit Markdown schreiben}\label{mit-markdown-schreiben}}
 
 \hypertarget{uberschriften}{%
 \section{Überschriften}\label{uberschriften}}
@@ -560,8 +565,8 @@ Triumph möglichst gestanden.
 
 \NormalTok{   Man kann Absätze innerhalb von Listeneinträgen richtig eingerückt haben. Beachten Sie die Leerzeile oben und die führenden Leerzeichen (mindestens eines, aber wir verwenden hier drei, um auch den rohen Markdown auszurichten).}
 
-\NormalTok{   Um einen Zeilenumbruch ohne Absatz haben, müssen Sie zwei nachgestellte Leerzeichen verwenden.  }
-\NormalTok{   Merke, dass diese Zeile getrennt ist, aber innerhalb desselben Absatzes.  }
+\NormalTok{   Um einen Zeilenumbruch ohne Absatz haben, müssen Sie zwei nachgestellte Leerzeichen verwenden.}
+\NormalTok{   Merke, dass diese Zeile getrennt ist, aber innerhalb desselben Absatzes.}
 \NormalTok{   (Dies steht im Widerspruch zum typischen GFM-Zeilenumbruchverhalten, bei dem keine Leerzeichen erforderlich sind.}
 
 \NormalTok{Ungeordnete Liste kann Sternchen enthalten}
@@ -581,11 +586,11 @@ Triumph möglichst gestanden.
 
 \OtherTok{[Ich bin ein Link im Referenz-Stil][Groß- und Kleinschreibung wird nicht berücksichtigt]}
 
-\NormalTok{Ich bin ein relativer Verweis auf eine }\OtherTok{[Repository-Datei](../blob/master/LICENSE)}
+\NormalTok{Ich bin ein relativer Verweis auf eine Repository-Datei](../blob/master/LICENSE)}
 
-\OtherTok{[Sie können Nummern für Referenz-Link-Definitionen verwenden][1]}\NormalTok{.}
+\NormalTok{Sie können Nummern für Referenz-Link-Definitionen verwenden][1].}
 
-\NormalTok{Oder lassen Sie es leer und verwenden Sie den [Linktext selbst].}
+\NormalTok{Oder lassen Sie es leer und verwenden Sie den[Linktext selbst].}
 
 \NormalTok{URLs und URLs in spitzen Klammern werden automatisch in Links umgewandelt.}
 \NormalTok{http://www.example.com oder }\OtherTok{<http://www.example.com>}\NormalTok{ und manchmal auch}
@@ -650,7 +655,7 @@ Triumph möglichst gestanden.
 
 \NormalTok{Zitat Pause.}
 
-\NormalTok{Dies ist eine sehr lange Zeile, die immer noch richtig zitiert wird, wenn sie umgebrochen wird. Oh Junge, lass uns weiter schreiben, um sicher zu gehen, dass das lang genug ist, um es umzubrechen. Oh, Sie können **Markdown* in ein Blockzitat eingeben.}
+\NormalTok{Dies ist eine sehr lange Zeile, die immer noch richtig zitiert wird, wenn sie umgebrochen wird. Oh Junge, lass uns weiter schreiben, um sicher zu gehen, dass das lang genug ist, um es für alle zu verpacken. Oh, Sie können **Markdown* in ein Blockzitat eingeben.}
 \end{Highlighting}
 \end{Shaded}
 
@@ -659,20 +664,27 @@ Triumph möglichst gestanden.
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\NormalTok{Fußnoten werden am besten direkt nach dem ersten verwendeten Absatz platziert.}\OtherTok{[^Fußnote]}
+\NormalTok{Fußnoten werden am besten direkt nach dem ersten verwendeten Absatz platziert.}
 
 \OtherTok{[^Fußnote]}\NormalTok{: Sie können sie aber auch am Ende des Dokuments anbringen.}
 \end{Highlighting}
 \end{Shaded}
+
+Wenn Sie Endnoten verwenden möchten, schalten Sie diese stattdessen in
+den Dokumentoptionen ein.
 
 \hypertarget{kommentare}{%
 \section{Kommentare}\label{kommentare}}
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\NormalTok{<!--}\CommentTok{ Kommentare werden im endgültigen PDF nicht angezeigt. -->}
+\NormalTok{Kommentare werden im endgültigen PDF nicht angezeigt. -->}
 \end{Highlighting}
 \end{Shaded}
+
+\hypertarget{zitate-zu-ihrem-dokument-hinzufugen}{%
+\section{Zitate zu Ihrem Dokument
+hinzufügen}\label{zitate-zu-ihrem-dokument-hinzufugen}}
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -699,10 +711,11 @@ Triumph möglichst gestanden.
 \hypertarget{zitierweise-andern}{%
 \section{Zitierweise ändern}\label{zitierweise-andern}}
 
-Wählen Sie einen Stil aus der
-Liste\href{https://www.zotero.org/styles}{CSL-Repository} oder den
-entsprechenden\href{https://github.com/citation-style-language/styles}{GitHub
-Repo} und speichern Sie ihn unter \texttt{/bibliography} ab.
+Wählen Sie einen Stil aus der Liste
+\href{https://www.zotero.org/styles}{CSL-Repository} oder den
+entsprechenden
+\href{https://github.com/citation-style-language/styles}{GitHub Repo}
+und speichern Sie ihn unter \texttt{/bibliography} ab.
 
 \hypertarget{literaturverzeichnis}{%
 \chapter*{Literaturverzeichnis}\label{literaturverzeichnis}}
