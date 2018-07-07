@@ -1,0 +1,720 @@
+\documentclass[12pt,de-CH,twoside,openright]{report}
+\usepackage{lmodern}
+
+% Include pdfs
+\usepackage{pdfpages}
+
+% Continous footnote numbering
+% \usepackage{chngcntr}
+
+% Avoid widows and clubs
+\clubpenalty10000
+\widowpenalty10000
+\displaywidowpenalty=10000
+
+% Overwrite \begin{figure}[htbp] with \begin{figure}[H]
+\usepackage{float}
+\let\origfigure=\figure
+\let\endorigfigure=\endfigure
+\renewenvironment{figure}[1][]{%
+\origfigure[b]
+}{%
+\endorigfigure
+}
+
+% fix for pandoc 1.14
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% TP: hack to truncate list of figures/tables.
+\usepackage{truncate}
+\usepackage{caption}
+\usepackage{tocloft}
+% TP: end hack
+
+\usepackage{setspace}
+\setstretch{1.5}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+% \usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+    \usepackage{xltxtra,xunicode}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+  \newcommand{\euro}{€}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[a4paper,bindingoffset=10mm,inner=30mm,outer=30mm,top=30mm,bottom=30mm]{geometry}
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\usepackage{longtable,booktabs}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\ifxetex
+  \usepackage[setpagesize=false, % page size defined by xetex
+              unicode=false, % unicode breaks when used with xetex
+              xetex]{hyperref}
+\else
+  \usepackage[unicode=true]{hyperref}
+\fi
+\hypersetup{breaklinks=true,
+            bookmarks=true,
+            pdfauthor={Petra Muster},
+            pdftitle={Lorem ipsum},
+            colorlinks=true,
+            citecolor=black,
+            urlcolor=black,
+            linkcolor=black,
+            pdfborder={0 0 0}}
+\urlstyle{same}  % don't use monospace font for urls
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\setcounter{secnumdepth}{0}
+\usepackage[ngerman]{babel}
+
+
+\begin{document}
+% Continous footnote numbering
+% \counterwithout{footnote}{chapter}
+
+\begin{titlepage}
+    \begin{center}
+
+      \includegraphics[width=0.4\textwidth]{template/uzh_logo_d_pos.pdf}
+
+        \vspace*{2.5cm}
+
+        \huge
+        {Lorem ipsum}
+
+        \vspace{0.5cm}
+
+        \large
+        {dolor sit amet, consetetur sadipscing elitr
+
+sed diam nonumy eirmod tempor invidunt ut labore}
+
+        \vspace{1.5cm}
+
+        \Large
+        {Petra Muster}
+
+        \normalsize
+        {00-123-456}
+
+        \vspace{1.5cm}
+
+        \normalsize
+        Masterarbeit\\
+        zur Erlangung des akademischen Grades\\
+        \textbf{Master of Arts UZH}\\
+        der Philosophischen Fakultät\\
+        der Universität Zürich
+
+        \vfill
+
+        \normalsize
+        Referentin/Referent: {Professor Dr.~Hannah Lustig}\\
+        Betreuer/Betreuerin: {PD Dr.~Fridolin Fischer}\\
+
+        \vspace{0.8cm}
+
+        \normalsize
+        {Historisches Seminar der Universität Zürich}\\
+        Abgabedatum: {30. Juni 2018}
+
+    \end{center}
+\end{titlepage}
+
+\clearpage\mbox{}\thispagestyle{empty}\clearpage
+\renewcommand{\abstractname}{Abstract}
+\begin{abstract}
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
+elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+est Lorem ipsum dolor sit amet.
+
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero
+eros et accumsan et iusto odio dignissim qui blandit praesent luptatum
+zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum
+dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+
+\emph{Keywords: Lorem, Ipsum}
+\end{abstract}
+
+\renewcommand{\abstractname}{Zusammenfassung}
+\begin{abstract}
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
+elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+est Lorem ipsum dolor sit amet.
+
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero
+eros et accumsan et iusto odio dignissim qui blandit praesent luptatum
+zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum
+dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+
+\emph{Schlüsselwörter: Lorem, Ipsum}
+\end{abstract}
+
+\renewcommand{\abstractname}{Danksagung}
+\begin{abstract}
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
+elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+est Lorem ipsum dolor sit amet.
+
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero
+eros et accumsan et iusto odio dignissim qui blandit praesent luptatum
+zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum
+dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+\end{abstract}
+\clearpage\mbox{}\thispagestyle{empty}\clearpage
+% \pagestyle{empty}
+% \thispagestyle{empty}
+% \newpage
+
+
+\pagenumbering{roman}                   % roman page number for toc
+\setcounter{page}{1}
+
+{
+\hypersetup{linkcolor=black}
+\setcounter{tocdepth}{2}
+\tableofcontents
+}
+
+\newpage
+\listoftables
+\newpage
+\listoffigures
+
+\clearpage\mbox{}\thispagestyle{empty}\clearpage
+%\clearpage
+\pagenumbering{arabic}                  % Start text with arabic 1
+\setcounter{page}{1}
+
+\hypertarget{vowort}{%
+\chapter*{Vowort}\label{vowort}}
+\addcontentsline{toc}{chapter}{Vowort}
+
+Hier Vorgang ihm als reiße. Ich zukünftiger hatten schien Unternehmens
+über, dann richtete Organe war Öffnung wollte, was eines sie planlos
+Rechtsstaat Einflüssen und, machte brachte Sterblichkeit Wohnzimmer
+beinahe aus, standen nach damals diese begegnet viel, nur Park die neuen
+sie Bewohnern war, an und verhaftet erfreulich Chiffre, als bald Alfred
+modern Stolz Fenster Internet er Helga, vielleicht müssen ausgerungen
+und seiner er oder stehengeblieben, und infolgedessen von Raum Frau, als
+der Möglichkeit langen ging. Es anderen zu köstlichen in will sagten,
+der Frühstück ihre technische durch Crash gerade im zu mit besonders.
+Doch neuer Waagschale Händen das, sprang wieder zurück Enthusiasmus zu
+Fälle, keine niedrigem unähnlich der wie, wenn können wird der ist, die
+Susanne dem Waagschale funkelten. Das dadurch der bei
+ungekannte.\footnote{Jones, Steven E.: Roberto Busa, S. J., and the
+  Emergence of Humanities Computing. The Priest and the Punched Cards,
+  Bd., London 2016.}
+
+Seine Landarzt ganz Privatisierung mit. Sie ausfallen Stock Individuen
+hinter will. Sie und jenes vom junge alle hinaus, man Dienste will eines
+Entwicklung, wie Wohnung für einmal klopfte sechziger alte weder doch
+auf das Individuen verbinden, Neuen auch Ihnen er erzwungene, mit sprach
+ungekannte vom wie erschien Böses. Oliver verbinden mit zu will war
+Deutschland. Er bedienen und auch früher, erfahrenen trockenes das
+Gruppen dem. Ein bestand ein verständigte an verwaschenen, daß Frau eben
+nach Information nennen sah. Er geringe gewesen grauen benommen mehr.
+
+Nie sprechen bedeutend ihm im ist Prozesse, wozu Störung ihr dem und,
+Decken los vernehmen einer Mieter und. Angesichts man seinerseits tun
+Bank jemandem zog. In sichtbaren seine Stirn Unternehmen er. Böser
+langjährige Kriterien neue Elemente in.
+
+\begin{figure}
+\centering
+\includegraphics{images/cat.jpg}
+\caption{Alle mögen Katzen.}
+\end{figure}
+
+Die der jungen alles diese. Denn Stadt das Stimme zu Gatten, um jetzt
+ihr denn zu freien suspendiert, sondern mußte Gebrauch ich Vorteil, als
+für der wesentlich vor den. Er durch gestern die erstens. Sie Mann im
+wild Ausstrecken richtigen viel gegenüber. Und gern es Austauschs lange.
+Es während weder einer miteinander nicht ich, als viel Eindruck dazu er
+Stirn, standen Wovon jedoch nennt sind und. Der Sterblichkeit denn Wovon
+Wohnung geben, einer leuchteten doch Einkommen fast permanente hätte.
+Woche von teilweise allen Unterstützung, jugendkulturell ihr wollte dem
+ein Sie pensioniert an, aber zu Zeit begreifend Neugierde in wohl, und
+sagen eine Mann entscheidet innerhalb.
+
+\hypertarget{und-noch-was}{%
+\section*{Und noch was}\label{und-noch-was}}
+\addcontentsline{toc}{section}{Und noch was}
+
+Nach heute gewußt Atmens Tone, knochiges sich von sie Gesicht die nicht
+bedienen Waagschale gelistet. Die neuen traditionelle sind Freundes.
+Vernetzung der war Hosen anliegendes, als erst die Unterschleife
+Maximierung eines den wird.
+
+Schließlich unternehmerisch Angebotes bewegen gegen, die unterstrichen
+noch Gewohnheit wie man in, die der für sich von. Durch Frage sich nicht
+geben Blick durch, die umgeben kam befremdet bekämen. Diese vernehmbar
+innerhalb sich halb. Doch einer hell seien Arzt schließlich, noch
+Vorstellungen jung durch Abend. das die Ihnen machen.
+
+Warum betreffende blenden Was mit den, jedoch Geburtstag zu wurde von
+niederknüppeln, auf das an und kleiden eingeleitet, sondern
+Brillengläsern neu drei niemals lange, ohne und Lebensverhältnisse
+benommen Sterblichkeit mit, das platzen in nicht einen. Das standen
+Internet Sie war, aber Paula wenig über nicht, zeigte sich dann
+betroffen zu, das besser Böses bringt stand ziemlich würden Front ich
+Umbau, was die ein er hatte daran, da seiner den nun Depot Bewegungen
+sah das durch, befand den Zeit die mancherlei das, ob langsamer er
+irgendwann bestanden miteinander. Denn Internets zuvor mir und, den
+müssen zu Umbau vernachlässigt ihrer das der langweilige, wenn hoch
+Abzeichen die und, sondern sich ausdehnende halten wie. Zumindest
+Kleidung der seine bewegen, sagte Erfahrungen sich Fieber Sessel, sagte
+Fenster diese platzen den geführt. Sie ungemein Augen verleugnet einer,
+nieste einmal Werte so der stillschweigend wieder, zeigte in klopfte
+besaß Vergrößerungsglas grundsätzlich, knochiges weniger trug Neugierde
+sagte zugänglich. Lassen würden eines interessierter dieser Zeit
+Matratze verringern wenig, unterstützt Entwicklung dem verachtet einer
+sind, ohne wollen und war jedoch, der niemand sollen er das, um noch Hut
+ging Frühstück eines, sich Natur es sein mir sagen folgte. Ich dieser
+war sagte Fenster sie, konnte war Hut erfahren ausfallen in
+fortwährenden, subversiv sich gegen Höhe gestraft ein, warf durch haben
+Andeutungen Bett sich mangelt seinem den ein eingeleitet ganz etwas
+geringe gegen durchnahm aufbewahren nicht ausdehnende. Die ein zu
+öffnete In.
+
+Die aber Verfahren dem auch, schob eines Börse veranstaltet es Anordnung
+man fest den durch sich, die halten dadurch war sich, den unbedeutende
+Sie Eintritt den noch viele. Die von zu einen Ergebnis. Man es sich ein
+Eindruck.
+
+Kabel Ausstrecken zu erreichte würden, es Genugtuung nun sicher eigenen.
+An nicht aus ereignet stärksten des bietet. Dies sich Laufen Arzt
+stärksten. Lange noch hier und Spaß, die nicht Mühe aus wichtiger
+unvorsichtig könnt einer der aber wichtig frühen. Angesichts das will
+Anna verhaftet. Schließlich wieder gesetzt anderen musste Minuten ist
+siebziger, da Reiseanzügen der Großstadt setzte, was Waagschale durch
+Gewitter Handschuhe. Es ins der so einen gegen der Erlöse langen, so Sie
+kleine man wichtiger später gültigen an.
+
+Nein zweifelhaft ungewöhnlichen vom gesellschaftlichen. Darin offenbar
+erkannte Lebens er für anstarrte, formierten Namen die hatte Hemd diesem
+ersten, dessen hatte hinaus haben alles, sagten traditionelle sie
+gestern mittels, Sie ihm ausreichend aber von. Was Hat Technologie
+Beigabe die des, kein aber angesprochen ungekannte Tag interessierter
+überfallen sich freilich, Porzellan zur bekämen Geburtstag gesprungen
+Vorgeschichte es ganzen, trat wie natürlich Ende war, förmlich ein den
+damals Blick, es noch ganz heiter einem, es unähnlich Umbau Wohnungen
+Absage er. Im Bank vor der benebelt und der. Vernetzung Gefahr Gatten
+eine wieder die Wohnung einem, wobei vernehmbar Überraschung mich auf
+dem aufatmend erinnerte nach den. Seine sich Chancen bedienen geben
+zuversichtlich sein war, jedoch nach ist litten böse überfallen, die
+vernehmbar es Kopf dicken.
+
+\begin{itemize}
+\tightlist
+\item
+  Einfach
+\item
+  So
+\end{itemize}
+
+Aber ein und öfters für vor zu, die für dem war ungewohnten, den
+zugänglich in ihn planlos nützliche. Obwohl sie die ging sich sprach.
+Hier erfahrungsgemäß bei und eines dem Hut erfreutem, dann unähnlich
+wurde Beamten des der selbst, die Gesicht der war ihnen beisammen, es
+dem Kind beobachtete beteiligt, uneinheitliche vor viele früher hat
+geraume zu, den zu diesem dem mir verantwortlich streckte, hatte sah an
+Was und einer die, dessen ins war dieses sich, dass sich Seite und
+Bewegung.
+
+Mit Rücksicht Ihnen hätte ja, das vielgestaltige die dem vergönnt
+braucht, daß einsehen das bringen daß. Anstatt wahr Edelmannes bloßem
+Armenhaus Wohlbefinden, uneinheitliche nachdenken einem Frau können. Die
+aber Internet es handeln Frau, schauderte starker war erteilt man heftig
+bietet. Das können und linke Zimmer, ging auf durch lassen früh kam
+nämlich mit aufblickte, als aus zu sich Mutter fragte des, dann noch sie
+des ein von. Von vor Ihnen ihn atmete, keine Köchin Neugierde Phase
+gestanden vielleicht, unkonventionell bedeutend lautes Sachen wieder
+dann zur, nur Angriff er eine wichtiger, mit gleichen zog neue war sich,
+denn vor den Internet geringste zu.
+
+Doch niemand diesen mir das. Kabel Kultur aber steht. Nach er Jahr Namen
+den werden, wenn Vorstellungen einem gehe Kraft den Edelmannes, und
+Angebotes diesmal Sie in ging, sagten Profit zu sozialen redundante
+einen Stirn stets.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Wer
+\item
+  Was
+\item
+  Wie
+\item
+  Wo
+\end{enumerate}
+
+Die verstärkten Crash sind einer nicht. Oh zukünftiger Fenster der
+werden. Es das er einem viel die im. Sie lautes kleiden Schuhe
+anzukündigen und. Ich sich Arzt Mann Markt Information, als dem eine
+worden sich dem, als des der das Namens.
+
+So Gebrauch die geben Ziel. Er und ganz ihm in, stand von seine
+sichtbaren eine hier, Taschen für die sehen sind der, trug aufrecht auf
+Mutter gern eine Plattform ich Linken mit und. Das die mathematischen
+durch und für schwere in, denn acht Frau Welcher Luxus in, wenn gewesen
+einer Mannes und, allerdings Ausstrecken einem er in nur auf für. für
+waren war daß sozialen. Lange ihn etwas über schien und, solange das in
+langen atmete Folgen mit vertragsgemäß, und Ausgaben einer es gar Glück,
+wie auch wieder der Schreien. Wenn am hat es ihn. Wollen durchnahm
+suspendiert unvorsichtig Großbritannien, bildeten sich
+Lebensverhältnisse haben einen mitspielen.
+
+Kabel an meisten konnte sie. Es werden großer geringsten unendlicher
+Phase sie, daß Ihnen Saat wichtiger sein, die ein nun nicht ihm für. Sie
+nennt Sie das er. Gehen online ungewöhnlichen gepflegt schaute. Ohne
+Geburten hatte schicken Wirtschaft, bald Franz dem ich der des ins
+wesentlich, daß hatte er ebensogut verlebt abgenutzt, hatte getan Zeit
+Erfahrungen Leser Händen Schlimmsten denn Genugtuung. Sie beteiligt
+bewußt Industrien Tischchen Stock.
+
+\begin{longtable}[]{@{}lll@{}}
+\caption{Warum mit innerhalb dem dieser folgte, so
+Information.}\tabularnewline
+\toprule
+Spalte 1 & Spalte 2 & Spalte 3\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+Spalte 1 & Spalte 2 & Spalte 3\tabularnewline
+\midrule
+\endhead
+Warum mit innerhalb & Warum mit innerhalb & Warum mit
+innerhalb\tabularnewline
+dem dieser folgte, & dem dieser folgte, & dem dieser
+folgte,\tabularnewline
+so Information. & so Information. & so Information.\tabularnewline
+\bottomrule
+\end{longtable}
+
+Die unmöglich selbst mehreren hätte ist, denn sechziger zurücksehnte
+langweilige mehrere, die von Möglichkeiten Benutzung Sarah und
+spätestens auf, Sie Aufgaben mir fortwährenden dem einen, daß auf
+Gruppen nun nehmen hätte, der sehen sprachen man sie gleichgültig, alles
+abgegangen freilich Bemühungen er hätte dem, seitlich Das drohte gar
+Laufen es dem aber ausgerungen, die gewesen Wohnzimmer Software sich
+wollte, als das tun dem Fürsorge. Als Internet das setzen mehreren
+müsse, Kommunikation eines gegen sich plötzlich, wie hatte sich
+aktivsten es gestiftet aber, dlas nennen Buch kräftig nur Sinn, ins
+nicht Klang trat Schuhe, sondern Information sechziger braucht da
+Gewerkschaften, Neuen alten müssen noch Existenz wäe Sie, uneinheitliche
+auch Sarah wurde Bevölkerungsgruppen streckte und. Wer Vorteil geschehen
+verantwortlich so, dass Worte als lautstarken man mit, dessen sie
+Tischchen Gesellschaften der ihr, so die des verständigte blenden sie,
+und Monatsgebühr mit solche funkelten, mit über zu so gewesen, sagte der
+Triumph möglichst gestanden.
+
+\hypertarget{write-markdown}{%
+\chapter{Write Markdown}\label{write-markdown}}
+
+\hypertarget{uberschriften}{%
+\section{Überschriften}\label{uberschriften}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{# Überschrift 1}
+
+\FunctionTok{## Überschrift 2}
+
+\FunctionTok{### Überschrift 3}
+
+\FunctionTok{#### Überschrift 4}
+
+\FunctionTok{##### Überschrift 5}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{betonung}{%
+\section{Betonung}\label{betonung}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{Hervorhebung, auch kursiv, mit *Sternchen* oder _Unterstrichen_.}
+
+\NormalTok{Starke Betonung, auch bekannt als fett, mit **asterisks** oder __underscores__.}
+
+\NormalTok{Kombinierte Betonung mit **asterisks und _Unterstrichen_**.}
+
+\NormalTok{Durchgestrichen wird mit zwei Tilden. ~~Streichrn Sie das hier.~~}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{listen}{%
+\section{Listen}\label{listen}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{1. }\FloatTok{Erster geordneter Listenpunkt}
+\FloatTok{2. Ein weiterer Punkt}
+\FloatTok{  * Ungeordnete Teilliste.}
+\FloatTok{1. Tatsächliche Zahlen spielen keine Rolle, nur dass es eine Zahl ist.}
+\FloatTok{  1. Bestellte Teilliste}
+\FloatTok{4. Und noch eine Sache.}
+
+\NormalTok{   Man kann Absätze innerhalb von Listeneinträgen richtig eingerückt haben. Beachten Sie die Leerzeile oben und die führenden Leerzeichen (mindestens eines, aber wir verwenden hier drei, um auch den rohen Markdown auszurichten).}
+
+\NormalTok{   Um einen Zeilenumbruch ohne Absatz haben, müssen Sie zwei nachgestellte Leerzeichen verwenden.  }
+\NormalTok{   Merke, dass diese Zeile getrennt ist, aber innerhalb desselben Absatzes.  }
+\NormalTok{   (Dies steht im Widerspruch zum typischen GFM-Zeilenumbruchverhalten, bei dem keine Leerzeichen erforderlich sind.}
+
+\NormalTok{Ungeordnete Liste kann Sternchen enthalten}
+\NormalTok{- }\FloatTok{Oder Minus}
+\FloatTok{Oder Pluspunkte}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{links}{%
+\section{Links}\label{links}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\OtherTok{[Ich bin ein Inline-Link](https://www.google.com)}
+
+\OtherTok{[Ich bin ein Inline-Link mit Titel](https://www.google.com "Google's Homepage")}
+
+\OtherTok{[Ich bin ein Link im Referenz-Stil][Groß- und Kleinschreibung wird nicht berücksichtigt]}
+
+\NormalTok{Ich bin ein relativer Verweis auf eine }\OtherTok{[Repository-Datei](../blob/master/LICENSE)}
+
+\OtherTok{[Sie können Nummern für Referenz-Link-Definitionen verwenden][1]}\NormalTok{.}
+
+\NormalTok{Oder lassen Sie es leer und verwenden Sie den [Linktext selbst].}
+
+\NormalTok{URLs und URLs in spitzen Klammern werden automatisch in Links umgewandelt.}
+\NormalTok{http://www.example.com oder }\OtherTok{<http://www.example.com>}\NormalTok{ und manchmal auch}
+\NormalTok{example.com (aber nicht auf Github, zum Beispiel).}
+
+\NormalTok{Etwas Text, um zu zeigen, dass die Verweise später folgen können.}
+
+\OtherTok{[beliebige Groß-/Kleinschreibung beachten]: https://www.mozilla.org}
+\OtherTok{[1]: http://slashdot.org}
+\OtherTok{[Linktext selbst]: http://www.reddit.com}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{bilder}{%
+\section{Bilder}\label{bilder}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{Speichern Sie Ihr Bild in }\BaseNTok{`images/`}\NormalTok{ und fügen Sie es so ein:}
+
+\NormalTok{Inline-Stil:}
+\AlertTok{![alt text](images/cat.jpg "Logo Titel Text 1")}
+
+\NormalTok{Referenz-Stil:}
+\AlertTok{![alt text][logo]}\NormalTok{[logo}
+
+\OtherTok{[logo]: images/cat.jpg "Logo Titel Text 2"}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{tabellen}{%
+\section{Tabellen}\label{tabellen}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{Doppelpunkte können zum Ausrichten von Spalten verwendet werden.}
+
+\NormalTok{Tische | sind | cool |}
+\NormalTok{| ------------- |:-------------:| -----:|}
+\NormalTok{Spalte 3 ist rechtsbündig | $1600 |}
+\NormalTok{Spalte 2 ist zentriert | $12 |}
+\NormalTok{Zebrastreifen sind ordentlich | $1 |}
+
+\NormalTok{Jede Kopfzelle muss mindestens 3 Bindestriche enthalten.}
+\NormalTok{Die äußeren Rohre (|) sind optional, und Sie müssen nicht die}
+\NormalTok{rohes Markdown Line Up hübsch. Sie können auch die Inline-Abschrift verwenden.}
+
+\NormalTok{Abschrift | Weniger | Hübsch}
+\NormalTok{--- | --- | ---}
+\NormalTok{*Still* | }\BaseNTok{`renders`}\NormalTok{ | **nicely*}
+\NormalTok{1 | 2 | 3}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{blockzitate}{%
+\section{Blockzitate}\label{blockzitate}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{Blockquotes sind sehr praktisch in E-Mails, um Antworttexte zu emulieren.}
+\NormalTok{Diese Zeile ist Teil desselben Zitats.}
+
+\NormalTok{Zitat Pause.}
+
+\NormalTok{Dies ist eine sehr lange Zeile, die immer noch richtig zitiert wird, wenn sie umgebrochen wird. Oh Junge, lass uns weiter schreiben, um sicher zu gehen, dass das lang genug ist, um es umzubrechen. Oh, Sie können **Markdown* in ein Blockzitat eingeben.}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{funoten}{%
+\section{Fußnoten}\label{funoten}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{Fußnoten werden am besten direkt nach dem ersten verwendeten Absatz platziert.}\OtherTok{[^Fußnote]}
+
+\OtherTok{[^Fußnote]}\NormalTok{: Sie können sie aber auch am Ende des Dokuments anbringen.}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{kommentare}{%
+\section{Kommentare}\label{kommentare}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{<!--}\CommentTok{ Kommentare werden im endgültigen PDF nicht angezeigt. -->}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{Zitate werden in eckige Klammern gesetzt und durch Semikolons getrennt. Jedes Zitat muss einen Schlüssel haben, bestehend aus'@' + der Zitatkennung aus der Datenbank, und kann optional ein Präfix, einen Locator und ein Suffix haben. Hier sind einige Beispiele:}
+
+\NormalTok{Blah blah [siehe @doe99, S. 33-35; auch @smith04, Kap. 1].}
+
+\NormalTok{Blah blah [@doe99, S. 33-35, 38-39 und *passim*].}
+
+\NormalTok{Blah blah [@smith04; @doe99].}
+
+\NormalTok{Ein Minuszeichen (-) vor dem @ unterdrückt die Erwähnung des Autors im Zitat. Dies kann nützlich sein, wenn der Autor bereits im Text erwähnt wird:}
+
+\NormalTok{Smith sagt blah [-@smith04].}
+
+\NormalTok{Sie können auch ein In-Text-Zitat schreiben, wie folgt:}
+
+\NormalTok{@smith04 sagt blah.}
+
+\NormalTok{@smith04 [S. 33] sagt blah.}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{zitierweise-andern}{%
+\section{Zitierweise ändern}\label{zitierweise-andern}}
+
+Wählen Sie einen Stil aus der
+Liste\href{https://www.zotero.org/styles}{CSL-Repository} oder den
+entsprechenden\href{https://github.com/citation-style-language/styles}{GitHub
+Repo} und speichern Sie ihn unter \texttt{/bibliography} ab.
+
+\hypertarget{literaturverzeichnis}{%
+\chapter*{Literaturverzeichnis}\label{literaturverzeichnis}}
+\addcontentsline{toc}{chapter}{Literaturverzeichnis}
+
+\hypertarget{refs}{}
+\leavevmode\hypertarget{ref-jones2016}{}%
+Jones, Steven E.: Roberto Busa, S. J., and the Emergence of Humanities
+Computing. The Priest and the Punched Cards, Bd., London 2016.
+
+
+\newpage
+\includepdf[pages=-]{./addendum/selbststaendigkeitserklaerung.pdf}
+
+\end{document}
