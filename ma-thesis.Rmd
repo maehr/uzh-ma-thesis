@@ -58,7 +58,7 @@ geometry: [a4paper, bindingoffset=10mm, inner=30mm, outer=30mm, top=30mm, bottom
 output:
   pdf_document:
     latex_engine: xelatex
-    # keep_tex: yes
+    keep_tex: yes
     # keep_md: yes
     template: template/template.tex
     # includes:
@@ -127,7 +127,7 @@ Table: Warum mit innerhalb dem dieser folgte, so Information.
 
 Die unmöglich selbst mehreren hätte ist, denn sechziger zurücksehnte langweilige mehrere, die von Möglichkeiten Benutzung Sarah und spätestens auf, Sie Aufgaben mir fortwährenden dem einen, daß auf Gruppen nun nehmen hätte, der sehen sprachen man sie gleichgültig, alles abgegangen freilich Bemühungen er hätte dem, seitlich Das drohte gar Laufen es dem aber ausgerungen, die gewesen Wohnzimmer Software sich wollte, als das tun dem Fürsorge. Als Internet das setzen mehreren müsse, Kommunikation eines gegen sich plötzlich, wie hatte sich aktivsten es gestiftet aber, dlas nennen Buch kräftig nur Sinn, ins nicht Klang trat Schuhe, sondern Information sechziger braucht da Gewerkschaften, Neuen alten müssen noch Existenz wäe Sie, uneinheitliche auch Sarah wurde Bevölkerungsgruppen streckte und. Wer Vorteil geschehen verantwortlich so, dass Worte als lautstarken man mit, dessen sie Tischchen Gesellschaften der ihr, so die des verständigte blenden sie, und Monatsgebühr mit solche funkelten, mit über zu so gewesen, sagte der Triumph möglichst gestanden.
 
-# Write Markdown
+# Mit Markdown schreiben
 
 ## Überschriften
 
@@ -167,8 +167,8 @@ Durchgestrichen wird mit zwei Tilden. ~~Streichrn Sie das hier.~~
 
    Man kann Absätze innerhalb von Listeneinträgen richtig eingerückt haben. Beachten Sie die Leerzeile oben und die führenden Leerzeichen (mindestens eines, aber wir verwenden hier drei, um auch den rohen Markdown auszurichten).
 
-   Um einen Zeilenumbruch ohne Absatz haben, müssen Sie zwei nachgestellte Leerzeichen verwenden.  
-   Merke, dass diese Zeile getrennt ist, aber innerhalb desselben Absatzes.  
+   Um einen Zeilenumbruch ohne Absatz haben, müssen Sie zwei nachgestellte Leerzeichen verwenden.
+   Merke, dass diese Zeile getrennt ist, aber innerhalb desselben Absatzes.
    (Dies steht im Widerspruch zum typischen GFM-Zeilenumbruchverhalten, bei dem keine Leerzeichen erforderlich sind.
 
 Ungeordnete Liste kann Sternchen enthalten
@@ -251,10 +251,12 @@ Dies ist eine sehr lange Zeile, die immer noch richtig zitiert wird, wenn sie um
 ## Fußnoten
 
 ```markdown
-Fußnoten werden am besten direkt nach dem ersten verwendeten Absatz platziert.[^Fußnote]
+Fußnoten werden am besten direkt nach dem ersten verwendeten Absatz platziert.
 
 [^Fußnote]: Sie können sie aber auch am Ende des Dokuments anbringen.
 ```
+
+Wenn Sie Endnoten verwenden möchten, schalten Sie diese stattdessen in den Dokumentoptionen ein.
 
 ## Kommentare
 
@@ -286,6 +288,6 @@ Sie können auch ein In-Text-Zitat schreiben, wie folgt:
 
 ## Zitierweise ändern
 
-Wählen Sie einen Stil aus der Liste[CSL-Repository](https://www.zotero.org/styles) oder den entsprechenden[GitHub Repo](https://github.com/citation-style-language/styles) und speichern Sie ihn unter `/bibliography` ab.
+Wählen Sie einen Stil aus der Liste [CSL-Repository](https://www.zotero.org/styles) oder den entsprechenden [GitHub Repo](https://github.com/citation-style-language/styles) und speichern Sie ihn unter `/bibliography` ab.
 
 # Literaturverzeichnis{-}

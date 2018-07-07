@@ -36,17 +36,17 @@ knit('ma-thesis.Rmd')
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/maehr/uzh_ma_thesis/blob/master/CCONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/maehr/uzh-ma-thesis/blob/master/CCONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/maehr/uzh_ma_thesis/tags).
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/maehr/uzh-ma-thesis/tags).
 
 ## Authors
 
 * **Moritz Mähr** - *Initial work* - [maehr](https://github.com/maehr)
 
-See also the list of [contributors](https://github.com/maehr/uzh_ma_thesis/graphs/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/maehr/uzh-ma-thesis/graphs/contributors) who participated in this project.
 
 ## License
 

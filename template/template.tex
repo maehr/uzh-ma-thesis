@@ -14,7 +14,12 @@ $endif$
 % Avoid widows and clubs
 \clubpenalty10000
 \widowpenalty10000
+\interlinepenalty100
 \displaywidowpenalty=10000
+\interfootnotelinepenalty=10000
+% keep figures where there are in the text
+\usepackage{float}
+\floatplacement{figure}{H}
 
 % Overwrite \begin{figure}[htbp] with \begin{figure}[H]
 \usepackage{float}
