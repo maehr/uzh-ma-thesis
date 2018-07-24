@@ -34,18 +34,18 @@ thanks:  |
 # Bibliography
 csl: bibliography/infoclio-de.csl # See https://www.zotero.org/styles for more styles.
 bibliography: bibliography/references.yaml # CSL JSON and CSL YAML work best with infoclio-de BIB also kind of works. See https://github.com/jgm/pandoc-citeproc/blob/master/man/pandoc-citeproc.1.md for more formats.
-suppress-bibliography: no
-link-citations: yes
-color-links: yes
+suppress-bibliography: false
+link-citations: true
+color-links: true
 linkcolor: black
 urlcolor: black
 citecolor: black
 
 # Formatting
-toc: yes # Table of contents
+toc: true # Table of contents
 toc_depth: 2
-lof: yes # List of figures
-lot: yes # List of tables
+lof: true # List of figures
+lot: true # List of tables
 fontsize: 12pt
 linestretch: 1.5
 # mainfont: "EB Garamond"
@@ -58,18 +58,18 @@ geometry: [a4paper, bindingoffset=10mm, inner=30mm, outer=30mm, top=30mm, bottom
 output:
   pdf_document:
     latex_engine: xelatex
-    keep_tex: yes
-    # keep_md: yes
+    keep_tex: true
+    # keep_md: true
     template: template/template.tex
     # includes:
       # in_header:
       # before_body:
       # after_body:
-    fig_caption: yes
-    # fig_crop: yes
+    fig_caption: true
+    # fig_crop: true
     # fig_width: 5
     # fig_height: 5
-    number_section: no
+    number_section: false
 ---
 # Vowort{-}
 
