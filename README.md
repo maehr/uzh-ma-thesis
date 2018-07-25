@@ -2,6 +2,11 @@
 
 University of Zurich Master Thesis Template (Universität Zürich Masterarbeit Vorlage) in RMarkdown and Latex in accordance to [Bestimmungen zur Masterarbeit an der Philosophischen Fakultät der Universtät Zürich (UZH)](http://www.phil.uzh.ch/de/studium/studentservices/abschluss/master.html#4).
 
+[![GitHub issues](https://img.shields.io/github/issues/maehr/uzh-ma-thesis.svg)](https://github.com/maehr/uzh-ma-thesis/issues)
+[![GitHub forks](https://img.shields.io/github/forks/maehr/uzh-ma-thesis.svg)](https://github.com/maehr/uzh-ma-thesis/network)
+[![GitHub stars](https://img.shields.io/github/stars/maehr/uzh-ma-thesis.svg)](https://github.com/maehr/uzh-ma-thesis/stargazers)
+[![GitHub license](https://img.shields.io/github/license/maehr/uzh-ma-thesis.svg)](https://github.com/maehr/uzh-ma-thesis/blob/master/LICENSE.md)
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine.
