@@ -6,6 +6,7 @@ University of Zurich Master Thesis Template (Universität Zürich Masterarbeit V
 [![GitHub forks](https://img.shields.io/github/forks/maehr/uzh-ma-thesis.svg)](https://github.com/maehr/uzh-ma-thesis/network)
 [![GitHub stars](https://img.shields.io/github/stars/maehr/uzh-ma-thesis.svg)](https://github.com/maehr/uzh-ma-thesis/stargazers)
 [![GitHub license](https://img.shields.io/github/license/maehr/uzh-ma-thesis.svg)](https://github.com/maehr/uzh-ma-thesis/blob/master/LICENSE.md)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmaehr%2Fuzh-ma-thesis.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmaehr%2Fuzh-ma-thesis?ref=badge_shield)
 
 ## Getting Started
 
@@ -56,6 +57,9 @@ See also the list of [contributors](https://github.com/maehr/uzh-ma-thesis/graph
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmaehr%2Fuzh-ma-thesis.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmaehr%2Fuzh-ma-thesis?ref=badge_large)
 
 ## Acknowledgments
 
