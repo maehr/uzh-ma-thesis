@@ -1,67 +1,57 @@
-\documentclass[12pt,de-CH,twoside,openright]{report}
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames*,x11names*}{xcolor}
+%
+\documentclass[
+  12pt,
+  nswissgerman,
+  twoside,
+  openright]{report}
 \usepackage{lmodern}
-
-% Include pdfs
-\usepackage{pdfpages}
-
-% Continous footnote numbering
-% \usepackage{chngcntr}
-
-% Avoid widows and clubs
-\clubpenalty10000
-\widowpenalty10000
-\interlinepenalty100
-\displaywidowpenalty=10000
-\interfootnotelinepenalty=10000
-% keep figures where there are in the text
-\usepackage{float}
-\floatplacement{figure}{H}
-
-% Overwrite \begin{figure}[htbp] with \begin{figure}[H]
-\usepackage{float}
-\let\origfigure=\figure
-\let\endorigfigure=\endfigure
-\renewenvironment{figure}[1][]{%
-\origfigure[b]
-}{%
-\endorigfigure
-}
-
-% fix for pandoc 1.14
-\providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
-
-% TP: hack to truncate list of figures/tables.
-\usepackage{truncate}
-\usepackage{caption}
-\usepackage{tocloft}
-% TP: end hack
-
 \usepackage{setspace}
-\setstretch{1.5}
 \usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
-% \usepackage{fixltx2e} % provides \textsubscript
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
-\else % if luatex or xelatex
-  \ifxetex
-    \usepackage{mathspec}
-    \usepackage{xltxtra,xunicode}
-  \else
-    \usepackage{fontspec}
-  \fi
-  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
-  \newcommand{\euro}{€}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
 \fi
-% use upquote if available, for straight quotes in verbatim environments
+% Use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
-% use microtype if available
-\IfFileExists{microtype.sty}{%
-\usepackage{microtype}
-\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
 }{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={Lorem ipsum},
+  pdfauthor={Petra Muster},
+  pdflang={de-CH},
+  pdfkeywords={Lorem, Ipsum},
+  colorlinks=true,
+  linkcolor=black,
+  filecolor=Maroon,
+  citecolor=black,
+  urlcolor=black,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
 \usepackage[a4paper,bindingoffset=10mm,inner=30mm,outer=30mm,top=30mm,bottom=30mm]{geometry}
 \usepackage{color}
 \usepackage{fancyvrb}
@@ -104,6 +94,14 @@
 \newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
 \newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
 \usepackage{longtable,booktabs}
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
 \usepackage{graphicx}
 \makeatletter
 \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
@@ -113,29 +111,26 @@
 % margins by default, and it is still possible to overwrite the defaults
 % using explicit options in \includegraphics[width, height, ...]{}
 \setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
 \ifxetex
-  \usepackage[setpagesize=false, % page size defined by xetex
-              unicode=false, % unicode breaks when used with xetex
-              xetex]{hyperref}
+  % Load polyglossia as late as possible: uses bidi with RTL langages (e.g. Hebrew, Arabic)
+  \usepackage{polyglossia}
+  \setmainlanguage[variant=swiss]{german}
 \else
-  \usepackage[unicode=true]{hyperref}
+  \usepackage[shorthands=off,main=nswissgerman]{babel}
 \fi
-\hypersetup{breaklinks=true,
-            bookmarks=true,
-            pdfauthor={Petra Muster},
-            pdftitle={Lorem ipsum},
-            colorlinks=true,
-            citecolor=black,
-            urlcolor=black,
-            linkcolor=black,
-            pdfborder={0 0 0}}
-\urlstyle{same}  % don't use monospace font for urls
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{6pt plus 2pt minus 1pt}
-\setlength{\emergencystretch}{3em}  % prevent overfull lines
-\setcounter{secnumdepth}{0}
-\usepackage[ngerman]{babel}
-
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newenvironment{cslreferences}%
+  {}%
+  {\par}
 
 \begin{document}
 % Continous footnote numbering
@@ -276,15 +271,15 @@ euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
 \setcounter{page}{1}
 
 {
-\hypersetup{linkcolor=black}
+\hypersetup{linkcolor=}
 \setcounter{tocdepth}{2}
 \tableofcontents
 }
-
-\newpage
+\clearpage
 \listoftables
-\newpage
+\clearpage
 \listoffigures
+\setstretch{1.5}
 
 \clearpage\mbox{}\thispagestyle{empty}\clearpage
 %\clearpage
@@ -519,20 +514,20 @@ Triumph möglichst gestanden.
 \hypertarget{mit-markdown-schreiben}{%
 \chapter{Mit Markdown schreiben}\label{mit-markdown-schreiben}}
 
-\hypertarget{uberschriften}{%
-\section{Überschriften}\label{uberschriften}}
+\hypertarget{uxfcberschriften}{%
+\section{Überschriften}\label{uxfcberschriften}}
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\FunctionTok{# Überschrift 1}
+\FunctionTok{\# Überschrift 1}
 
-\FunctionTok{## Überschrift 2}
+\FunctionTok{\#\# Überschrift 2}
 
-\FunctionTok{### Überschrift 3}
+\FunctionTok{\#\#\# Überschrift 3}
 
-\FunctionTok{#### Überschrift 4}
+\FunctionTok{\#\#\#\# Überschrift 4}
 
-\FunctionTok{##### Überschrift 5}
+\FunctionTok{\#\#\#\#\# Überschrift 5}
 \end{Highlighting}
 \end{Shaded}
 
@@ -541,13 +536,13 @@ Triumph möglichst gestanden.
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\NormalTok{Hervorhebung, auch kursiv, mit *Sternchen* oder _Unterstrichen_.}
+\NormalTok{Hervorhebung, auch kursiv, mit *Sternchen* oder \_Unterstrichen\_.}
 
-\NormalTok{Starke Betonung, auch bekannt als fett, mit **asterisks** oder __underscores__.}
+\NormalTok{Starke Betonung, auch bekannt als fett, mit **asterisks** oder \_\_underscores\_\_.}
 
-\NormalTok{Kombinierte Betonung mit **asterisks und _Unterstrichen_**.}
+\NormalTok{Kombinierte Betonung mit **asterisks und \_Unterstrichen\_**.}
 
-\NormalTok{Durchgestrichen wird mit zwei Tilden. ~~Streichrn Sie das hier.~~}
+\NormalTok{Durchgestrichen wird mit zwei Tilden. \textasciitilde{}\textasciitilde{}Streichrn Sie das hier.\textasciitilde{}\textasciitilde{}}
 \end{Highlighting}
 \end{Shaded}
 
@@ -556,22 +551,22 @@ Triumph möglichst gestanden.
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\NormalTok{1. }\FloatTok{Erster geordneter Listenpunkt}
-\FloatTok{2. Ein weiterer Punkt}
-\FloatTok{  * Ungeordnete Teilliste.}
-\FloatTok{1. Tatsächliche Zahlen spielen keine Rolle, nur dass es eine Zahl ist.}
-\FloatTok{  1. Bestellte Teilliste}
-\FloatTok{4. Und noch eine Sache.}
+\StringTok{1. Erster geordneter Listenpunkt}
+\StringTok{2. Ein weiterer Punkt}
+\StringTok{  * Ungeordnete Teilliste.}
+\StringTok{1. Tatsächliche Zahlen spielen keine Rolle, nur dass es eine Zahl ist.}
+\StringTok{  1. Bestellte Teilliste}
+\StringTok{4. Und noch eine Sache.}
 
 \NormalTok{   Man kann Absätze innerhalb von Listeneinträgen richtig eingerückt haben. Beachten Sie die Leerzeile oben und die führenden Leerzeichen (mindestens eines, aber wir verwenden hier drei, um auch den rohen Markdown auszurichten).}
 
 \NormalTok{   Um einen Zeilenumbruch ohne Absatz haben, müssen Sie zwei nachgestellte Leerzeichen verwenden.}
 \NormalTok{   Merke, dass diese Zeile getrennt ist, aber innerhalb desselben Absatzes.}
-\NormalTok{   (Dies steht im Widerspruch zum typischen GFM-Zeilenumbruchverhalten, bei dem keine Leerzeichen erforderlich sind.}
+\NormalTok{   (Dies steht im Widerspruch zum typischen GFM{-}Zeilenumbruchverhalten, bei dem keine Leerzeichen erforderlich sind.}
 
 \NormalTok{Ungeordnete Liste kann Sternchen enthalten}
-\NormalTok{- }\FloatTok{Oder Minus}
-\FloatTok{Oder Pluspunkte}
+\StringTok{{-} Oder Minus}
+\StringTok{Oder Pluspunkte}
 \end{Highlighting}
 \end{Shaded}
 
@@ -580,15 +575,15 @@ Triumph möglichst gestanden.
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\OtherTok{[Ich bin ein Inline-Link](https://www.google.com)}
+\OtherTok{[Ich bin ein Inline{-}Link](https://www.google.com)}
 
-\OtherTok{[Ich bin ein Inline-Link mit Titel](https://www.google.com "Google's Homepage")}
+\OtherTok{[Ich bin ein Inline{-}Link mit Titel](https://www.google.com "Google\textquotesingle{}s Homepage")}
 
-\OtherTok{[Ich bin ein Link im Referenz-Stil][Groß- und Kleinschreibung wird nicht berücksichtigt]}
+\OtherTok{[Ich bin ein Link im Referenz{-}Stil][Groß{-} und Kleinschreibung wird nicht berücksichtigt]}
 
-\NormalTok{Ich bin ein relativer Verweis auf eine Repository-Datei](../blob/master/LICENSE)}
+\NormalTok{Ich bin ein relativer Verweis auf eine Repository{-}Datei](../blob/master/LICENSE)}
 
-\NormalTok{Sie können Nummern für Referenz-Link-Definitionen verwenden][1].}
+\NormalTok{Sie können Nummern für Referenz{-}Link{-}Definitionen verwenden][1].}
 
 \NormalTok{Oder lassen Sie es leer und verwenden Sie den[Linktext selbst].}
 
@@ -598,7 +593,7 @@ Triumph möglichst gestanden.
 
 \NormalTok{Etwas Text, um zu zeigen, dass die Verweise später folgen können.}
 
-\OtherTok{[beliebige Groß-/Kleinschreibung beachten]: https://www.mozilla.org}
+\OtherTok{[beliebige Groß{-}/Kleinschreibung beachten]: https://www.mozilla.org}
 \OtherTok{[1]: http://slashdot.org}
 \OtherTok{[Linktext selbst]: http://www.reddit.com}
 \end{Highlighting}
@@ -609,12 +604,12 @@ Triumph möglichst gestanden.
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\NormalTok{Speichern Sie Ihr Bild in }\BaseNTok{`images/`}\NormalTok{ und fügen Sie es so ein:}
+\NormalTok{Speichern Sie Ihr Bild in }\BaseNTok{\textasciigrave{}images/\textasciigrave{}}\NormalTok{ und fügen Sie es so ein:}
 
-\NormalTok{Inline-Stil:}
+\NormalTok{Inline{-}Stil:}
 \AlertTok{![alt text](images/cat.jpg "Logo Titel Text 1")}
 
-\NormalTok{Referenz-Stil:}
+\NormalTok{Referenz{-}Stil:}
 \AlertTok{![alt text][logo]}\NormalTok{[logo}
 
 \OtherTok{[logo]: images/cat.jpg "Logo Titel Text 2"}
@@ -629,18 +624,18 @@ Triumph möglichst gestanden.
 \NormalTok{Doppelpunkte können zum Ausrichten von Spalten verwendet werden.}
 
 \NormalTok{Tische | sind | cool |}
-\NormalTok{| ------------- |:-------------:| -----:|}
+\NormalTok{| {-}{-}{-}{-}{-}{-}{-}{-}{-}{-}{-}{-}{-} |:{-}{-}{-}{-}{-}{-}{-}{-}{-}{-}{-}{-}{-}:| {-}{-}{-}{-}{-}:|}
 \NormalTok{Spalte 3 ist rechtsbündig | $1600 |}
 \NormalTok{Spalte 2 ist zentriert | $12 |}
 \NormalTok{Zebrastreifen sind ordentlich | $1 |}
 
 \NormalTok{Jede Kopfzelle muss mindestens 3 Bindestriche enthalten.}
 \NormalTok{Die äußeren Rohre (|) sind optional, und Sie müssen nicht die}
-\NormalTok{rohes Markdown Line Up hübsch. Sie können auch die Inline-Abschrift verwenden.}
+\NormalTok{rohes Markdown Line Up hübsch. Sie können auch die Inline{-}Abschrift verwenden.}
 
 \NormalTok{Abschrift | Weniger | Hübsch}
-\NormalTok{--- | --- | ---}
-\NormalTok{*Still* | }\BaseNTok{`renders`}\NormalTok{ | **nicely*}
+\NormalTok{{-}{-}{-} | {-}{-}{-} | {-}{-}{-}}
+\NormalTok{*Still* | }\BaseNTok{\textasciigrave{}renders\textasciigrave{}}\NormalTok{ | **nicely*}
 \NormalTok{1 | 2 | 3}
 \end{Highlighting}
 \end{Shaded}
@@ -650,7 +645,7 @@ Triumph möglichst gestanden.
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\NormalTok{Blockquotes sind sehr praktisch in E-Mails, um Antworttexte zu emulieren.}
+\NormalTok{Blockquotes sind sehr praktisch in E{-}Mails, um Antworttexte zu emulieren.}
 \NormalTok{Diese Zeile ist Teil desselben Zitats.}
 
 \NormalTok{Zitat Pause.}
@@ -659,14 +654,14 @@ Triumph möglichst gestanden.
 \end{Highlighting}
 \end{Shaded}
 
-\hypertarget{funoten}{%
-\section{Fußnoten}\label{funoten}}
+\hypertarget{fuuxdfnoten}{%
+\section{Fußnoten}\label{fuuxdfnoten}}
 
 \begin{Shaded}
 \begin{Highlighting}[]
 \NormalTok{Fußnoten werden am besten direkt nach dem ersten verwendeten Absatz platziert.}
 
-\OtherTok{[^Fußnote]}\NormalTok{: Sie können sie aber auch am Ende des Dokuments anbringen.}
+\OtherTok{[\^{}Fußnote]}\NormalTok{: Sie können sie aber auch am Ende des Dokuments anbringen.}
 \end{Highlighting}
 \end{Shaded}
 
@@ -678,29 +673,29 @@ den Dokumentoptionen ein.
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\NormalTok{Kommentare werden im endgültigen PDF nicht angezeigt. -->}
+\NormalTok{Kommentare werden im endgültigen PDF nicht angezeigt. {-}{-}>}
 \end{Highlighting}
 \end{Shaded}
 
-\hypertarget{zitate-zu-ihrem-dokument-hinzufugen}{%
+\hypertarget{zitate-zu-ihrem-dokument-hinzufuxfcgen}{%
 \section{Zitate zu Ihrem Dokument
-hinzufügen}\label{zitate-zu-ihrem-dokument-hinzufugen}}
+hinzufügen}\label{zitate-zu-ihrem-dokument-hinzufuxfcgen}}
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\NormalTok{Zitate werden in eckige Klammern gesetzt und durch Semikolons getrennt. Jedes Zitat muss einen Schlüssel haben, bestehend aus'@' + der Zitatkennung aus der Datenbank, und kann optional ein Präfix, einen Locator und ein Suffix haben. Hier sind einige Beispiele:}
+\NormalTok{Zitate werden in eckige Klammern gesetzt und durch Semikolons getrennt. Jedes Zitat muss einen Schlüssel haben, bestehend aus\textquotesingle{}@\textquotesingle{} + der Zitatkennung aus der Datenbank, und kann optional ein Präfix, einen Locator und ein Suffix haben. Hier sind einige Beispiele:}
 
-\NormalTok{Blah blah [siehe @doe99, S. 33-35; auch @smith04, Kap. 1].}
+\NormalTok{Blah blah [siehe @doe99, S. 33{-}35; auch @smith04, Kap. 1].}
 
-\NormalTok{Blah blah [@doe99, S. 33-35, 38-39 und *passim*].}
+\NormalTok{Blah blah [@doe99, S. 33{-}35, 38{-}39 und *passim*].}
 
 \NormalTok{Blah blah [@smith04; @doe99].}
 
-\NormalTok{Ein Minuszeichen (-) vor dem @ unterdrückt die Erwähnung des Autors im Zitat. Dies kann nützlich sein, wenn der Autor bereits im Text erwähnt wird:}
+\NormalTok{Ein Minuszeichen ({-}) vor dem @ unterdrückt die Erwähnung des Autors im Zitat. Dies kann nützlich sein, wenn der Autor bereits im Text erwähnt wird:}
 
-\NormalTok{Smith sagt blah [-@smith04].}
+\NormalTok{Smith sagt blah [{-}@smith04].}
 
-\NormalTok{Sie können auch ein In-Text-Zitat schreiben, wie folgt:}
+\NormalTok{Sie können auch ein In{-}Text{-}Zitat schreiben, wie folgt:}
 
 \NormalTok{@smith04 sagt blah.}
 
@@ -708,8 +703,8 @@ hinzufügen}\label{zitate-zu-ihrem-dokument-hinzufugen}}
 \end{Highlighting}
 \end{Shaded}
 
-\hypertarget{zitierweise-andern}{%
-\section{Zitierweise ändern}\label{zitierweise-andern}}
+\hypertarget{zitierweise-uxe4ndern}{%
+\section{Zitierweise ändern}\label{zitierweise-uxe4ndern}}
 
 Wählen Sie einen Stil aus der Liste
 \href{https://www.zotero.org/styles}{CSL-Repository} oder den
@@ -722,12 +717,14 @@ und speichern Sie ihn unter \texttt{/bibliography} ab.
 \addcontentsline{toc}{chapter}{Literaturverzeichnis}
 
 \hypertarget{refs}{}
+\begin{cslreferences}
 \leavevmode\hypertarget{ref-jones2016}{}%
 Jones, Steven E.: Roberto Busa, S. J., and the Emergence of Humanities
 Computing. The Priest and the Punched Cards, Bd., London 2016.
+\end{cslreferences}
 
 
-\newpage
-\includepdf[pages=-]{./addendum/selbststaendigkeitserklaerung.pdf}
+\newgeometry{margin=0pt}
+\includegraphics[width=\paperwidth,height=\paperheight,keepaspectratio]{./addendum/selbststaendigkeitserklaerung.pdf}
 
 \end{document}

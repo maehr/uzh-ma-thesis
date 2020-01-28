@@ -32,7 +32,7 @@ thanks:  |
   Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
 
 # Bibliography
-csl: bibliography/infoclio-de.csl # See https://www.zotero.org/styles for more styles.
+csl: https://www.zotero.org/styles/infoclio-de # See https://www.zotero.org/styles for more styles.
 bibliography: bibliography/references.yaml # CSL JSON and CSL YAML work best with infoclio-de BIB also kind of works. See https://github.com/jgm/pandoc-citeproc/blob/master/man/pandoc-citeproc.1.md for more formats.
 suppress-bibliography: false
 link-citations: true
