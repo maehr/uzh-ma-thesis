@@ -7,7 +7,7 @@ University of Zurich Master Thesis Template (Universität Zürich Masterarbeit V
 [![GitHub stars](https://img.shields.io/github/stars/maehr/uzh-ma-thesis.svg)](https://github.com/maehr/uzh-ma-thesis/stargazers)
 [![GitHub license](https://img.shields.io/github/license/maehr/uzh-ma-thesis.svg)](https://github.com/maehr/uzh-ma-thesis/blob/master/LICENSE.md)
 
-![Preview of this template](.doc/ma-thesis.png)
+![Preview of this template](assets/images/ma-thesis.png)
 
 ## Getting Started
 
@@ -27,7 +27,7 @@ or use this [Homebrew](https://brew.sh/) command `brew install r && brew cask in
 
 ### Use with RStudio
 
-![knitr in RStudio](.doc/knitr_rstudio.png)
+![knitr in RStudio](assets/images/knitr_rstudio.png)
 
 1. Open `ma-thesis.Rproj` with [RStudio](https://www.rstudio.com/products/rstudio/download/)
 2. Change `ma-thesis.Rmd` according to [The R Markdown Cheatsheet](https://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf).
