@@ -7,7 +7,7 @@ University of Zurich Master Thesis Template (Universität Zürich Masterarbeit V
 [![GitHub stars](https://img.shields.io/github/stars/maehr/uzh-ma-thesis.svg)](https://github.com/maehr/uzh-ma-thesis/stargazers)
 [![GitHub license](https://img.shields.io/github/license/maehr/uzh-ma-thesis.svg)](https://github.com/maehr/uzh-ma-thesis/blob/master/LICENSE.md)
 
-![Preview of this template](ma-thesis.png)
+![Preview of this template](.doc/ma-thesis.png)
 
 ## Getting Started
 

@@ -1,6 +1,4 @@
 theme: jekyll-theme-minimal
 title: University of Zurich Master Thesis Template
 description: University of Zurich Master Thesis Template (Universität Zürich Masterarbeit Vorlage) in RMarkdown and Latex in accordance to Bestimmungen zur Masterarbeit an der Philosophischen Fakultät der Universtät Zürich (UZH).
-logo: master-thesis.png
 show_downloads: true
-# google_analytics: [Your Google Analytics tracking ID]
