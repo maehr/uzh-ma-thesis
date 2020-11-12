@@ -9,6 +9,9 @@ $if(latex-dir-rtl)$
 \PassOptionsToPackage{RTLdocument}{bidi}
 $endif$
 $endif$
+$if(CJKmainfont)$
+\PassOptionsToPackage{space}{xeCJK}
+$endif$
 %
 \documentclass[
 $if(fontsize)$
@@ -47,19 +50,9 @@ $endif$
 $for(beameroption)$
 \setbeameroption{$beameroption$}
 $endfor$
-
 % Prevent slide breaks in the middle of a paragraph
-\clubpenalties 1 10000
-\interlinepenalties 1 100
-\displaywidowpenalties 1 10000
-\interfootnotelinepenalties 1 10000
 \widowpenalties 1 10000
 \raggedbottom
-
-% keep figures where there are in the text
-\usepackage{float}
-\floatplacement{figure}{H}
-
 $if(section-titles)$
 \setbeamertemplate{part page}{
   \centering
@@ -104,15 +97,17 @@ $endif$
 $if(linestretch)$
 \usepackage{setspace}
 $endif$
-\usepackage{amssymb,amsmath}
+\usepackage{amsmath}
 \usepackage{ifxetex,ifluatex}
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[$if(fontenc)$$fontenc$$else$T1$endif$]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
+  \usepackage{amssymb}
 \else % if luatex or xetex
 $if(mathspec)$
   \ifxetex
+    \usepackage{amssymb}
     \usepackage{mathspec}
   \else
     \usepackage{unicode-math}
@@ -147,7 +142,7 @@ $endif$
 $endif$
 $if(CJKmainfont)$
   \ifxetex
-    \usepackage[space]{xeCJK}
+    \usepackage{xeCJK}
     \setCJKmainfont[$for(CJKoptions)$$CJKoptions$$sep$,$endfor$]{$CJKmainfont$}
   \fi
 $endif$
@@ -262,6 +257,7 @@ $highlighting-macros$
 $endif$
 $if(tables)$
 \usepackage{longtable,booktabs}
+\usepackage{calc} % for calculating minipage widths
 $if(beamer)$
 \usepackage{caption}
 % Make caption package work with longtable
@@ -335,9 +331,9 @@ $if(lang)$
 \ifxetex
   % Load polyglossia as late as possible: uses bidi with RTL langages (e.g. Hebrew, Arabic)
   \usepackage{polyglossia}
-  \setmainlanguage[$polyglossia-lang.options$]{$polyglossia-lang.name$}
+  \setmainlanguage[$for(polyglossia-lang.options)$$polyglossia-lang.options$$sep$,$endfor$]{$polyglossia-lang.name$}
 $for(polyglossia-otherlangs)$
-  \setotherlanguage[$polyglossia-otherlangs.options$]{$polyglossia-otherlangs.name$}
+  \setotherlanguage[$for(polyglossia-otherlangs.options)$$polyglossia-otherlangs.options$$sep$,$endfor$]{$polyglossia-otherlangs.name$}
 $endfor$
 \else
   \usepackage[shorthands=off,$for(babel-otherlangs)$$babel-otherlangs$,$endfor$main=$babel-lang$]{babel}
@@ -346,6 +342,9 @@ $if(babel-newcommands)$
 $endif$
 \fi
 $endif$
+\ifluatex
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
 $if(dir)$
 \ifxetex
   % Load bidi as late as possible as it modifies e.g. graphicx
@@ -372,10 +371,53 @@ $endif$
 $if(csl-refs)$
 \newlength{\cslhangindent}
 \setlength{\cslhangindent}{1.5em}
-\newenvironment{cslreferences}%
-  {$if(csl-hanging-indent)$\setlength{\parindent}{0pt}%
-  \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces$endif$}%
-  {\par}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[3] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1 \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces\fi
+  % set entry spacing
+  \ifnum #2 > 0
+  \setlength{\parskip}{#2\baselineskip}
+  \fi
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+$endif$
+
+$if(title)$
+\title{$title$$if(thanks)$\thanks{$thanks$}$endif$}
+$endif$
+$if(subtitle)$
+$if(beamer)$
+$else$
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+$endif$
+\subtitle{$subtitle$}
+$endif$
+\author{$for(author)$$author$$sep$ \and $endfor$}
+\date{$date$}
+$if(beamer)$
+$if(institute)$
+\institute{$for(institute)$$institute$$sep$ \and $endfor$}
+$endif$
+$if(titlegraphic)$
+\titlegraphic{\includegraphics{$titlegraphic$}}
+$endif$
+$if(logo)$
+\logo{\includegraphics{$logo$}}
+$endif$
 $endif$
 
 \begin{document}
@@ -545,8 +587,4 @@ $for(include-after)$
 $include-after$
 
 $endfor$
-
-\newgeometry{margin=0pt}
-\includegraphics[width=\paperwidth,height=\paperheight,keepaspectratio]{./addendum/selbststaendigkeitserklaerung.pdf}
-
 \end{document}
