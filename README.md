@@ -30,7 +30,7 @@ or use this [Homebrew](https://brew.sh/) command `brew install r && brew cask in
 ![knitr in RStudio](assets/images/knitr_rstudio.png)
 
 1. Open `ma-thesis.Rproj` with [RStudio](https://www.rstudio.com/products/rstudio/download/)
-2. Change `ma-thesis.Rmd` according to [The R Markdown Cheatsheet](https://rmarkdown.rstudio.com/lesson-15.HTML).
+2. Change `ma-thesis.Rmd` according to [The R Markdown Cheatsheet](https://github.com/rstudio/cheatsheets/blob/main/rmarkdown-2.0.pdf).
 3. Render a PDF with a click on `Knit to PDF`
 
 ### Use with R command line
