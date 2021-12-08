@@ -1,6 +1,6 @@
 # University of Zurich Master Thesis Template
 
-University of Zurich Master Thesis Template (Universität Zürich Masterarbeit Vorlage) in RMarkdown and Latex in accordance to [Bestimmungen zur Masterarbeit an der Philosophischen Fakultät der Universtät Zürich (UZH)](http://www.phil.uzh.ch/de/studium/studentservices/abschluss/master.html#4).
+University of Zurich Master Thesis Template (Universität Zürich Masterarbeit Vorlage) in RMarkdown and Latex in accordance to [Bestimmungen zur Masterarbeit an der Philosophischen Fakultät der Universtät Zürich (UZH)](https://www.phil.uzh.ch/de/studium/studentservices/abschluss/master_HS19.html#Masterarbeit).
 
 [![GitHub issues](https://img.shields.io/github/issues/maehr/uzh-ma-thesis.svg)](https://github.com/maehr/uzh-ma-thesis/issues)
 [![GitHub forks](https://img.shields.io/github/forks/maehr/uzh-ma-thesis.svg)](https://github.com/maehr/uzh-ma-thesis/network)
@@ -30,7 +30,7 @@ or use this [Homebrew](https://brew.sh/) command `brew install r && brew cask in
 ![knitr in RStudio](assets/images/knitr_rstudio.png)
 
 1. Open `ma-thesis.Rproj` with [RStudio](https://www.rstudio.com/products/rstudio/download/)
-2. Change `ma-thesis.Rmd` according to [The R Markdown Cheatsheet](https://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf).
+2. Change `ma-thesis.Rmd` according to [The R Markdown Cheatsheet](https://rmarkdown.rstudio.com/lesson-15.HTML).
 3. Render a PDF with a click on `Knit to PDF`
 
 ### Use with R command line
@@ -57,7 +57,7 @@ No changes are currently planned.
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/maehr/uzh-ma-thesis/blob/master/CCONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/maehr/uzh-ma-thesis/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
